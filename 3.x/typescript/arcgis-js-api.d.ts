@@ -4,53 +4,53 @@
 //                 Bjorn Svensson <https://github.com/bsvensson>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-declare module "esri" {
-  import Graphic = require("esri/graphic");
-  import Point = require("esri/geometry/Point");
-  import ScreenPoint = require("esri/geometry/ScreenPoint");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
-  import Map = require("esri/map");
-  import ImageParameters = require("esri/layers/ImageParameters");
-  import ImageServiceParameters = require("esri/layers/ImageServiceParameters");
-  import InfoTemplate = require("esri/InfoTemplate");
-  import Basemap = require("esri/dijit/Basemap");
-  import Extent = require("esri/geometry/Extent");
-  import TileInfo = require("esri/layers/TileInfo");
-  import BasemapLayer = require("esri/dijit/BasemapLayer");
-  import Symbol = require("esri/symbols/Symbol");
-  import BookmarkItem = require("esri/dijit/BookmarkItem");
-  import TimeInfo = require("esri/layers/TimeInfo");
-  import Color = require("esri/Color");
-  import LocationProviderBase = require("esri/tasks/locationproviders/LocationProviderBase");
-  import PictureMarkerSymbol = require("esri/symbols/PictureMarkerSymbol");
-  import SimpleLineSymbol = require("esri/symbols/SimpleLineSymbol");
-  import Font = require("esri/symbols/Font");
-  import ArcGISDynamicMapServiceLayer = require("esri/layers/ArcGISDynamicMapServiceLayer");
-  import LineSymbol = require("esri/symbols/LineSymbol");
-  import MarkerSymbol = require("esri/symbols/MarkerSymbol");
-  import LayerSource = require("esri/layers/LayerSource");
-  import GraphicsLayer = require("esri/layers/GraphicsLayer");
-  import SpatialReference = require("esri/SpatialReference");
-  import GeographicTransformationStep = require("esri/geometry/GeographicTransformationStep");
-  import Layer = require("esri/layers/layer");
-  import SimpleFillSymbol = require("esri/symbols/SimpleFillSymbol");
-  import ArcGISImageServiceLayer = require("esri/layers/ArcGISImageServiceLayer");
-  import SimpleMarkerSymbol = require("esri/symbols/SimpleMarkerSymbol");
-  import Locator = require("esri/tasks/locator");
-  import InfoWindowBase = require("esri/InfoWindowBase");
-  import LOD = require("esri/layers/LOD");
-  import Polyline = require("esri/geometry/Polyline");
-  import Polygon = require("esri/geometry/Polygon");
-  import FillSymbol = require("esri/symbols/FillSymbol");
-  import PrintTemplate = require("esri/tasks/PrintTemplate");
-  import QueryTask = require("esri/tasks/QueryTask");
-  import DataProviderGE = require("esri/dijit/geoenrichment/ReportPlayer/DataProviderGE");
-  import PlayerThemes = require("esri/dijit/geoenrichment/ReportPlayer/PlayerThemes");
-  import TextSymbol = require("esri/symbols/TextSymbol");
-  import StandardGeographyQueryTask = require("esri/tasks/geoenrichment/StandardGeographyQueryTask");
-  import WCSConnection = require("esri/layers/WCSConnection");
-  import WMSLayerInfo = require("esri/layers/WMSLayerInfo");
-  import WMTSLayerInfo = require("esri/layers/WMTSLayerInfo");
+declare module "esriV3" {
+  import Graphic = require("esriV3/graphic");
+  import Point = require("esriV3/geometry/Point");
+  import ScreenPoint = require("esriV3/geometry/ScreenPoint");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
+  import Map = require("esriV3/map");
+  import ImageParameters = require("esriV3/layers/ImageParameters");
+  import ImageServiceParameters = require("esriV3/layers/ImageServiceParameters");
+  import InfoTemplate = require("esriV3/InfoTemplate");
+  import Basemap = require("esriV3/dijit/Basemap");
+  import Extent = require("esriV3/geometry/Extent");
+  import TileInfo = require("esriV3/layers/TileInfo");
+  import BasemapLayer = require("esriV3/dijit/BasemapLayer");
+  import Symbol = require("esriV3/symbols/Symbol");
+  import BookmarkItem = require("esriV3/dijit/BookmarkItem");
+  import TimeInfo = require("esriV3/layers/TimeInfo");
+  import Color = require("esriV3/Color");
+  import LocationProviderBase = require("esriV3/tasks/locationproviders/LocationProviderBase");
+  import PictureMarkerSymbol = require("esriV3/symbols/PictureMarkerSymbol");
+  import SimpleLineSymbol = require("esriV3/symbols/SimpleLineSymbol");
+  import Font = require("esriV3/symbols/Font");
+  import ArcGISDynamicMapServiceLayer = require("esriV3/layers/ArcGISDynamicMapServiceLayer");
+  import LineSymbol = require("esriV3/symbols/LineSymbol");
+  import MarkerSymbol = require("esriV3/symbols/MarkerSymbol");
+  import LayerSource = require("esriV3/layers/LayerSource");
+  import GraphicsLayer = require("esriV3/layers/GraphicsLayer");
+  import SpatialReference = require("esriV3/SpatialReference");
+  import GeographicTransformationStep = require("esriV3/geometry/GeographicTransformationStep");
+  import Layer = require("esriV3/layers/layer");
+  import SimpleFillSymbol = require("esriV3/symbols/SimpleFillSymbol");
+  import ArcGISImageServiceLayer = require("esriV3/layers/ArcGISImageServiceLayer");
+  import SimpleMarkerSymbol = require("esriV3/symbols/SimpleMarkerSymbol");
+  import Locator = require("esriV3/tasks/locator");
+  import InfoWindowBase = require("esriV3/InfoWindowBase");
+  import LOD = require("esriV3/layers/LOD");
+  import Polyline = require("esriV3/geometry/Polyline");
+  import Polygon = require("esriV3/geometry/Polygon");
+  import FillSymbol = require("esriV3/symbols/FillSymbol");
+  import PrintTemplate = require("esriV3/tasks/PrintTemplate");
+  import QueryTask = require("esriV3/tasks/QueryTask");
+  import DataProviderGE = require("esriV3/dijit/geoenrichment/ReportPlayer/DataProviderGE");
+  import PlayerThemes = require("esriV3/dijit/geoenrichment/ReportPlayer/PlayerThemes");
+  import TextSymbol = require("esriV3/symbols/TextSymbol");
+  import StandardGeographyQueryTask = require("esriV3/tasks/geoenrichment/StandardGeographyQueryTask");
+  import WCSConnection = require("esriV3/layers/WCSConnection");
+  import WMSLayerInfo = require("esriV3/layers/WMSLayerInfo");
+  import WMTSLayerInfo = require("esriV3/layers/WMTSLayerInfo");
 
   export interface AGSMouseEvent extends MouseEvent {
     graphic?: Graphic;
@@ -2453,7 +2453,7 @@ declare module "esri" {
   }
 }
 
-declare module "esri/Color" {
+declare module "esriV3/Color" {
   /** Inherits all attributes from dojo/_base/Color to provide functions for setting colors. */
   class Color {
     /** Dictionary list of all CSS named colors, by name. */
@@ -2523,8 +2523,8 @@ declare module "esri/Color" {
   export = Color;
 }
 
-declare module "esri/Credential" {
-  import esri = require("esri");
+declare module "esriV3/Credential" {
+  import esri = require("esriV3");
 
   /** The Credential class represents a credential object used to access a secure ArcGIS resource. */
   class Credential {
@@ -2557,9 +2557,9 @@ declare module "esri/Credential" {
   export = Credential;
 }
 
-declare module "esri/IdentityManager" {
-  import esri = require("esri");
-  import IdentityManagerBase = require("esri/IdentityManagerBase");
+declare module "esriV3/IdentityManager" {
+  import esri = require("esriV3");
+  import IdentityManagerBase = require("esriV3/IdentityManagerBase");
 
   /** This module returns a singleton class that is automatically instantiated into esri.id when the module containing this class is imported into the application. */
   class IdentityManager extends IdentityManagerBase {
@@ -2586,11 +2586,11 @@ declare module "esri/IdentityManager" {
   export = IdentityManager;
 }
 
-declare module "esri/IdentityManagerBase" {
-  import esri = require("esri");
-  import Credential = require("esri/Credential");
-  import OAuthInfo = require("esri/arcgis/OAuthInfo");
-  import ServerInfo = require("esri/ServerInfo");
+declare module "esriV3/IdentityManagerBase" {
+  import esri = require("esriV3");
+  import Credential = require("esriV3/Credential");
+  import OAuthInfo = require("esriV3/arcgis/OAuthInfo");
+  import ServerInfo = require("esriV3/ServerInfo");
 
   /** This class provides the framework and helper methods required to implement a solution for managing user credentials. */
   class IdentityManagerBase {
@@ -2698,9 +2698,9 @@ declare module "esri/IdentityManagerBase" {
   export = IdentityManagerBase;
 }
 
-declare module "esri/ImageSpatialReference" {
-  import esri = require("esri");
-  import SpatialReference = require("esri/SpatialReference");
+declare module "esriV3/ImageSpatialReference" {
+  import esri = require("esriV3");
+  import SpatialReference = require("esriV3/SpatialReference");
 
   /** Defines the Image Coordinate System (ICS) for ImageServices. */
   class ImageSpatialReference extends SpatialReference {
@@ -2727,7 +2727,7 @@ declare module "esri/ImageSpatialReference" {
   export = ImageSpatialReference;
 }
 
-declare module "esri/InfoTemplate" {
+declare module "esriV3/InfoTemplate" {
   /** An InfoTemplate contains a title and content template string used to transform Graphic.attributes into an HTML representation. */
   class InfoTemplate {
     /** The template for defining how to format the content used in an InfoWindow. */
@@ -2763,10 +2763,10 @@ declare module "esri/InfoTemplate" {
   export = InfoTemplate;
 }
 
-declare module "esri/InfoWindowBase" {
-  import esri = require("esri");
-  import Map = require("esri/map");
-  import Point = require("esri/geometry/Point");
+declare module "esriV3/InfoWindowBase" {
+  import esri = require("esriV3");
+  import Map = require("esriV3/map");
+  import Point = require("esriV3/geometry/Point");
 
   /** The base class for the out-of-the-box InfoWindow. */
   class InfoWindowBase {
@@ -2826,8 +2826,8 @@ declare module "esri/InfoWindowBase" {
   export = InfoWindowBase;
 }
 
-declare module "esri/OperationBase" {
-  import esri = require("esri");
+declare module "esriV3/OperationBase" {
+  import esri = require("esriV3");
 
   /** The OperationBase class defines operations that can be added to the UndoManager. */
   class OperationBase {
@@ -2848,7 +2848,7 @@ declare module "esri/OperationBase" {
   export = OperationBase;
 }
 
-declare module "esri/ServerInfo" {
+declare module "esriV3/ServerInfo" {
   /** This class contains information about an ArcGIS Server and its token endpoint. */
   class ServerInfo {
     /** The token service URL used to generate tokens for ArcGIS Server Admin resources. */
@@ -2867,9 +2867,9 @@ declare module "esri/ServerInfo" {
   export = ServerInfo;
 }
 
-declare module "esri/SnappingManager" {
-  import esri = require("esri");
-  import Point = require("esri/geometry/Point");
+declare module "esriV3/SnappingManager" {
+  import esri = require("esriV3");
+  import Point = require("esriV3/geometry/Point");
 
   /** The SnappingManager is used to add snapping capability to the Editor, Measurement Widget,  Draw toolbar and Edit toolbar. */
   class SnappingManager {
@@ -2894,7 +2894,7 @@ declare module "esri/SnappingManager" {
   export = SnappingManager;
 }
 
-declare module "esri/SpatialReference" {
+declare module "esriV3/SpatialReference" {
   /** Defines the spatial reference of a map, layer, or task parameters. */
   class SpatialReference {
     /** The well-known ID of a spatial reference. */
@@ -2929,7 +2929,7 @@ declare module "esri/SpatialReference" {
   export = SpatialReference;
 }
 
-declare module "esri/TimeExtent" {
+declare module "esriV3/TimeExtent" {
   /** The time extent is a span of time going from a start time to an end time. */
   class TimeExtent {
     /** The end time for the specified time extent. */
@@ -2957,7 +2957,7 @@ declare module "esri/TimeExtent" {
   export = TimeExtent;
 }
 
-declare module "esri/arcadeProfiles/fieldCalculateProfile" {
+declare module "esriV3/arcadeProfiles/fieldCalculateProfile" {
   /** Module that implements the Arcade field calculate profile in web apps that calculate field values using Arcade expressions. */
   var fieldCalculateProfile: {
     /**
@@ -2969,7 +2969,7 @@ declare module "esri/arcadeProfiles/fieldCalculateProfile" {
   export = fieldCalculateProfile;
 }
 
-declare module "esri/arcadeProfiles/labelingProfile" {
+declare module "esriV3/arcadeProfiles/labelingProfile" {
   /** Module that implements the Arcade labeling profile in web apps that label features using Arcade expressions. */
   var labelingProfile: {
     /**
@@ -2981,7 +2981,7 @@ declare module "esri/arcadeProfiles/labelingProfile" {
   export = labelingProfile;
 }
 
-declare module "esri/arcadeProfiles/popupProfile" {
+declare module "esriV3/arcadeProfiles/popupProfile" {
   /** Module that implements the Arcade popup profile for web apps that contain popups that reference Arcade expressions. */
   var popupProfile: {
     /**
@@ -2993,7 +2993,7 @@ declare module "esri/arcadeProfiles/popupProfile" {
   export = popupProfile;
 }
 
-declare module "esri/arcadeProfiles/visualizationProfile" {
+declare module "esriV3/arcadeProfiles/visualizationProfile" {
   /** Module that implements the Arcade visualization profile in web apps that render features using Arcade expressions. */
   var visualizationProfile: {
     /**
@@ -3005,8 +3005,8 @@ declare module "esri/arcadeProfiles/visualizationProfile" {
   export = visualizationProfile;
 }
 
-declare module "esri/arcgis/OAuthInfo" {
-  import esri = require("esri");
+declare module "esriV3/arcgis/OAuthInfo" {
+  import esri = require("esriV3");
 
   /** This class contains information about an OAuth configuration. */
   class OAuthInfo {
@@ -3039,8 +3039,8 @@ declare module "esri/arcgis/OAuthInfo" {
   export = OAuthInfo;
 }
 
-declare module "esri/arcgis/Portal" {
-  import esri = require("esri");
+declare module "esriV3/arcgis/Portal" {
+  import esri = require("esriV3");
 
   /** The Portal class is part of the ArcGIS Portal API which provides a way to build applications that work with content from ArcGIS Online or an ArcGIS Portal. */
   export class Portal {
@@ -3437,7 +3437,7 @@ declare module "esri/arcgis/Portal" {
   }
 }
 
-declare module "esri/arcgis/utils" {
+declare module "esriV3/arcgis/utils" {
   /** Utility methods to work with content from ArcGIS.com. */
   var utils: {
     /** Specify the domain where the map associated with the webmap id is located. */
@@ -3468,7 +3468,7 @@ declare module "esri/arcgis/utils" {
   export = utils;
 }
 
-declare module "esri/basemaps" {
+declare module "esriV3/basemaps" {
   /** This class contains properties referencing default basemaps used in the JS API that allow you to add map services as default basemaps in web applications. */
   var basemaps: {
     /** The Light Gray Canvas basemap is designed to be used as a neutral background map for overlaying and emphasizing other map layers. */
@@ -3491,7 +3491,7 @@ declare module "esri/basemaps" {
   export = basemaps;
 }
 
-declare module "esri/config" {
+declare module "esriV3/config" {
   /** The default values for all JS API configuration options. */
   var config: {
     /** ArcGIS JavaScript API default configurations that can be overridden programmatically. */
@@ -3500,9 +3500,9 @@ declare module "esri/config" {
   export = config;
 }
 
-declare module "esri/dijit/AttributeInspector" {
-  import esri = require("esri");
-  import Graphic = require("esri/graphic");
+declare module "esriV3/dijit/AttributeInspector" {
+  import esri = require("esriV3");
+  import Graphic = require("esriV3/graphic");
 
   /** The AttributeInspector displays the attributes of selected features from one or more feature layers. */
   class AttributeInspector {
@@ -3543,9 +3543,9 @@ declare module "esri/dijit/AttributeInspector" {
   export = AttributeInspector;
 }
 
-declare module "esri/dijit/Attribution" {
-  import esri = require("esri");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/Attribution" {
+  import esri = require("esriV3");
+  import Map = require("esriV3/map");
 
   /** Displays attribution text for the layers in a map. */
   class Attribution {
@@ -3571,9 +3571,9 @@ declare module "esri/dijit/Attribution" {
   export = Attribution;
 }
 
-declare module "esri/dijit/Basemap" {
-  import esri = require("esri");
-  import BasemapLayer = require("esri/dijit/BasemapLayer");
+declare module "esriV3/dijit/Basemap" {
+  import esri = require("esriV3");
+  import BasemapLayer = require("esriV3/dijit/BasemapLayer");
 
   /** Define a basemap to display in the BasemapGallery dijit. */
   class Basemap {
@@ -3596,9 +3596,9 @@ declare module "esri/dijit/Basemap" {
   export = Basemap;
 }
 
-declare module "esri/dijit/BasemapGallery" {
-  import esri = require("esri");
-  import Basemap = require("esri/dijit/Basemap");
+declare module "esriV3/dijit/BasemapGallery" {
+  import esri = require("esriV3");
+  import Basemap = require("esriV3/dijit/Basemap");
 
   /** The BasemapGallery dijit displays a collection of basemaps from ArcGIS.com or a user-defined set of map or image services. */
   class BasemapGallery {
@@ -3655,10 +3655,10 @@ declare module "esri/dijit/BasemapGallery" {
   export = BasemapGallery;
 }
 
-declare module "esri/dijit/BasemapLayer" {
-  import esri = require("esri");
-  import Extent = require("esri/geometry/Extent");
-  import TileInfo = require("esri/layers/TileInfo");
+declare module "esriV3/dijit/BasemapLayer" {
+  import esri = require("esriV3");
+  import Extent = require("esriV3/geometry/Extent");
+  import TileInfo = require("esriV3/layers/TileInfo");
 
   /** Defines a layer that will be added to a basemap and displayed in the BasemapGallery dijit. */
   class BasemapLayer {
@@ -3687,9 +3687,9 @@ declare module "esri/dijit/BasemapLayer" {
   export = BasemapLayer;
 }
 
-declare module "esri/dijit/BasemapToggle" {
-  import esri = require("esri");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/BasemapToggle" {
+  import esri = require("esriV3");
+  import Map = require("esriV3/map");
 
   /** BasemapToggle provides a simple button to toggle between two basemaps. */
   class BasemapToggle {
@@ -3730,8 +3730,8 @@ declare module "esri/dijit/BasemapToggle" {
   export = BasemapToggle;
 }
 
-declare module "esri/dijit/BookmarkItem" {
-  import esri = require("esri");
+declare module "esriV3/dijit/BookmarkItem" {
+  import esri = require("esriV3");
 
   /** Defines a bookmark for use in the Bookmark widget. */
   class BookmarkItem {
@@ -3744,9 +3744,9 @@ declare module "esri/dijit/BookmarkItem" {
   export = BookmarkItem;
 }
 
-declare module "esri/dijit/Bookmarks" {
-  import esri = require("esri");
-  import BookmarkItem = require("esri/dijit/BookmarkItem");
+declare module "esriV3/dijit/Bookmarks" {
+  import esri = require("esriV3");
+  import BookmarkItem = require("esriV3/dijit/BookmarkItem");
 
   /** The Bookmarks widget is a ready to use tool for bookmarking the current map extent. */
   class Bookmarks {
@@ -3789,9 +3789,9 @@ declare module "esri/dijit/Bookmarks" {
   export = Bookmarks;
 }
 
-declare module "esri/dijit/ClassedColorSlider" {
-  import esri = require("esri");
-  import RendererSlider = require("esri/dijit/RendererSlider");
+declare module "esriV3/dijit/ClassedColorSlider" {
+  import esri = require("esriV3");
+  import RendererSlider = require("esriV3/dijit/RendererSlider");
 
   /** A widget to assist with managing a renderer used for visualizing features by their class and color. */
   class ClassedColorSlider extends RendererSlider {
@@ -3846,9 +3846,9 @@ declare module "esri/dijit/ClassedColorSlider" {
   export = ClassedColorSlider;
 }
 
-declare module "esri/dijit/ClassedSizeSlider" {
-  import esri = require("esri");
-  import RendererSlider = require("esri/dijit/RendererSlider");
+declare module "esriV3/dijit/ClassedSizeSlider" {
+  import esri = require("esriV3");
+  import RendererSlider = require("esriV3/dijit/RendererSlider");
 
   /** A widget to assist with managing a renderer for visualizing features by varying classes and size. */
   class ClassedSizeSlider extends RendererSlider {
@@ -3901,9 +3901,9 @@ declare module "esri/dijit/ClassedSizeSlider" {
   export = ClassedSizeSlider;
 }
 
-declare module "esri/dijit/ColorInfoSlider" {
-  import esri = require("esri");
-  import RendererSlider = require("esri/dijit/RendererSlider");
+declare module "esriV3/dijit/ColorInfoSlider" {
+  import esri = require("esriV3");
+  import RendererSlider = require("esriV3/dijit/RendererSlider");
 
   /** A widget to assist with managing a renderer for visualizing features based upon colors. */
   class ColorInfoSlider extends RendererSlider {
@@ -3966,9 +3966,9 @@ declare module "esri/dijit/ColorInfoSlider" {
   export = ColorInfoSlider;
 }
 
-declare module "esri/dijit/ColorPicker" {
-  import esri = require("esri");
-  import Color = require("esri/Color");
+declare module "esriV3/dijit/ColorPicker" {
+  import esri = require("esriV3");
+  import Color = require("esriV3/Color");
 
   /** A widget to assist choosing a color from a color palette. */
   class ColorPicker {
@@ -3997,13 +3997,13 @@ declare module "esri/dijit/ColorPicker" {
   export = ColorPicker;
 }
 
-declare module "esri/dijit/Directions" {
-  import esri = require("esri");
-  import DirectionsFeatureSet = require("esri/tasks/DirectionsFeatureSet");
-  import Graphic = require("esri/graphic");
-  import RouteTask = require("esri/tasks/RouteTask");
-  import Point = require("esri/geometry/Point");
-  import RouteResult = require("esri/tasks/RouteResult");
+declare module "esriV3/dijit/Directions" {
+  import esri = require("esriV3");
+  import DirectionsFeatureSet = require("esriV3/tasks/DirectionsFeatureSet");
+  import Graphic = require("esriV3/graphic");
+  import RouteTask = require("esriV3/tasks/RouteTask");
+  import Point = require("esriV3/geometry/Point");
+  import RouteResult = require("esriV3/tasks/RouteResult");
 
   /** The Directions widget makes it easy to calculate directions between two or more input locations. */
   class Directions {
@@ -4170,9 +4170,9 @@ declare module "esri/dijit/Directions" {
   export = Directions;
 }
 
-declare module "esri/dijit/ElevationProfile" {
-  import esri = require("esri");
-  import Geometry = require("esri/geometry/Geometry");
+declare module "esriV3/dijit/ElevationProfile" {
+  import esri = require("esriV3");
+  import Geometry = require("esriV3/geometry/Geometry");
 
   /** (Currently in beta)The Elevation Profile widget allows a user to create an elevation profile based on a polyline geometry input parameter or existing features. */
   class ElevationProfile {
@@ -4209,12 +4209,12 @@ declare module "esri/dijit/ElevationProfile" {
   export = ElevationProfile;
 }
 
-declare module "esri/dijit/FeatureTable" {
-  import esri = require("esri");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
-  import Map = require("esri/map");
-  import FeatureEditResult = require("esri/layers/FeatureEditResult");
-  import Graphic = require("esri/graphic");
+declare module "esriV3/dijit/FeatureTable" {
+  import esri = require("esriV3");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
+  import Map = require("esriV3/map");
+  import FeatureEditResult = require("esriV3/layers/FeatureEditResult");
+  import Graphic = require("esriV3/graphic");
 
   /** Creates an instance of the FeatureTable widget within the provided DOM node. */
   class FeatureTable {
@@ -4371,8 +4371,8 @@ declare module "esri/dijit/FeatureTable" {
   export = FeatureTable;
 }
 
-declare module "esri/dijit/Gallery" {
-  import esri = require("esri");
+declare module "esriV3/dijit/Gallery" {
+  import esri = require("esriV3");
 
   /** The Gallery widget provides a touch-aware thumbnail gallery for mobile devices such as iOS and Android. */
   class Gallery {
@@ -4413,9 +4413,9 @@ declare module "esri/dijit/Gallery" {
   export = Gallery;
 }
 
-declare module "esri/dijit/Gauge" {
-  import esri = require("esri");
-  import Graphic = require("esri/graphic");
+declare module "esriV3/dijit/Gauge" {
+  import esri = require("esriV3");
+  import Graphic = require("esriV3/graphic");
 
   /** The gauge widget provides a streamlined way to create a dashboard-like interface and display data on a semi-circular gauge. */
   class Gauge {
@@ -4444,10 +4444,10 @@ declare module "esri/dijit/Gauge" {
   export = Gauge;
 }
 
-declare module "esri/dijit/Geocoder" {
-  import esri = require("esri");
-  import GraphicsLayer = require("esri/layers/GraphicsLayer");
-  import Symbol = require("esri/symbols/Symbol");
+declare module "esriV3/dijit/Geocoder" {
+  import esri = require("esriV3");
+  import GraphicsLayer = require("esriV3/layers/GraphicsLayer");
+  import Symbol = require("esriV3/symbols/Symbol");
 
   /** The Geocoder widget was deprecated in version 3.13 and replaced by the Search widget. */
   class Geocoder {
@@ -4527,9 +4527,9 @@ declare module "esri/dijit/Geocoder" {
   export = Geocoder;
 }
 
-declare module "esri/dijit/HeatmapSlider" {
-  import esri = require("esri");
-  import RendererSlider = require("esri/dijit/RendererSlider");
+declare module "esriV3/dijit/HeatmapSlider" {
+  import esri = require("esriV3");
+  import RendererSlider = require("esriV3/dijit/RendererSlider");
 
   /** A widget to assist in obtaining values for managing and setting properties on a HeatmapRenderer. */
   class HeatmapSlider extends RendererSlider {
@@ -4564,8 +4564,8 @@ declare module "esri/dijit/HeatmapSlider" {
   export = HeatmapSlider;
 }
 
-declare module "esri/dijit/HistogramTimeSlider" {
-  import esri = require("esri");
+declare module "esriV3/dijit/HistogramTimeSlider" {
+  import esri = require("esriV3");
 
   /** The HistogramTimeSlider dijit provides a histogram chart representation of data for time-enabled layers on a map. */
   class HistogramTimeSlider {
@@ -4588,10 +4588,10 @@ declare module "esri/dijit/HistogramTimeSlider" {
   export = HistogramTimeSlider;
 }
 
-declare module "esri/dijit/HomeButton" {
-  import esri = require("esri");
-  import Extent = require("esri/geometry/Extent");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/HomeButton" {
+  import esri = require("esriV3");
+  import Extent = require("esriV3/geometry/Extent");
+  import Map = require("esriV3/map");
 
   /** HomeButton provides a simple button to return to the map's default starting extent. */
   class HomeButton {
@@ -4630,8 +4630,8 @@ declare module "esri/dijit/HomeButton" {
   export = HomeButton;
 }
 
-declare module "esri/dijit/HorizontalSlider" {
-  import esri = require("esri");
+declare module "esriV3/dijit/HorizontalSlider" {
+  import esri = require("esriV3");
 
   /** A form widget that allows one to select a value with a horizontally draggable handle. */
   class HorizontalSlider {
@@ -4649,12 +4649,12 @@ declare module "esri/dijit/HorizontalSlider" {
   export = HorizontalSlider;
 }
 
-declare module "esri/dijit/ImageServiceMeasure" {
-  import esri = require("esri");
-  import SimpleFillSymbol = require("esri/symbols/SimpleFillSymbol");
-  import SimpleLineSymbol = require("esri/symbols/SimpleLineSymbol");
-  import SimpleMarkerSymbol = require("esri/symbols/SimpleMarkerSymbol");
-  import ImageServiceMeasureTool = require("esri/toolbars/ImageServiceMeasureTool");
+declare module "esriV3/dijit/ImageServiceMeasure" {
+  import esri = require("esriV3");
+  import SimpleFillSymbol = require("esriV3/symbols/SimpleFillSymbol");
+  import SimpleLineSymbol = require("esriV3/symbols/SimpleLineSymbol");
+  import SimpleMarkerSymbol = require("esriV3/symbols/SimpleMarkerSymbol");
+  import ImageServiceMeasureTool = require("esriV3/toolbars/ImageServiceMeasureTool");
 
   /** This widget allows you to perform measurements on image services. */
   class ImageServiceMeasure {
@@ -4680,10 +4680,10 @@ declare module "esri/dijit/ImageServiceMeasure" {
   export = ImageServiceMeasure;
 }
 
-declare module "esri/dijit/InfoWindow" {
-  import esri = require("esri");
-  import InfoWindowBase = require("esri/InfoWindowBase");
-  import Point = require("esri/geometry/Point");
+declare module "esriV3/dijit/InfoWindow" {
+  import esri = require("esriV3");
+  import InfoWindowBase = require("esriV3/InfoWindowBase");
+  import Point = require("esriV3/geometry/Point");
 
   /** An InfoWindow is an HTML popup. */
   class InfoWindow extends InfoWindowBase {
@@ -4754,11 +4754,11 @@ declare module "esri/dijit/InfoWindow" {
   export = InfoWindow;
 }
 
-declare module "esri/dijit/InfoWindowLite" {
-  import esri = require("esri");
-  import InfoWindowBase = require("esri/InfoWindowBase");
-  import Point = require("esri/geometry/Point");
-  import InfoWindow = require("esri/dijit/InfoWindow");
+declare module "esriV3/dijit/InfoWindowLite" {
+  import esri = require("esriV3");
+  import InfoWindowBase = require("esriV3/InfoWindowBase");
+  import Point = require("esriV3/geometry/Point");
+  import InfoWindow = require("esriV3/dijit/InfoWindow");
 
   /** Creates a new InfoWindowLite object. */
   class InfoWindowLite extends InfoWindowBase {
@@ -4821,9 +4821,9 @@ declare module "esri/dijit/InfoWindowLite" {
   export = InfoWindowLite;
 }
 
-declare module "esri/dijit/LayerList" {
-  import esri = require("esri");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/LayerList" {
+  import esri = require("esriV3");
+  import Map = require("esriV3/map");
 
   /** (Currently in beta) The LayerList widget provides a list of layers that allows the toggling of layer visibility. */
   class LayerList {
@@ -4868,10 +4868,10 @@ declare module "esri/dijit/LayerList" {
   export = LayerList;
 }
 
-declare module "esri/dijit/LayerSwipe" {
-  import esri = require("esri");
-  import Layer = require("esri/layers/layer");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/LayerSwipe" {
+  import esri = require("esriV3");
+  import Layer = require("esriV3/layers/layer");
+  import Map = require("esriV3/map");
 
   /** LayerSwipe provides a simple tool to show a portion of a layer or layers on top of a map. */
   class LayerSwipe {
@@ -4922,9 +4922,9 @@ declare module "esri/dijit/LayerSwipe" {
   export = LayerSwipe;
 }
 
-declare module "esri/dijit/Legend" {
-  import esri = require("esri");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/Legend" {
+  import esri = require("esriV3");
+  import Map = require("esriV3/map");
 
   /** The legend dijit displays a label and symbol for some or all of the layers in the map. */
   class Legend {
@@ -4948,13 +4948,13 @@ declare module "esri/dijit/Legend" {
   export = Legend;
 }
 
-declare module "esri/dijit/LocateButton" {
-  import esri = require("esri");
-  import GraphicsLayer = require("esri/layers/GraphicsLayer");
-  import InfoTemplate = require("esri/InfoTemplate");
-  import Map = require("esri/map");
-  import Symbol = require("esri/symbols/Symbol");
-  import Graphic = require("esri/graphic");
+declare module "esriV3/dijit/LocateButton" {
+  import esri = require("esriV3");
+  import GraphicsLayer = require("esriV3/layers/GraphicsLayer");
+  import InfoTemplate = require("esriV3/InfoTemplate");
+  import Map = require("esriV3/map");
+  import Symbol = require("esriV3/symbols/Symbol");
+  import Graphic = require("esriV3/graphic");
 
   /** LocateButton provides a simple button to locate and zoom to the user's location. */
   class LocateButton {
@@ -5015,12 +5015,12 @@ declare module "esri/dijit/LocateButton" {
   export = LocateButton;
 }
 
-declare module "esri/dijit/Measurement" {
-  import esri = require("esri");
-  import Point = require("esri/geometry/Point");
-  import Polyline = require("esri/geometry/Polyline");
-  import Polygon = require("esri/geometry/Polygon");
-  import Geometry = require("esri/geometry/Geometry");
+declare module "esriV3/dijit/Measurement" {
+  import esri = require("esriV3");
+  import Point = require("esriV3/geometry/Point");
+  import Polyline = require("esriV3/geometry/Polyline");
+  import Polygon = require("esriV3/geometry/Polygon");
+  import Geometry = require("esriV3/geometry/Geometry");
 
   /** The Measurement widget provides tools for calculating the current location (Get Location) and measuring distance (Measure Distance) and area (Measure Area). */
   class Measurement {
@@ -5080,13 +5080,13 @@ declare module "esri/dijit/Measurement" {
   export = Measurement;
 }
 
-declare module "esri/dijit/ObliqueViewer" {
-  import esri = require("esri");
-  import ArcGISImageServiceLayer = require("esri/layers/ArcGISImageServiceLayer");
-  import Map = require("esri/map");
-  import Geometry = require("esri/geometry/Geometry");
-  import SpatialReference = require("esri/SpatialReference");
-  import Extent = require("esri/geometry/Extent");
+declare module "esriV3/dijit/ObliqueViewer" {
+  import esri = require("esriV3");
+  import ArcGISImageServiceLayer = require("esriV3/layers/ArcGISImageServiceLayer");
+  import Map = require("esriV3/map");
+  import Geometry = require("esriV3/geometry/Geometry");
+  import SpatialReference = require("esriV3/SpatialReference");
+  import Extent = require("esriV3/geometry/Extent");
 
   /** (Currently in beta) The oblique viewer widget, displays images in their native coordinate system using an Image Coordinate System (ICS). */
   class ObliqueViewer {
@@ -5173,9 +5173,9 @@ declare module "esri/dijit/ObliqueViewer" {
   export = ObliqueViewer;
 }
 
-declare module "esri/dijit/OpacitySlider" {
-  import esri = require("esri");
-  import RendererSlider = require("esri/dijit/RendererSlider");
+declare module "esriV3/dijit/OpacitySlider" {
+  import esri = require("esriV3");
+  import RendererSlider = require("esriV3/dijit/RendererSlider");
 
   /** A widget to assist with managing opacity with a renderer. */
   class OpacitySlider extends RendererSlider {
@@ -5228,9 +5228,9 @@ declare module "esri/dijit/OpacitySlider" {
   export = OpacitySlider;
 }
 
-declare module "esri/dijit/OverviewMap" {
-  import esri = require("esri");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/OverviewMap" {
+  import esri = require("esriV3");
+  import Map = require("esriV3/map");
 
   /** The OverviewMap widget displays the current extent of the map within the context of a larger area. */
   class OverviewMap {
@@ -5259,14 +5259,14 @@ declare module "esri/dijit/OverviewMap" {
   export = OverviewMap;
 }
 
-declare module "esri/dijit/Popup" {
-  import esri = require("esri");
-  import InfoWindowBase = require("esri/InfoWindowBase");
-  import FillSymbol = require("esri/symbols/FillSymbol");
-  import Graphic = require("esri/graphic");
-  import LineSymbol = require("esri/symbols/LineSymbol");
-  import Point = require("esri/geometry/Point");
-  import SimpleMarkerSymbol = require("esri/symbols/SimpleMarkerSymbol");
+declare module "esriV3/dijit/Popup" {
+  import esri = require("esriV3");
+  import InfoWindowBase = require("esriV3/InfoWindowBase");
+  import FillSymbol = require("esriV3/symbols/FillSymbol");
+  import Graphic = require("esriV3/graphic");
+  import LineSymbol = require("esriV3/symbols/LineSymbol");
+  import Point = require("esriV3/geometry/Point");
+  import SimpleMarkerSymbol = require("esriV3/symbols/SimpleMarkerSymbol");
 
   /** The Popup class is an implementation of InfoWindow that inherits from InfoWindowBase to provide additional capabilities. */
   class Popup extends InfoWindowBase {
@@ -5416,11 +5416,11 @@ declare module "esri/dijit/Popup" {
   export = Popup;
 }
 
-declare module "esri/dijit/PopupMobile" {
-  import esri = require("esri");
-  import InfoWindowBase = require("esri/InfoWindowBase");
-  import Point = require("esri/geometry/Point");
-  import Graphic = require("esri/graphic");
+declare module "esriV3/dijit/PopupMobile" {
+  import esri = require("esriV3");
+  import InfoWindowBase = require("esriV3/InfoWindowBase");
+  import Point = require("esriV3/geometry/Point");
+  import Graphic = require("esriV3/graphic");
 
   /** The PopupMobile class is an implementation of InfoWindow that inherits from InfoWindowBase to provide additional capabilities. */
   class PopupMobile extends InfoWindowBase {
@@ -5486,9 +5486,9 @@ declare module "esri/dijit/PopupMobile" {
   export = PopupMobile;
 }
 
-declare module "esri/dijit/PopupTemplate" {
-  import esri = require("esri");
-  import InfoTemplate = require("esri/InfoTemplate");
+declare module "esriV3/dijit/PopupTemplate" {
+  import esri = require("esriV3");
+  import InfoTemplate = require("esriV3/InfoTemplate");
 
   /** The PopupTemplate class extends esri/InfoTemplate and provides support for defining a layout. */
   class PopupTemplate extends InfoTemplate {
@@ -5504,9 +5504,9 @@ declare module "esri/dijit/PopupTemplate" {
   export = PopupTemplate;
 }
 
-declare module "esri/dijit/Print" {
-  import esri = require("esri");
-  import PrintTemplate = require("esri/tasks/PrintTemplate");
+declare module "esriV3/dijit/Print" {
+  import esri = require("esriV3");
+  import PrintTemplate = require("esriV3/tasks/PrintTemplate");
 
   /** The Print widget simplifies the process of printing a map using a default or user-defined layout. */
   class Print {
@@ -5540,8 +5540,8 @@ declare module "esri/dijit/Print" {
   export = Print;
 }
 
-declare module "esri/dijit/RendererSlider" {
-  import esri = require("esri");
+declare module "esriV3/dijit/RendererSlider" {
+  import esri = require("esriV3");
 
   /** The base slider class for all Subclass Slider widgets listed below. */
   class RendererSlider {
@@ -5580,8 +5580,8 @@ declare module "esri/dijit/RendererSlider" {
   export = RendererSlider;
 }
 
-declare module "esri/dijit/Scalebar" {
-  import esri = require("esri");
+declare module "esriV3/dijit/Scalebar" {
+  import esri = require("esriV3");
 
   /** The Scalebar widget displays a scalebar on the map or in a specified HTML node. */
   class Scalebar {
@@ -5603,14 +5603,14 @@ declare module "esri/dijit/Scalebar" {
   export = Scalebar;
 }
 
-declare module "esri/dijit/Search" {
-  import esri = require("esri");
-  import Layer = require("esri/layers/layer");
-  import Graphic = require("esri/graphic");
-  import InfoTemplate = require("esri/InfoTemplate");
-  import TextSymbol = require("esri/symbols/TextSymbol");
-  import Map = require("esri/map");
-  import Geometry = require("esri/geometry/Geometry");
+declare module "esriV3/dijit/Search" {
+  import esri = require("esriV3");
+  import Layer = require("esriV3/layers/layer");
+  import Graphic = require("esriV3/graphic");
+  import InfoTemplate = require("esriV3/InfoTemplate");
+  import TextSymbol = require("esriV3/symbols/TextSymbol");
+  import Map = require("esriV3/map");
+  import Geometry = require("esriV3/geometry/Geometry");
 
   /** The Search widget provides a way to perform search capabilities based on locator service(s) and/or map/feature service feature layer(s). */
   class Search {
@@ -5755,11 +5755,11 @@ declare module "esri/dijit/Search" {
   export = Search;
 }
 
-declare module "esri/dijit/SizeInfoSlider" {
-  import esri = require("esri");
-  import RendererSlider = require("esri/dijit/RendererSlider");
-  import SimpleMarkerSymbol = require("esri/symbols/SimpleMarkerSymbol");
-  import SimpleLineSymbol = require("esri/symbols/SimpleLineSymbol");
+declare module "esriV3/dijit/SizeInfoSlider" {
+  import esri = require("esriV3");
+  import RendererSlider = require("esriV3/dijit/RendererSlider");
+  import SimpleMarkerSymbol = require("esriV3/symbols/SimpleMarkerSymbol");
+  import SimpleLineSymbol = require("esriV3/symbols/SimpleLineSymbol");
 
   /** A widget to assist with managing size with a renderer. */
   class SizeInfoSlider extends RendererSlider {
@@ -5820,9 +5820,9 @@ declare module "esri/dijit/SizeInfoSlider" {
   export = SizeInfoSlider;
 }
 
-declare module "esri/dijit/SymbolStyler" {
-  import esri = require("esri");
-  import Symbol = require("esri/symbols/Symbol");
+declare module "esriV3/dijit/SymbolStyler" {
+  import esri = require("esriV3");
+  import Symbol = require("esriV3/symbols/Symbol");
 
   /** A widget that assist with applying properties to Symbols. */
   class SymbolStyler {
@@ -5853,9 +5853,9 @@ declare module "esri/dijit/SymbolStyler" {
   export = SymbolStyler;
 }
 
-declare module "esri/dijit/TimeSlider" {
-  import esri = require("esri");
-  import TimeExtent = require("esri/TimeExtent");
+declare module "esriV3/dijit/TimeSlider" {
+  import esri = require("esriV3");
+  import TimeExtent = require("esriV3/TimeExtent");
 
   /** The TimeSlider widget is used for visualizing content within a map that contains time-aware layers. */
   class TimeSlider {
@@ -5955,10 +5955,10 @@ declare module "esri/dijit/TimeSlider" {
   export = TimeSlider;
 }
 
-declare module "esri/dijit/VisibleScaleRangeSlider" {
-  import esri = require("esri");
-  import Layer = require("esri/layers/layer");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/VisibleScaleRangeSlider" {
+  import esri = require("esriV3");
+  import Layer = require("esriV3/layers/layer");
+  import Map = require("esriV3/map");
 
   /** A widget that sets the displayed visible scale values. */
   class VisibleScaleRangeSlider {
@@ -5989,11 +5989,11 @@ declare module "esri/dijit/VisibleScaleRangeSlider" {
   export = VisibleScaleRangeSlider;
 }
 
-declare module "esri/dijit/analysis/AggregatePoints" {
-  import esri = require("esri");
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import Map = require("esri/map");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
+declare module "esriV3/dijit/analysis/AggregatePoints" {
+  import esri = require("esriV3");
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import Map = require("esriV3/map");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
 
   /** The AggregatePoints widget works with point feature layer and a polygon feature layer. */
   class AggregatePoints extends AnalysisBase {
@@ -6043,8 +6043,8 @@ declare module "esri/dijit/analysis/AggregatePoints" {
   export = AggregatePoints;
 }
 
-declare module "esri/dijit/analysis/AnalysisBase" {
-  import esri = require("esri");
+declare module "esriV3/dijit/analysis/AnalysisBase" {
+  import esri = require("esriV3");
 
   /** The AnalysisBase widget is the base class for all other widgets under esri/dijit/analysis. */
   class AnalysisBase {
@@ -6108,9 +6108,9 @@ declare module "esri/dijit/analysis/AnalysisBase" {
   export = AnalysisBase;
 }
 
-declare module "esri/dijit/analysis/CalculateDensity" {
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
+declare module "esriV3/dijit/analysis/CalculateDensity" {
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
 
   /** Create a density map from point or line features by spreading known quantities of some phenomenon (represented as attributes of the points or lines) across the map. */
   class CalculateDensity extends AnalysisBase {
@@ -6158,11 +6158,11 @@ declare module "esri/dijit/analysis/CalculateDensity" {
   export = CalculateDensity;
 }
 
-declare module "esri/dijit/analysis/ChooseBestFacilities" {
-  import esri = require("esri");
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/analysis/ChooseBestFacilities" {
+  import esri = require("esriV3");
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
+  import Map = require("esriV3/map");
 
   /** Choose Best Facilities allows you to choose the best locations for facilities. */
   class ChooseBestFacilities extends AnalysisBase {
@@ -6236,11 +6236,11 @@ declare module "esri/dijit/analysis/ChooseBestFacilities" {
   export = ChooseBestFacilities;
 }
 
-declare module "esri/dijit/analysis/ConnectOriginsToDestinations" {
-  import esri = require("esri");
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/analysis/ConnectOriginsToDestinations" {
+  import esri = require("esriV3");
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
+  import Map = require("esriV3/map");
 
   /** Measure the travel time or distance between pairs of points. */
   class ConnectOriginsToDestinations extends AnalysisBase {
@@ -6282,11 +6282,11 @@ declare module "esri/dijit/analysis/ConnectOriginsToDestinations" {
   export = ConnectOriginsToDestinations;
 }
 
-declare module "esri/dijit/analysis/CreateBuffers" {
-  import esri = require("esri");
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/analysis/CreateBuffers" {
+  import esri = require("esriV3");
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
+  import Map = require("esriV3/map");
 
   /** The CreateBuffers widget creates polygons that cover a given distance from an input point, line, or polygon feature layer. */
   class CreateBuffers extends AnalysisBase {
@@ -6326,11 +6326,11 @@ declare module "esri/dijit/analysis/CreateBuffers" {
   export = CreateBuffers;
 }
 
-declare module "esri/dijit/analysis/CreateDriveTimeAreas" {
-  import esri = require("esri");
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/analysis/CreateDriveTimeAreas" {
+  import esri = require("esriV3");
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
+  import Map = require("esriV3/map");
 
   /** The CreateDriveTimeAreas widget creates drive-time (or drive-distance) polygons around input points for the given drive-time values. */
   class CreateDriveTimeAreas extends AnalysisBase {
@@ -6374,11 +6374,11 @@ declare module "esri/dijit/analysis/CreateDriveTimeAreas" {
   export = CreateDriveTimeAreas;
 }
 
-declare module "esri/dijit/analysis/CreateViewshed" {
-  import esri = require("esri");
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/analysis/CreateViewshed" {
+  import esri = require("esriV3");
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
+  import Map = require("esriV3/map");
 
   /** Creates areas that are visible based on locations you specify. */
   class CreateViewshed extends AnalysisBase {
@@ -6426,11 +6426,11 @@ declare module "esri/dijit/analysis/CreateViewshed" {
   export = CreateViewshed;
 }
 
-declare module "esri/dijit/analysis/CreateWatersheds" {
-  import esri = require("esri");
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/analysis/CreateWatersheds" {
+  import esri = require("esriV3");
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
+  import Map = require("esriV3/map");
 
   /** Creates catchment areas based on locations you specify. */
   class CreateWatersheds extends AnalysisBase {
@@ -6468,9 +6468,9 @@ declare module "esri/dijit/analysis/CreateWatersheds" {
   export = CreateWatersheds;
 }
 
-declare module "esri/dijit/analysis/DeriveNewLocations" {
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
+declare module "esriV3/dijit/analysis/DeriveNewLocations" {
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
 
   /** Derive new features from the input layers that meet a query you specify. */
   class DeriveNewLocations extends AnalysisBase {
@@ -6506,11 +6506,11 @@ declare module "esri/dijit/analysis/DeriveNewLocations" {
   export = DeriveNewLocations;
 }
 
-declare module "esri/dijit/analysis/DissolveBoundaries" {
-  import esri = require("esri");
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/analysis/DissolveBoundaries" {
+  import esri = require("esriV3");
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
+  import Map = require("esriV3/map");
 
   /** The DissolveBoundaries widget finds polygons that overlap or share a common boundary, and merges them together to form a single polygon. */
   class DissolveBoundaries extends AnalysisBase {
@@ -6550,11 +6550,11 @@ declare module "esri/dijit/analysis/DissolveBoundaries" {
   export = DissolveBoundaries;
 }
 
-declare module "esri/dijit/analysis/EnrichLayer" {
-  import esri = require("esri");
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/analysis/EnrichLayer" {
+  import esri = require("esriV3");
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
+  import Map = require("esriV3/map");
 
   /** The EnrichLayer widget enriches an input layer with facts about the people, places, and businesses nearby. */
   class EnrichLayer extends AnalysisBase {
@@ -6596,11 +6596,11 @@ declare module "esri/dijit/analysis/EnrichLayer" {
   export = EnrichLayer;
 }
 
-declare module "esri/dijit/analysis/ExtractData" {
-  import esri = require("esri");
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/analysis/ExtractData" {
+  import esri = require("esriV3");
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
+  import Map = require("esriV3/map");
 
   /** The ExtractData widget is used to extract data from one or more layers within a given extent. */
   class ExtractData extends AnalysisBase {
@@ -6640,9 +6640,9 @@ declare module "esri/dijit/analysis/ExtractData" {
   export = ExtractData;
 }
 
-declare module "esri/dijit/analysis/FindExistingLocations" {
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
+declare module "esriV3/dijit/analysis/FindExistingLocations" {
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
 
   /** Select features in the input layer that meet an attribute and/or spatial query you specify. */
   class FindExistingLocations extends AnalysisBase {
@@ -6678,11 +6678,11 @@ declare module "esri/dijit/analysis/FindExistingLocations" {
   export = FindExistingLocations;
 }
 
-declare module "esri/dijit/analysis/FindHotSpots" {
-  import esri = require("esri");
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/analysis/FindHotSpots" {
+  import esri = require("esriV3");
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
+  import Map = require("esriV3/map");
 
   /** The FindHotSpots widget finds statistically significant clusters of incident points, weighted points, or weighted polygons. */
   class FindHotSpots extends AnalysisBase {
@@ -6728,11 +6728,11 @@ declare module "esri/dijit/analysis/FindHotSpots" {
   export = FindHotSpots;
 }
 
-declare module "esri/dijit/analysis/FindNearest" {
-  import esri = require("esri");
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/analysis/FindNearest" {
+  import esri = require("esriV3");
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
+  import Map = require("esriV3/map");
 
   /** The FindNearest widget works with two layers: an analysis layer and a near layer. */
   class FindNearest extends AnalysisBase {
@@ -6780,10 +6780,10 @@ declare module "esri/dijit/analysis/FindNearest" {
   export = FindNearest;
 }
 
-declare module "esri/dijit/analysis/FindSimilarLocations" {
-  import esri = require("esri");
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
+declare module "esriV3/dijit/analysis/FindSimilarLocations" {
+  import esri = require("esriV3");
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
 
   /** Measure the similarity of candidate locations to one or more reference locations. */
   class FindSimilarLocations extends AnalysisBase {
@@ -6826,9 +6826,9 @@ declare module "esri/dijit/analysis/FindSimilarLocations" {
   export = FindSimilarLocations;
 }
 
-declare module "esri/dijit/analysis/InterpolatePoints" {
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
+declare module "esriV3/dijit/analysis/InterpolatePoints" {
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
 
   /** Predict values at new locations based on measurements from a collection of points. */
   class InterpolatePoints extends AnalysisBase {
@@ -6876,11 +6876,11 @@ declare module "esri/dijit/analysis/InterpolatePoints" {
   export = InterpolatePoints;
 }
 
-declare module "esri/dijit/analysis/MergeLayers" {
-  import esri = require("esri");
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/analysis/MergeLayers" {
+  import esri = require("esriV3");
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
+  import Map = require("esriV3/map");
 
   /** The MergeLayers widget copies features from two layers into a new layer. */
   class MergeLayers extends AnalysisBase {
@@ -6922,11 +6922,11 @@ declare module "esri/dijit/analysis/MergeLayers" {
   export = MergeLayers;
 }
 
-declare module "esri/dijit/analysis/OverlayLayers" {
-  import esri = require("esri");
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
-  import Map = require("esri/map");
+declare module "esriV3/dijit/analysis/OverlayLayers" {
+  import esri = require("esriV3");
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
+  import Map = require("esriV3/map");
 
   /** The OverlayLayers widget combines two or more layers into one single layer containing all the information found in the stack. */
   class OverlayLayers extends AnalysisBase {
@@ -6970,9 +6970,9 @@ declare module "esri/dijit/analysis/OverlayLayers" {
   export = OverlayLayers;
 }
 
-declare module "esri/dijit/analysis/PlanRoutes" {
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
+declare module "esriV3/dijit/analysis/PlanRoutes" {
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
 
   /** Determine how to efficiently divide tasks among a mobile workforce. */
   class PlanRoutes extends AnalysisBase {
@@ -7022,11 +7022,11 @@ declare module "esri/dijit/analysis/PlanRoutes" {
   export = PlanRoutes;
 }
 
-declare module "esri/dijit/analysis/SummarizeNearby" {
-  import esri = require("esri");
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import Map = require("esri/map");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
+declare module "esriV3/dijit/analysis/SummarizeNearby" {
+  import esri = require("esriV3");
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import Map = require("esriV3/map");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
 
   /** The FindNearest widget works with two layers: an summarize nearby layer and a summary layer. */
   class SummarizeNearby extends AnalysisBase {
@@ -7086,11 +7086,11 @@ declare module "esri/dijit/analysis/SummarizeNearby" {
   export = SummarizeNearby;
 }
 
-declare module "esri/dijit/analysis/SummarizeWithin" {
-  import esri = require("esri");
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import Map = require("esri/map");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
+declare module "esriV3/dijit/analysis/SummarizeWithin" {
+  import esri = require("esriV3");
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import Map = require("esriV3/map");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
 
   /** The SummarizeWithin widget works with two layers: an summarize within layer and a summary layer. */
   class SummarizeWithin extends AnalysisBase {
@@ -7138,9 +7138,9 @@ declare module "esri/dijit/analysis/SummarizeWithin" {
   export = SummarizeWithin;
 }
 
-declare module "esri/dijit/analysis/TraceDownstream" {
-  import AnalysisBase = require("esri/dijit/analysis/AnalysisBase");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
+declare module "esriV3/dijit/analysis/TraceDownstream" {
+  import AnalysisBase = require("esriV3/dijit/analysis/AnalysisBase");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
 
   /** Determine the flow paths in a downstream direction from the locations you specify. */
   class TraceDownstream extends AnalysisBase {
@@ -7184,9 +7184,9 @@ declare module "esri/dijit/analysis/TraceDownstream" {
   export = TraceDownstream;
 }
 
-declare module "esri/dijit/editing/Add" {
-  import esri = require("esri");
-  import OperationBase = require("esri/OperationBase");
+declare module "esriV3/dijit/editing/Add" {
+  import esri = require("esriV3");
+  import OperationBase = require("esriV3/OperationBase");
 
   /** This class is used with the UndoManager to provide undo/redo functionality of Add operations when editing. */
   class Add extends OperationBase {
@@ -7203,9 +7203,9 @@ declare module "esri/dijit/editing/Add" {
   export = Add;
 }
 
-declare module "esri/dijit/editing/AttachmentEditor" {
-  import Graphic = require("esri/graphic");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
+declare module "esriV3/dijit/editing/AttachmentEditor" {
+  import Graphic = require("esriV3/graphic");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
 
   /** Widget that supports viewing attachments for feature layers that have attachments enabled. */
   class AttachmentEditor {
@@ -7227,9 +7227,9 @@ declare module "esri/dijit/editing/AttachmentEditor" {
   export = AttachmentEditor;
 }
 
-declare module "esri/dijit/editing/Cut" {
-  import esri = require("esri");
-  import OperationBase = require("esri/OperationBase");
+declare module "esriV3/dijit/editing/Cut" {
+  import esri = require("esriV3");
+  import OperationBase = require("esriV3/OperationBase");
 
   /** This class is used with the UndoManager to provide undo/redo functionality of Cut operations when editing. */
   class Cut extends OperationBase {
@@ -7246,9 +7246,9 @@ declare module "esri/dijit/editing/Cut" {
   export = Cut;
 }
 
-declare module "esri/dijit/editing/Delete" {
-  import esri = require("esri");
-  import OperationBase = require("esri/OperationBase");
+declare module "esriV3/dijit/editing/Delete" {
+  import esri = require("esriV3");
+  import OperationBase = require("esriV3/OperationBase");
 
   /** This class is used with the UndoManager to provide undo/redo functionality of Delete operations when editing. */
   class Delete extends OperationBase {
@@ -7265,9 +7265,9 @@ declare module "esri/dijit/editing/Delete" {
   export = Delete;
 }
 
-declare module "esri/dijit/editing/Editor" {
-  import esri = require("esri");
-  import Edit = require("esri/toolbars/edit");
+declare module "esriV3/dijit/editing/Editor" {
+  import esri = require("esriV3");
+  import Edit = require("esriV3/toolbars/edit");
 
   /** The Editor widget provides out-of-the-box editing capabilities using an editable layer in a Feature Service. */
   class Editor {
@@ -7308,8 +7308,8 @@ declare module "esri/dijit/editing/Editor" {
   export = Editor;
 }
 
-declare module "esri/dijit/editing/TemplatePicker" {
-  import esri = require("esri");
+declare module "esriV3/dijit/editing/TemplatePicker" {
+  import esri = require("esriV3");
 
   /** A template picker displays a gallery of templates from one or more feature layers. */
   class TemplatePicker {
@@ -7346,9 +7346,9 @@ declare module "esri/dijit/editing/TemplatePicker" {
   export = TemplatePicker;
 }
 
-declare module "esri/dijit/editing/Union" {
-  import esri = require("esri");
-  import OperationBase = require("esri/OperationBase");
+declare module "esriV3/dijit/editing/Union" {
+  import esri = require("esriV3");
+  import OperationBase = require("esriV3/OperationBase");
 
   /** This class is used with the UndoManager to provide undo/redo functionality of Union operations when editing. */
   class Union extends OperationBase {
@@ -7365,9 +7365,9 @@ declare module "esri/dijit/editing/Union" {
   export = Union;
 }
 
-declare module "esri/dijit/editing/Update" {
-  import esri = require("esri");
-  import OperationBase = require("esri/OperationBase");
+declare module "esriV3/dijit/editing/Update" {
+  import esri = require("esriV3");
+  import OperationBase = require("esriV3/OperationBase");
 
   /** This class is used with the UndoManager to provide undo/redo functionality of Update operations when editing. */
   class Update extends OperationBase {
@@ -7384,8 +7384,8 @@ declare module "esri/dijit/editing/Update" {
   export = Update;
 }
 
-declare module "esri/dijit/geoenrichment/DataBrowser" {
-  import esri = require("esri");
+declare module "esriV3/dijit/geoenrichment/DataBrowser" {
+  import esri = require("esriV3");
 
   /** The DataBrowser widget allows users to search or browse for geoenrichment variables. */
   class DataBrowser {
@@ -7412,13 +7412,13 @@ declare module "esri/dijit/geoenrichment/DataBrowser" {
   export = DataBrowser;
 }
 
-declare module "esri/dijit/geoenrichment/Infographic" {
-  import esri = require("esri");
-  import GeometryStudyArea = require("esri/tasks/geoenrichment/GeometryStudyArea");
-  import RingBuffer = require("esri/tasks/geoenrichment/RingBuffer");
-  import DriveBuffer = require("esri/tasks/geoenrichment/DriveBuffer");
-  import IntersectingGeographies = require("esri/tasks/geoenrichment/IntersectingGeographies");
-  import FeatureSet = require("esri/tasks/FeatureSet");
+declare module "esriV3/dijit/geoenrichment/Infographic" {
+  import esri = require("esriV3");
+  import GeometryStudyArea = require("esriV3/tasks/geoenrichment/GeometryStudyArea");
+  import RingBuffer = require("esriV3/tasks/geoenrichment/RingBuffer");
+  import DriveBuffer = require("esriV3/tasks/geoenrichment/DriveBuffer");
+  import IntersectingGeographies = require("esriV3/tasks/geoenrichment/IntersectingGeographies");
+  import FeatureSet = require("esriV3/tasks/FeatureSet");
 
   /** Displays an Infographic of one or more variables that describe the geographic context of a location. */
   class Infographic {
@@ -7473,10 +7473,10 @@ declare module "esri/dijit/geoenrichment/Infographic" {
   export = Infographic;
 }
 
-declare module "esri/dijit/geoenrichment/InfographicsCarousel" {
-  import esri = require("esri");
-  import InfographicsOptions = require("esri/dijit/geoenrichment/InfographicsOptions");
-  import GeometryStudyArea = require("esri/tasks/geoenrichment/GeometryStudyArea");
+declare module "esriV3/dijit/geoenrichment/InfographicsCarousel" {
+  import esri = require("esriV3");
+  import InfographicsOptions = require("esriV3/dijit/geoenrichment/InfographicsOptions");
+  import GeometryStudyArea = require("esriV3/tasks/geoenrichment/GeometryStudyArea");
 
   /** Displays a set of Infographic dijits in a carousel. */
   class InfographicsCarousel {
@@ -7513,10 +7513,10 @@ declare module "esri/dijit/geoenrichment/InfographicsCarousel" {
   export = InfographicsCarousel;
 }
 
-declare module "esri/dijit/geoenrichment/InfographicsOptions" {
-  import RingBuffer = require("esri/tasks/geoenrichment/RingBuffer");
-  import DriveBuffer = require("esri/tasks/geoenrichment/DriveBuffer");
-  import IntersectingGeographies = require("esri/tasks/geoenrichment/IntersectingGeographies");
+declare module "esriV3/dijit/geoenrichment/InfographicsOptions" {
+  import RingBuffer = require("esriV3/tasks/geoenrichment/RingBuffer");
+  import DriveBuffer = require("esriV3/tasks/geoenrichment/DriveBuffer");
+  import IntersectingGeographies = require("esriV3/tasks/geoenrichment/IntersectingGeographies");
 
   /** InfographicsOptions is used to customize and configure the Infographic's included in a InfographicCarousel. */
   class InfographicsOptions {
@@ -7540,7 +7540,7 @@ declare module "esri/dijit/geoenrichment/InfographicsOptions" {
   export = InfographicsOptions;
 }
 
-declare module "esri/dijit/geoenrichment/InfographicsOptionsItem" {
+declare module "esriV3/dijit/geoenrichment/InfographicsOptionsItem" {
   /** Defines the options for each Infographic in an InfographicsCarousel. */
   class InfographicsOptionsItem {
     /** The ID of the dataset to which variables used in this Infographic belong. */
@@ -7563,8 +7563,8 @@ declare module "esri/dijit/geoenrichment/InfographicsOptionsItem" {
   export = InfographicsOptionsItem;
 }
 
-declare module "esri/dijit/geoenrichment/ReportPlayer/DataProviderGE" {
-  import PlayerCommands = require("esri/dijit/geoenrichment/ReportPlayer/PlayerCommands");
+declare module "esriV3/dijit/geoenrichment/ReportPlayer/DataProviderGE" {
+  import PlayerCommands = require("esriV3/dijit/geoenrichment/ReportPlayer/PlayerCommands");
 
   /** Data Provider for the ReportPlayer which allows you to specify which export options are available when running the report. */
   class DataProviderGE {
@@ -7578,7 +7578,7 @@ declare module "esri/dijit/geoenrichment/ReportPlayer/DataProviderGE" {
   export = DataProviderGE;
 }
 
-declare module "esri/dijit/geoenrichment/ReportPlayer/PlayerCommands" {
+declare module "esriV3/dijit/geoenrichment/ReportPlayer/PlayerCommands" {
   /** Enumerator of available export options that are available for the Report Player. */
   class PlayerCommands {
     /** Generates a stand-alone HTML file which displays dynamic content, including interactive map and infographic panels for the run infographic report. */
@@ -7595,7 +7595,7 @@ declare module "esri/dijit/geoenrichment/ReportPlayer/PlayerCommands" {
   export = PlayerCommands;
 }
 
-declare module "esri/dijit/geoenrichment/ReportPlayer/PlayerResizeModes" {
+declare module "esriV3/dijit/geoenrichment/ReportPlayer/PlayerResizeModes" {
   /** Enumerator of available player resize mode options for the Report Player widget. */
   class PlayerResizeModes {
     /** The Report Player will be auto-resizable for the pagination view, the size of the player will change to fit the content. */
@@ -7608,7 +7608,7 @@ declare module "esri/dijit/geoenrichment/ReportPlayer/PlayerResizeModes" {
   export = PlayerResizeModes;
 }
 
-declare module "esri/dijit/geoenrichment/ReportPlayer/PlayerThemes" {
+declare module "esriV3/dijit/geoenrichment/ReportPlayer/PlayerThemes" {
   /** Enumerator of available theme options for displaying the Report Player. */
   class PlayerThemes {
     /** Report Player will display in a dark theme. */
@@ -7619,7 +7619,7 @@ declare module "esri/dijit/geoenrichment/ReportPlayer/PlayerThemes" {
   export = PlayerThemes;
 }
 
-declare module "esri/dijit/geoenrichment/ReportPlayer/PlayerViewModes" {
+declare module "esriV3/dijit/geoenrichment/ReportPlayer/PlayerViewModes" {
   /** An enumerator of available view modes displaying the Report Player. */
   class PlayerViewModes {
     /** Displays one full page at a time. */
@@ -7632,9 +7632,9 @@ declare module "esri/dijit/geoenrichment/ReportPlayer/PlayerViewModes" {
   export = PlayerViewModes;
 }
 
-declare module "esri/dijit/geoenrichment/ReportPlayer/ReportPlayer" {
-  import esri = require("esri");
-  import DataProviderGE = require("esri/dijit/geoenrichment/ReportPlayer/DataProviderGE");
+declare module "esriV3/dijit/geoenrichment/ReportPlayer/ReportPlayer" {
+  import esri = require("esriV3");
+  import DataProviderGE = require("esriV3/dijit/geoenrichment/ReportPlayer/DataProviderGE");
 
   /** The ReportPlayer widget runs infographic report templates for a provided analysis area. */
   class ReportPlayer {
@@ -7692,7 +7692,7 @@ declare module "esri/dijit/geoenrichment/ReportPlayer/ReportPlayer" {
   export = ReportPlayer;
 }
 
-declare module "esri/dijit/util/busyIndicator" {
+declare module "esriV3/dijit/util/busyIndicator" {
   /** This module provides the ability to create a busy indicator for a target. */
   var busyIndicator: {
     /**
@@ -7705,7 +7705,7 @@ declare module "esri/dijit/util/busyIndicator" {
   export = busyIndicator;
 }
 
-declare module "esri/domUtils" {
+declare module "esriV3/domUtils" {
   /** Utility methods related to working with the DOM. */
   var domUtils: {
     /** Represents the size of the client side window or document at first load. */
@@ -7734,11 +7734,11 @@ declare module "esri/domUtils" {
   export = domUtils;
 }
 
-declare module "esri/geometry/Circle" {
-  import esri = require("esri");
-  import Polygon = require("esri/geometry/Polygon");
-  import Point = require("esri/geometry/Point");
-  import SpatialReference = require("esri/SpatialReference");
+declare module "esriV3/geometry/Circle" {
+  import esri = require("esriV3");
+  import Polygon = require("esriV3/geometry/Polygon");
+  import Point = require("esriV3/geometry/Point");
+  import SpatialReference = require("esriV3/SpatialReference");
 
   /** A circle (Polygon) created by a specified center point. */
   class Circle extends Polygon {
@@ -7767,10 +7767,10 @@ declare module "esri/geometry/Circle" {
   export = Circle;
 }
 
-declare module "esri/geometry/Extent" {
-  import Geometry = require("esri/geometry/Geometry");
-  import SpatialReference = require("esri/SpatialReference");
-  import Point = require("esri/geometry/Point");
+declare module "esriV3/geometry/Extent" {
+  import Geometry = require("esriV3/geometry/Geometry");
+  import SpatialReference = require("esriV3/SpatialReference");
+  import Point = require("esriV3/geometry/Point");
 
   /** The minimum and maximum X- and Y- coordinates of a bounding box. */
   class Extent extends Geometry {
@@ -7850,9 +7850,9 @@ declare module "esri/geometry/Extent" {
   export = Extent;
 }
 
-declare module "esri/geometry/GeographicTransformation" {
-  import esri = require("esri");
-  import GeographicTransformationStep = require("esri/geometry/GeographicTransformationStep");
+declare module "esriV3/geometry/GeographicTransformation" {
+  import esri = require("esriV3");
+  import GeographicTransformationStep = require("esriV3/geometry/GeographicTransformationStep");
 
   /** Projecting your data between coordinate systems sometimes requires transforming between geographic coordinate systems. */
   class GeographicTransformation {
@@ -7869,8 +7869,8 @@ declare module "esri/geometry/GeographicTransformation" {
   export = GeographicTransformation;
 }
 
-declare module "esri/geometry/GeographicTransformationStep" {
-  import esri = require("esri");
+declare module "esriV3/geometry/GeographicTransformationStep" {
+  import esri = require("esriV3");
 
   /** Represents a step in the process of transforming coordinates from one geographic coordinate system to another. */
   class GeographicTransformationStep {
@@ -7891,8 +7891,8 @@ declare module "esri/geometry/GeographicTransformationStep" {
   export = GeographicTransformationStep;
 }
 
-declare module "esri/geometry/Geometry" {
-  import SpatialReference = require("esri/SpatialReference");
+declare module "esriV3/geometry/Geometry" {
+  import SpatialReference = require("esriV3/SpatialReference");
 
   /** The base class for geometry objects. */
   class Geometry {
@@ -7926,11 +7926,11 @@ declare module "esri/geometry/Geometry" {
   export = Geometry;
 }
 
-declare module "esri/geometry/Multipoint" {
-  import Geometry = require("esri/geometry/Geometry");
-  import SpatialReference = require("esri/SpatialReference");
-  import Point = require("esri/geometry/Point");
-  import Extent = require("esri/geometry/Extent");
+declare module "esriV3/geometry/Multipoint" {
+  import Geometry = require("esriV3/geometry/Geometry");
+  import SpatialReference = require("esriV3/SpatialReference");
+  import Point = require("esriV3/geometry/Point");
+  import Extent = require("esriV3/geometry/Extent");
 
   /** An ordered collection of points. */
   class Multipoint extends Geometry {
@@ -7973,9 +7973,9 @@ declare module "esri/geometry/Multipoint" {
   export = Multipoint;
 }
 
-declare module "esri/geometry/Point" {
-  import Geometry = require("esri/geometry/Geometry");
-  import SpatialReference = require("esri/SpatialReference");
+declare module "esriV3/geometry/Point" {
+  import Geometry = require("esriV3/geometry/Geometry");
+  import SpatialReference = require("esriV3/SpatialReference");
 
   /** A location defined by an X- and Y- coordinate. */
   class Point extends Geometry {
@@ -8059,11 +8059,11 @@ declare module "esri/geometry/Point" {
   export = Point;
 }
 
-declare module "esri/geometry/Polygon" {
-  import Geometry = require("esri/geometry/Geometry");
-  import SpatialReference = require("esri/SpatialReference");
-  import Point = require("esri/geometry/Point");
-  import Extent = require("esri/geometry/Extent");
+declare module "esriV3/geometry/Polygon" {
+  import Geometry = require("esriV3/geometry/Geometry");
+  import SpatialReference = require("esriV3/SpatialReference");
+  import Point = require("esriV3/geometry/Point");
+  import Extent = require("esriV3/geometry/Extent");
 
   /** An array of rings where each ring is an array of points. */
   class Polygon extends Geometry {
@@ -8148,11 +8148,11 @@ declare module "esri/geometry/Polygon" {
   export = Polygon;
 }
 
-declare module "esri/geometry/Polyline" {
-  import Geometry = require("esri/geometry/Geometry");
-  import SpatialReference = require("esri/SpatialReference");
-  import Point = require("esri/geometry/Point");
-  import Extent = require("esri/geometry/Extent");
+declare module "esriV3/geometry/Polyline" {
+  import Geometry = require("esriV3/geometry/Geometry");
+  import SpatialReference = require("esriV3/SpatialReference");
+  import Point = require("esriV3/geometry/Point");
+  import Extent = require("esriV3/geometry/Extent");
 
   /** An array of paths where each path is an array of points. */
   class Polyline extends Geometry {
@@ -8215,7 +8215,7 @@ declare module "esri/geometry/Polyline" {
   export = Polyline;
 }
 
-declare module "esri/geometry/ScreenPoint" {
+declare module "esriV3/geometry/ScreenPoint" {
   /** ScreenPoint represents a point in terms of pixels relative to the top-left corner of the map control. */
   class ScreenPoint {
     /** X-coordinate relative to the top-left corner of the map control in pixels. */
@@ -8266,9 +8266,9 @@ declare module "esri/geometry/ScreenPoint" {
   export = ScreenPoint;
 }
 
-declare module "esri/geometry/coordinateFormatter" {
-  import SpatialReference = require("esri/SpatialReference");
-  import Point = require("esri/geometry/Point");
+declare module "esriV3/geometry/coordinateFormatter" {
+  import SpatialReference = require("esriV3/SpatialReference");
+  import Point = require("esriV3/geometry/Point");
 
   /** This module converts between points and formatted coordinate notation strings such as: decimal degrees degrees, minutes, and secondsU.S. */
   var coordinateFormatter: {
@@ -8337,10 +8337,10 @@ declare module "esri/geometry/coordinateFormatter" {
   export = coordinateFormatter;
 }
 
-declare module "esri/geometry/geodesicUtils" {
-  import Polygon = require("esri/geometry/Polygon");
-  import Geometry = require("esri/geometry/Geometry");
-  import Polyline = require("esri/geometry/Polyline");
+declare module "esriV3/geometry/geodesicUtils" {
+  import Polygon = require("esriV3/geometry/Polygon");
+  import Geometry = require("esriV3/geometry/Geometry");
+  import Polyline = require("esriV3/geometry/Polyline");
 
   /** Utility methods for various geodesic calculations. */
   var geodesicUtils: {
@@ -8366,13 +8366,13 @@ declare module "esri/geometry/geodesicUtils" {
   export = geodesicUtils;
 }
 
-declare module "esri/geometry/geometryEngine" {
-  import Geometry = require("esri/geometry/Geometry");
-  import Polygon = require("esri/geometry/Polygon");
-  import Extent = require("esri/geometry/Extent");
-  import Polyline = require("esri/geometry/Polyline");
-  import SpatialReference = require("esri/SpatialReference");
-  import Point = require("esri/geometry/Point");
+declare module "esriV3/geometry/geometryEngine" {
+  import Geometry = require("esriV3/geometry/Geometry");
+  import Polygon = require("esriV3/geometry/Polygon");
+  import Extent = require("esriV3/geometry/Extent");
+  import Polyline = require("esriV3/geometry/Polyline");
+  import SpatialReference = require("esriV3/SpatialReference");
+  import Point = require("esriV3/geometry/Point");
 
   /** A client-side geometry engine. */
   var geometryEngine: {
@@ -8609,13 +8609,13 @@ declare module "esri/geometry/geometryEngine" {
   export = geometryEngine;
 }
 
-declare module "esri/geometry/geometryEngineAsync" {
-  import Geometry = require("esri/geometry/Geometry");
-  import Extent = require("esri/geometry/Extent");
-  import Polyline = require("esri/geometry/Polyline");
-  import SpatialReference = require("esri/SpatialReference");
-  import Point = require("esri/geometry/Point");
-  import Polygon = require("esri/geometry/Polygon");
+declare module "esriV3/geometry/geometryEngineAsync" {
+  import Geometry = require("esriV3/geometry/Geometry");
+  import Extent = require("esriV3/geometry/Extent");
+  import Polyline = require("esriV3/geometry/Polyline");
+  import SpatialReference = require("esriV3/SpatialReference");
+  import Point = require("esriV3/geometry/Point");
+  import Polygon = require("esriV3/geometry/Polygon");
 
   /** A client-side asynchronous geometry engine. */
   var geometryEngineAsync: {
@@ -8852,8 +8852,8 @@ declare module "esri/geometry/geometryEngineAsync" {
   export = geometryEngineAsync;
 }
 
-declare module "esri/geometry/jsonUtils" {
-  import Geometry = require("esri/geometry/Geometry");
+declare module "esriV3/geometry/jsonUtils" {
+  import Geometry = require("esriV3/geometry/Geometry");
 
   /** Utility methods for working with JSON geometry objects. */
   var jsonUtils: {
@@ -8871,8 +8871,8 @@ declare module "esri/geometry/jsonUtils" {
   export = jsonUtils;
 }
 
-declare module "esri/geometry/mathUtils" {
-  import Point = require("esri/geometry/Point");
+declare module "esriV3/geometry/mathUtils" {
+  import Point = require("esriV3/geometry/Point");
 
   /** Utility methods for getting length of a line segment or intersection of two segments. */
   var mathUtils: {
@@ -8894,9 +8894,9 @@ declare module "esri/geometry/mathUtils" {
   export = mathUtils;
 }
 
-declare module "esri/geometry/normalizeUtils" {
-  import Geometry = require("esri/geometry/Geometry");
-  import GeometryService = require("esri/tasks/GeometryService");
+declare module "esriV3/geometry/normalizeUtils" {
+  import Geometry = require("esriV3/geometry/Geometry");
+  import GeometryService = require("esriV3/tasks/GeometryService");
 
   /** Normalizes geometries that intersect the central meridian or fall outside the world extent so they stay within the current coordinate system. */
   var normalizeUtils: {
@@ -8912,11 +8912,11 @@ declare module "esri/geometry/normalizeUtils" {
   export = normalizeUtils;
 }
 
-declare module "esri/geometry/projection" {
-  import SpatialReference = require("esri/SpatialReference");
-  import Extent = require("esri/geometry/Extent");
-  import GeographicTransformation = require("esri/geometry/GeographicTransformation");
-  import Geometry = require("esri/geometry/Geometry");
+declare module "esriV3/geometry/projection" {
+  import SpatialReference = require("esriV3/SpatialReference");
+  import Extent = require("esriV3/geometry/Extent");
+  import GeographicTransformation = require("esriV3/geometry/GeographicTransformation");
+  import Geometry = require("esriV3/geometry/Geometry");
 
   /** A client-side projection engine for converting geometries from one SpatialReference to another. */
   var projection: {
@@ -8951,10 +8951,10 @@ declare module "esri/geometry/projection" {
   export = projection;
 }
 
-declare module "esri/geometry/scaleUtils" {
-  import Map = require("esri/map");
-  import Extent = require("esri/geometry/Extent");
-  import SpatialReference = require("esri/SpatialReference");
+declare module "esriV3/geometry/scaleUtils" {
+  import Map = require("esriV3/map");
+  import Extent = require("esriV3/geometry/Extent");
+  import SpatialReference = require("esriV3/SpatialReference");
 
   /** Utility methods to get map scale or extent for a given scale. */
   var scaleUtils: {
@@ -8978,11 +8978,11 @@ declare module "esri/geometry/scaleUtils" {
   export = scaleUtils;
 }
 
-declare module "esri/geometry/screenUtils" {
-  import Extent = require("esri/geometry/Extent");
-  import Geometry = require("esri/geometry/Geometry");
-  import ScreenPoint = require("esri/geometry/ScreenPoint");
-  import Point = require("esri/geometry/Point");
+declare module "esriV3/geometry/screenUtils" {
+  import Extent = require("esriV3/geometry/Extent");
+  import Geometry = require("esriV3/geometry/Geometry");
+  import ScreenPoint = require("esriV3/geometry/ScreenPoint");
+  import Point = require("esriV3/geometry/Point");
 
   /** Convert map coordinates to screen coordinates and vice versa. */
   var screenUtils: {
@@ -9024,9 +9024,9 @@ declare module "esri/geometry/screenUtils" {
   export = screenUtils;
 }
 
-declare module "esri/geometry/webMercatorUtils" {
-  import SpatialReference = require("esri/SpatialReference");
-  import Geometry = require("esri/geometry/Geometry");
+declare module "esriV3/geometry/webMercatorUtils" {
+  import SpatialReference = require("esriV3/SpatialReference");
+  import Geometry = require("esriV3/geometry/Geometry");
 
   /** Convert Web Mercator coordinates to geographic and vice versa. */
   var webMercatorUtils: {
@@ -9069,11 +9069,11 @@ declare module "esri/geometry/webMercatorUtils" {
   export = webMercatorUtils;
 }
 
-declare module "esri/graphic" {
-  import Geometry = require("esri/geometry/Geometry");
-  import InfoTemplate = require("esri/InfoTemplate");
-  import Symbol = require("esri/symbols/Symbol");
-  import Layer = require("esri/layers/layer");
+declare module "esriV3/graphic" {
+  import Geometry = require("esriV3/geometry/Geometry");
+  import InfoTemplate = require("esriV3/InfoTemplate");
+  import Symbol = require("esriV3/symbols/Symbol");
+  import Layer = require("esriV3/layers/layer");
 
   /** A Graphic can contain geometry, a symbol, attributes, or an infoTemplate. */
   class Graphic {
@@ -9169,10 +9169,10 @@ declare module "esri/graphic" {
   export = Graphic;
 }
 
-declare module "esri/graphicsUtils" {
-  import Graphic = require("esri/graphic");
-  import Geometry = require("esri/geometry/Geometry");
-  import Extent = require("esri/geometry/Extent");
+declare module "esriV3/graphicsUtils" {
+  import Graphic = require("esriV3/graphic");
+  import Geometry = require("esriV3/geometry/Geometry");
+  import Extent = require("esriV3/geometry/Extent");
 
   /** Utility methods for working with graphics. */
   var graphicsUtils: {
@@ -9190,7 +9190,7 @@ declare module "esri/graphicsUtils" {
   export = graphicsUtils;
 }
 
-declare module "esri/kernel" {
+declare module "esriV3/kernel" {
   /** Utility methods for retrieving API version. */
   var kernel: {
     /** Current version of the JavaScript API. */
@@ -9199,7 +9199,7 @@ declare module "esri/kernel" {
   export = kernel;
 }
 
-declare module "esri/lang" {
+declare module "esriV3/lang" {
   /** Utility methods for working with strings, arrays and objects. */
   var lang: {
     /**
@@ -9236,16 +9236,16 @@ declare module "esri/lang" {
   export = lang;
 }
 
-declare module "esri/layers/ArcGISDynamicMapServiceLayer" {
-  import esri = require("esri");
-  import DynamicMapServiceLayer = require("esri/layers/DynamicMapServiceLayer");
-  import DynamicLayerInfo = require("esri/layers/DynamicLayerInfo");
-  import LayerDrawingOptions = require("esri/layers/LayerDrawingOptions");
-  import LayerInfo = require("esri/layers/LayerInfo");
-  import LayerTimeOptions = require("esri/layers/LayerTimeOptions");
-  import TimeInfo = require("esri/layers/TimeInfo");
-  import ImageParameters = require("esri/layers/ImageParameters");
-  import MapImage = require("esri/layers/MapImage");
+declare module "esriV3/layers/ArcGISDynamicMapServiceLayer" {
+  import esri = require("esriV3");
+  import DynamicMapServiceLayer = require("esriV3/layers/DynamicMapServiceLayer");
+  import DynamicLayerInfo = require("esriV3/layers/DynamicLayerInfo");
+  import LayerDrawingOptions = require("esriV3/layers/LayerDrawingOptions");
+  import LayerInfo = require("esriV3/layers/LayerInfo");
+  import LayerTimeOptions = require("esriV3/layers/LayerTimeOptions");
+  import TimeInfo = require("esriV3/layers/TimeInfo");
+  import ImageParameters = require("esriV3/layers/ImageParameters");
+  import MapImage = require("esriV3/layers/MapImage");
 
   /** Allows you to work with a dynamic map service resource exposed by the ArcGIS Server REST API. */
   class ArcGISDynamicMapServiceLayer extends DynamicMapServiceLayer {
@@ -9451,17 +9451,17 @@ declare module "esri/layers/ArcGISDynamicMapServiceLayer" {
   export = ArcGISDynamicMapServiceLayer;
 }
 
-declare module "esri/layers/ArcGISImageServiceLayer" {
-  import esri = require("esri");
-  import DynamicMapServiceLayer = require("esri/layers/DynamicMapServiceLayer");
-  import MosaicRule = require("esri/layers/MosaicRule");
-  import InfoTemplate = require("esri/InfoTemplate");
-  import RasterFunction = require("esri/layers/RasterFunction");
-  import TimeInfo = require("esri/layers/TimeInfo");
-  import ImageServiceParameters = require("esri/layers/ImageServiceParameters");
-  import Graphic = require("esri/graphic");
-  import Query = require("esri/tasks/query");
-  import MapImage = require("esri/layers/MapImage");
+declare module "esriV3/layers/ArcGISImageServiceLayer" {
+  import esri = require("esriV3");
+  import DynamicMapServiceLayer = require("esriV3/layers/DynamicMapServiceLayer");
+  import MosaicRule = require("esriV3/layers/MosaicRule");
+  import InfoTemplate = require("esriV3/InfoTemplate");
+  import RasterFunction = require("esriV3/layers/RasterFunction");
+  import TimeInfo = require("esriV3/layers/TimeInfo");
+  import ImageServiceParameters = require("esriV3/layers/ImageServiceParameters");
+  import Graphic = require("esriV3/graphic");
+  import Query = require("esriV3/tasks/query");
+  import MapImage = require("esriV3/layers/MapImage");
 
   /** Allows you to work with an image map service resource exposed by the ArcGIS Server REST API. */
   class ArcGISImageServiceLayer extends DynamicMapServiceLayer {
@@ -9609,10 +9609,10 @@ declare module "esri/layers/ArcGISImageServiceLayer" {
   export = ArcGISImageServiceLayer;
 }
 
-declare module "esri/layers/ArcGISImageServiceVectorLayer" {
-  import esri = require("esri");
-  import GraphicsLayer = require("esri/layers/GraphicsLayer");
-  import Renderer = require("esri/renderers/Renderer");
+declare module "esriV3/layers/ArcGISImageServiceVectorLayer" {
+  import esri = require("esriV3");
+  import GraphicsLayer = require("esriV3/layers/GraphicsLayer");
+  import Renderer = require("esriV3/renderers/Renderer");
 
   /** The ArcGISImageServiceVectorLayer displays pixel values as vectors. */
   class ArcGISImageServiceVectorLayer extends GraphicsLayer {
@@ -9643,11 +9643,11 @@ declare module "esri/layers/ArcGISImageServiceVectorLayer" {
   export = ArcGISImageServiceVectorLayer;
 }
 
-declare module "esri/layers/ArcGISTiledMapServiceLayer" {
-  import esri = require("esri");
-  import TiledMapServiceLayer = require("esri/layers/TiledMapServiceLayer");
-  import LayerInfo = require("esri/layers/LayerInfo");
-  import TimeInfo = require("esri/layers/TimeInfo");
+declare module "esriV3/layers/ArcGISTiledMapServiceLayer" {
+  import esri = require("esriV3");
+  import TiledMapServiceLayer = require("esriV3/layers/TiledMapServiceLayer");
+  import LayerInfo = require("esriV3/layers/LayerInfo");
+  import TimeInfo = require("esriV3/layers/TimeInfo");
 
   /** Allows you to work with a cached map service resource exposed by the ArcGIS Server REST API. */
   class ArcGISTiledMapServiceLayer extends TiledMapServiceLayer {
@@ -9738,9 +9738,9 @@ declare module "esri/layers/ArcGISTiledMapServiceLayer" {
   export = ArcGISTiledMapServiceLayer;
 }
 
-declare module "esri/layers/CSVLayer" {
-  import esri = require("esri");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
+declare module "esriV3/layers/CSVLayer" {
+  import esri = require("esriV3");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
 
   /** CSVLayer extends FeatureLayer to create a point layer based on a CSV file (.csv, .txt). */
   class CSVLayer extends FeatureLayer {
@@ -9768,8 +9768,8 @@ declare module "esri/layers/CSVLayer" {
   export = CSVLayer;
 }
 
-declare module "esri/layers/CodedValueDomain" {
-  import Domain = require("esri/layers/Domain");
+declare module "esriV3/layers/CodedValueDomain" {
+  import Domain = require("esriV3/layers/Domain");
 
   /** Information about the coded values belonging to the domain. */
   class CodedValueDomain extends Domain {
@@ -9784,10 +9784,10 @@ declare module "esri/layers/CodedValueDomain" {
   export = CodedValueDomain;
 }
 
-declare module "esri/layers/DataAdapterFeatureLayer" {
-  import esri = require("esri");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
-  import LocationProviderBase = require("esri/tasks/locationproviders/LocationProviderBase");
+declare module "esriV3/layers/DataAdapterFeatureLayer" {
+  import esri = require("esriV3");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
+  import LocationProviderBase = require("esriV3/tasks/locationproviders/LocationProviderBase");
 
   /** (Currently in beta) Display features using data that contains location information such as X and Y coordinates, Street address, place names etc using a DataAdapter object to retrieve the features and a LocationProvider to generate their geometries. */
   class DataAdapterFeatureLayer extends FeatureLayer {
@@ -9809,7 +9809,7 @@ declare module "esri/layers/DataAdapterFeatureLayer" {
   export = DataAdapterFeatureLayer;
 }
 
-declare module "esri/layers/DataSource" {
+declare module "esriV3/layers/DataSource" {
   /** Used to denote classes that may be used as a data source. */
   class DataSource {
     /**
@@ -9821,7 +9821,7 @@ declare module "esri/layers/DataSource" {
   export = DataSource;
 }
 
-declare module "esri/layers/DimensionalDefinition" {
+declare module "esriV3/layers/DimensionalDefinition" {
   /** A dimensional definition defines a filter based on one variable and one dimension. */
   class DimensionalDefinition {
     /** (Optional) The dimension associated with the variable. */
@@ -9843,7 +9843,7 @@ declare module "esri/layers/DimensionalDefinition" {
   export = DimensionalDefinition;
 }
 
-declare module "esri/layers/Domain" {
+declare module "esriV3/layers/Domain" {
   /** Domains define constraints on a layer field. */
   class Domain {
     /** The domain name. */
@@ -9856,9 +9856,9 @@ declare module "esri/layers/Domain" {
   export = Domain;
 }
 
-declare module "esri/layers/DynamicLayerInfo" {
-  import LayerInfo = require("esri/layers/LayerInfo");
-  import LayerSource = require("esri/layers/LayerSource");
+declare module "esriV3/layers/DynamicLayerInfo" {
+  import LayerInfo = require("esriV3/layers/LayerInfo");
+  import LayerSource = require("esriV3/layers/LayerSource");
 
   /** Information about each layer in a map service. */
   class DynamicLayerInfo extends LayerInfo {
@@ -9889,10 +9889,10 @@ declare module "esri/layers/DynamicLayerInfo" {
   export = DynamicLayerInfo;
 }
 
-declare module "esri/layers/DynamicMapServiceLayer" {
-  import Layer = require("esri/layers/layer");
-  import Extent = require("esri/geometry/Extent");
-  import SpatialReference = require("esri/SpatialReference");
+declare module "esriV3/layers/DynamicMapServiceLayer" {
+  import Layer = require("esriV3/layers/layer");
+  import Extent = require("esriV3/geometry/Extent");
+  import SpatialReference = require("esriV3/SpatialReference");
 
   /** The base class for ArcGIS Server dynamic map services. */
   class DynamicMapServiceLayer extends Layer {
@@ -9916,7 +9916,7 @@ declare module "esri/layers/DynamicMapServiceLayer" {
   export = DynamicMapServiceLayer;
 }
 
-declare module "esri/layers/FeatureEditResult" {
+declare module "esriV3/layers/FeatureEditResult" {
   /** The results of a feature edit such as add, update or delete. */
   class FeatureEditResult {
     /** Unique ID of the attachment. */
@@ -9931,26 +9931,26 @@ declare module "esri/layers/FeatureEditResult" {
   export = FeatureEditResult;
 }
 
-declare module "esri/layers/FeatureLayer" {
-  import esri = require("esri");
-  import GraphicsLayer = require("esri/layers/GraphicsLayer");
-  import Field = require("esri/layers/Field");
-  import Extent = require("esri/geometry/Extent");
-  import Graphic = require("esri/graphic");
-  import LabelClass = require("esri/layers/LabelClass");
-  import Renderer = require("esri/renderers/Renderer");
-  import LayerSource = require("esri/layers/LayerSource");
-  import FeatureTemplate = require("esri/layers/FeatureTemplate");
-  import TimeInfo = require("esri/layers/TimeInfo");
-  import FeatureType = require("esri/layers/FeatureType");
-  import Domain = require("esri/layers/Domain");
-  import Symbol = require("esri/symbols/Symbol");
-  import TimeExtent = require("esri/TimeExtent");
-  import Query = require("esri/tasks/query");
-  import RelationshipQuery = require("esri/tasks/RelationshipQuery");
-  import InfoTemplate = require("esri/InfoTemplate");
-  import FeatureEditResult = require("esri/layers/FeatureEditResult");
-  import FeatureSet = require("esri/tasks/FeatureSet");
+declare module "esriV3/layers/FeatureLayer" {
+  import esri = require("esriV3");
+  import GraphicsLayer = require("esriV3/layers/GraphicsLayer");
+  import Field = require("esriV3/layers/Field");
+  import Extent = require("esriV3/geometry/Extent");
+  import Graphic = require("esriV3/graphic");
+  import LabelClass = require("esriV3/layers/LabelClass");
+  import Renderer = require("esriV3/renderers/Renderer");
+  import LayerSource = require("esriV3/layers/LayerSource");
+  import FeatureTemplate = require("esriV3/layers/FeatureTemplate");
+  import TimeInfo = require("esriV3/layers/TimeInfo");
+  import FeatureType = require("esriV3/layers/FeatureType");
+  import Domain = require("esriV3/layers/Domain");
+  import Symbol = require("esriV3/symbols/Symbol");
+  import TimeExtent = require("esriV3/TimeExtent");
+  import Query = require("esriV3/tasks/query");
+  import RelationshipQuery = require("esriV3/tasks/RelationshipQuery");
+  import InfoTemplate = require("esriV3/InfoTemplate");
+  import FeatureEditResult = require("esriV3/layers/FeatureEditResult");
+  import FeatureSet = require("esriV3/tasks/FeatureSet");
 
   /** The feature layer inherits from the graphics layer and can be used to display features from a single layer in either a Map Service or Feature Service. */
   class FeatureLayer extends GraphicsLayer {
@@ -10401,8 +10401,8 @@ declare module "esri/layers/FeatureLayer" {
   export = FeatureLayer;
 }
 
-declare module "esri/layers/FeatureTemplate" {
-  import Graphic = require("esri/graphic");
+declare module "esriV3/layers/FeatureTemplate" {
+  import Graphic = require("esriV3/graphic");
 
   /** Feature templates define the information required to create a new feature. */
   class FeatureTemplate {
@@ -10444,8 +10444,8 @@ declare module "esri/layers/FeatureTemplate" {
   export = FeatureTemplate;
 }
 
-declare module "esri/layers/FeatureType" {
-  import FeatureTemplate = require("esri/layers/FeatureTemplate");
+declare module "esriV3/layers/FeatureType" {
+  import FeatureTemplate = require("esriV3/layers/FeatureTemplate");
 
   /** A type defined by a feature layer. */
   class FeatureType {
@@ -10463,8 +10463,8 @@ declare module "esri/layers/FeatureType" {
   export = FeatureType;
 }
 
-declare module "esri/layers/Field" {
-  import Domain = require("esri/layers/Domain");
+declare module "esriV3/layers/Field" {
+  import Domain = require("esriV3/layers/Domain");
 
   /** Information about each field in a layer. */
   class Field {
@@ -10490,11 +10490,11 @@ declare module "esri/layers/Field" {
   export = Field;
 }
 
-declare module "esri/layers/GeoRSSLayer" {
-  import esri = require("esri");
-  import Layer = require("esri/layers/layer");
-  import Graphic = require("esri/graphic");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
+declare module "esriV3/layers/GeoRSSLayer" {
+  import esri = require("esriV3");
+  import Layer = require("esriV3/layers/layer");
+  import Graphic = require("esriV3/graphic");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
 
   /** The GeoRSSLayer class is used to create a layer based on GeoRSS. */
   class GeoRSSLayer extends Layer {
@@ -10529,12 +10529,12 @@ declare module "esri/layers/GeoRSSLayer" {
   export = GeoRSSLayer;
 }
 
-declare module "esri/layers/GraphicsLayer" {
-  import esri = require("esri");
-  import Layer = require("esri/layers/layer");
-  import Graphic = require("esri/graphic");
-  import InfoTemplate = require("esri/InfoTemplate");
-  import Renderer = require("esri/renderers/Renderer");
+declare module "esriV3/layers/GraphicsLayer" {
+  import esri = require("esriV3");
+  import Layer = require("esriV3/layers/layer");
+  import Graphic = require("esriV3/graphic");
+  import InfoTemplate = require("esriV3/InfoTemplate");
+  import Renderer = require("esriV3/renderers/Renderer");
 
   /** A layer that contains one or more Graphic features. */
   class GraphicsLayer extends Layer {
@@ -10623,11 +10623,11 @@ declare module "esri/layers/GraphicsLayer" {
   export = GraphicsLayer;
 }
 
-declare module "esri/layers/ImageParameters" {
-  import Extent = require("esri/geometry/Extent");
-  import SpatialReference = require("esri/SpatialReference");
-  import LayerTimeOptions = require("esri/layers/LayerTimeOptions");
-  import TimeExtent = require("esri/TimeExtent");
+declare module "esriV3/layers/ImageParameters" {
+  import Extent = require("esriV3/geometry/Extent");
+  import SpatialReference = require("esriV3/SpatialReference");
+  import LayerTimeOptions = require("esriV3/layers/LayerTimeOptions");
+  import TimeExtent = require("esriV3/TimeExtent");
 
   /** Represents the image parameter options used when calling ArcGISDynamicMapServiceLayer.exportMapImage, Geoprocessor.getResultImage, and Geoprocessor.getResultImageLayer. */
   class ImageParameters {
@@ -10669,11 +10669,11 @@ declare module "esri/layers/ImageParameters" {
   export = ImageParameters;
 }
 
-declare module "esri/layers/ImageServiceParameters" {
-  import Extent = require("esri/geometry/Extent");
-  import MosaicRule = require("esri/layers/MosaicRule");
-  import RasterFunction = require("esri/layers/RasterFunction");
-  import TimeExtent = require("esri/TimeExtent");
+declare module "esriV3/layers/ImageServiceParameters" {
+  import Extent = require("esriV3/geometry/Extent");
+  import MosaicRule = require("esriV3/layers/MosaicRule");
+  import RasterFunction = require("esriV3/layers/RasterFunction");
+  import TimeExtent = require("esriV3/TimeExtent");
 
   /** Represents the image service parameter options used when calling ArcGISImageServiceLayer.exportMapImage. */
   class ImageServiceParameters {
@@ -10713,8 +10713,8 @@ declare module "esri/layers/ImageServiceParameters" {
   export = ImageServiceParameters;
 }
 
-declare module "esri/layers/InheritedDomain" {
-  import Domain = require("esri/layers/Domain");
+declare module "esriV3/layers/InheritedDomain" {
+  import Domain = require("esriV3/layers/Domain");
 
   /** This class is a subclass of esri/layers/Domain. */
   class InheritedDomain extends Domain {
@@ -10722,9 +10722,9 @@ declare module "esri/layers/InheritedDomain" {
   export = InheritedDomain;
 }
 
-declare module "esri/layers/JoinDataSource" {
-  import DataSource = require("esri/layers/DataSource");
-  import LayerSource = require("esri/layers/LayerSource");
+declare module "esriV3/layers/JoinDataSource" {
+  import DataSource = require("esriV3/layers/DataSource");
+  import LayerSource = require("esriV3/layers/LayerSource");
 
   /** The JoinDataSource class defines and provides information about the result of a join operation. */
   class JoinDataSource extends DataSource {
@@ -10749,7 +10749,7 @@ declare module "esri/layers/JoinDataSource" {
   export = JoinDataSource;
 }
 
-declare module "esri/layers/KMLFolder" {
+declare module "esriV3/layers/KMLFolder" {
   /** Defines information about a KML folder. */
   class KMLFolder {
     /** The KML folder description. */
@@ -10772,8 +10772,8 @@ declare module "esri/layers/KMLFolder" {
   export = KMLFolder;
 }
 
-declare module "esri/layers/KMLGroundOverlay" {
-  import Extent = require("esri/geometry/Extent");
+declare module "esriV3/layers/KMLGroundOverlay" {
+  import Extent = require("esriV3/geometry/Extent");
 
   /** The KMLGroundOverlay class provides details about a KML ground overlay. */
   class KMLGroundOverlay {
@@ -10801,10 +10801,10 @@ declare module "esri/layers/KMLGroundOverlay" {
   export = KMLGroundOverlay;
 }
 
-declare module "esri/layers/KMLLayer" {
-  import esri = require("esri");
-  import Layer = require("esri/layers/layer");
-  import KMLFolder = require("esri/layers/KMLFolder");
+declare module "esriV3/layers/KMLLayer" {
+  import esri = require("esriV3");
+  import Layer = require("esriV3/layers/layer");
+  import KMLFolder = require("esriV3/layers/KMLFolder");
 
   /** The KMLLayer class is used to create a layer based on a KML file (.kml, .kmz). */
   class KMLLayer extends Layer {
@@ -10847,7 +10847,7 @@ declare module "esri/layers/KMLLayer" {
   export = KMLLayer;
 }
 
-declare module "esri/layers/LOD" {
+declare module "esriV3/layers/LOD" {
   /** An ArcGISTiledMapServiceLayer has a number of LODs (Levels of Detail). */
   class LOD {
     /** ID for each level. */
@@ -10862,8 +10862,8 @@ declare module "esri/layers/LOD" {
   export = LOD;
 }
 
-declare module "esri/layers/LabelClass" {
-  import TextSymbol = require("esri/symbols/TextSymbol");
+declare module "esriV3/layers/LabelClass" {
+  import TextSymbol = require("esriV3/symbols/TextSymbol");
 
   /** Use label classes to restrict labels to certain features or to specify different label fields, symbols, scale ranges, label priorities, and sets of label placement options for different groups of labels. */
   class LabelClass {
@@ -10896,13 +10896,13 @@ declare module "esri/layers/LabelClass" {
   export = LabelClass;
 }
 
-declare module "esri/layers/LabelLayer" {
-  import esri = require("esri");
-  import GraphicsLayer = require("esri/layers/GraphicsLayer");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
-  import SimpleRenderer = require("esri/renderers/SimpleRenderer");
-  import UniqueValueRenderer = require("esri/renderers/UniqueValueRenderer");
-  import ClassBreaksRenderer = require("esri/renderers/ClassBreaksRenderer");
+declare module "esriV3/layers/LabelLayer" {
+  import esri = require("esriV3");
+  import GraphicsLayer = require("esriV3/layers/GraphicsLayer");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
+  import SimpleRenderer = require("esriV3/renderers/SimpleRenderer");
+  import UniqueValueRenderer = require("esriV3/renderers/UniqueValueRenderer");
+  import ClassBreaksRenderer = require("esriV3/renderers/ClassBreaksRenderer");
 
   /** NOTE: Deprecated as of version 3.14, read below for additional information on the suggested method of labeling. */
   class LabelLayer extends GraphicsLayer {
@@ -10927,9 +10927,9 @@ declare module "esri/layers/LabelLayer" {
   export = LabelLayer;
 }
 
-declare module "esri/layers/LayerDataSource" {
-  import LayerSource = require("esri/layers/LayerSource");
-  import DataSource = require("esri/layers/DataSource");
+declare module "esriV3/layers/LayerDataSource" {
+  import LayerSource = require("esriV3/layers/LayerSource");
+  import DataSource = require("esriV3/layers/DataSource");
 
   /** The LayerDataSource class defines and provides information about a layer created on the fly from a data source. */
   class LayerDataSource extends LayerSource {
@@ -10946,9 +10946,9 @@ declare module "esri/layers/LayerDataSource" {
   export = LayerDataSource;
 }
 
-declare module "esri/layers/LayerDrawingOptions" {
-  import LabelClass = require("esri/layers/LabelClass");
-  import Renderer = require("esri/renderers/Renderer");
+declare module "esriV3/layers/LayerDrawingOptions" {
+  import LabelClass = require("esriV3/layers/LabelClass");
+  import Renderer = require("esriV3/renderers/Renderer");
 
   /** The LayerDrawingOptions class provides options for setting ArcGISDynamicMapServiceLayer rendering options. */
   class LayerDrawingOptions {
@@ -10973,7 +10973,7 @@ declare module "esri/layers/LayerDrawingOptions" {
   export = LayerDrawingOptions;
 }
 
-declare module "esri/layers/LayerInfo" {
+declare module "esriV3/layers/LayerInfo" {
   /** Contains information about each layer in a map service. */
   class LayerInfo {
     /** Default visibility of the layers in the map service. */
@@ -10994,8 +10994,8 @@ declare module "esri/layers/LayerInfo" {
   export = LayerInfo;
 }
 
-declare module "esri/layers/LayerMapSource" {
-  import LayerSource = require("esri/layers/LayerSource");
+declare module "esriV3/layers/LayerMapSource" {
+  import LayerSource = require("esriV3/layers/LayerSource");
 
   /** The LayerMapSource class defines and provides information about an existing map service layer. */
   class LayerMapSource extends LayerSource {
@@ -11014,7 +11014,7 @@ declare module "esri/layers/LayerMapSource" {
   export = LayerMapSource;
 }
 
-declare module "esri/layers/LayerSource" {
+declare module "esriV3/layers/LayerSource" {
   /** Used to denote classes that may be used as a layer's source. */
   class LayerSource {
     /** Used to describe the origin of the LayerSource. */
@@ -11028,7 +11028,7 @@ declare module "esri/layers/LayerSource" {
   export = LayerSource;
 }
 
-declare module "esri/layers/LayerTimeOptions" {
+declare module "esriV3/layers/LayerTimeOptions" {
   /** Defines the time options for the layer. */
   class LayerTimeOptions {
     /** If true, the layer will draw all features from the beginning of the data's time extent. */
@@ -11043,9 +11043,9 @@ declare module "esri/layers/LayerTimeOptions" {
   export = LayerTimeOptions;
 }
 
-declare module "esri/layers/MapImage" {
-  import esri = require("esri");
-  import Extent = require("esri/geometry/Extent");
+declare module "esriV3/layers/MapImage" {
+  import esri = require("esriV3");
+  import Extent = require("esriV3/geometry/Extent");
 
   /** Represents the data object for the dynamically generated map. */
   class MapImage {
@@ -11068,9 +11068,9 @@ declare module "esri/layers/MapImage" {
   export = MapImage;
 }
 
-declare module "esri/layers/MapImageLayer" {
-  import Layer = require("esri/layers/layer");
-  import MapImage = require("esri/layers/MapImage");
+declare module "esriV3/layers/MapImageLayer" {
+  import Layer = require("esriV3/layers/layer");
+  import MapImage = require("esriV3/layers/MapImage");
 
   /** The MapImageLayer class is used to add georeferenced images to the map. */
   class MapImageLayer extends Layer {
@@ -11097,9 +11097,9 @@ declare module "esri/layers/MapImageLayer" {
   export = MapImageLayer;
 }
 
-declare module "esri/layers/MosaicRule" {
-  import DimensionalDefinition = require("esri/layers/DimensionalDefinition");
-  import Point = require("esri/geometry/Point");
+declare module "esriV3/layers/MosaicRule" {
+  import DimensionalDefinition = require("esriV3/layers/DimensionalDefinition");
+  import Point = require("esriV3/geometry/Point");
 
   /** Specifies the mosaic rule when defining how individual images should be mosaicked. */
   class MosaicRule {
@@ -11166,9 +11166,9 @@ declare module "esri/layers/MosaicRule" {
   export = MosaicRule;
 }
 
-declare module "esri/layers/OpenStreetMapLayer" {
-  import esri = require("esri");
-  import TiledMapServiceLayer = require("esri/layers/TiledMapServiceLayer");
+declare module "esriV3/layers/OpenStreetMapLayer" {
+  import esri = require("esriV3");
+  import TiledMapServiceLayer = require("esriV3/layers/TiledMapServiceLayer");
 
   /** Allows you to use basemaps from  OpenStreetMap . */
   class OpenStreetMapLayer extends TiledMapServiceLayer {
@@ -11183,8 +11183,8 @@ declare module "esri/layers/OpenStreetMapLayer" {
   export = OpenStreetMapLayer;
 }
 
-declare module "esri/layers/PixelBlock" {
-  import esri = require("esri");
+declare module "esriV3/layers/PixelBlock" {
+  import esri = require("esriV3");
 
   /** The PixelBlock is used to hold pixels. */
   class PixelBlock {
@@ -11220,9 +11220,9 @@ declare module "esri/layers/PixelBlock" {
   export = PixelBlock;
 }
 
-declare module "esri/layers/QueryDataSource" {
-  import DataSource = require("esri/layers/DataSource");
-  import SpatialReference = require("esri/SpatialReference");
+declare module "esriV3/layers/QueryDataSource" {
+  import DataSource = require("esriV3/layers/DataSource");
+  import SpatialReference = require("esriV3/SpatialReference");
 
   /** The QueryDataSource class defines and provides information about a layer or table that is defined by a SQL query. */
   class QueryDataSource extends DataSource {
@@ -11247,8 +11247,8 @@ declare module "esri/layers/QueryDataSource" {
   export = QueryDataSource;
 }
 
-declare module "esri/layers/RangeDomain" {
-  import Domain = require("esri/layers/Domain");
+declare module "esriV3/layers/RangeDomain" {
+  import Domain = require("esriV3/layers/Domain");
 
   /** Information about the range of values belonging to the domain. */
   class RangeDomain extends Domain {
@@ -11260,8 +11260,8 @@ declare module "esri/layers/RangeDomain" {
   export = RangeDomain;
 }
 
-declare module "esri/layers/RasterDataSource" {
-  import DataSource = require("esri/layers/DataSource");
+declare module "esriV3/layers/RasterDataSource" {
+  import DataSource = require("esriV3/layers/DataSource");
 
   /** The RasterDataSource class defines and provides information about a file-based raster that resides in a registered raster workspace. */
   class RasterDataSource extends DataSource {
@@ -11280,7 +11280,7 @@ declare module "esri/layers/RasterDataSource" {
   export = RasterDataSource;
 }
 
-declare module "esri/layers/RasterFunction" {
+declare module "esriV3/layers/RasterFunction" {
   /** Specifies the processing to be done to the image service. */
   class RasterFunction {
     /**
@@ -11309,9 +11309,9 @@ declare module "esri/layers/RasterFunction" {
   export = RasterFunction;
 }
 
-declare module "esri/layers/RasterLayer" {
-  import esri = require("esri");
-  import Layer = require("esri/layers/layer");
+declare module "esriV3/layers/RasterLayer" {
+  import esri = require("esriV3");
+  import Layer = require("esriV3/layers/layer");
 
   /** The RasterLayer is used to display image services. */
   class RasterLayer extends Layer {
@@ -11346,12 +11346,12 @@ declare module "esri/layers/RasterLayer" {
   export = RasterLayer;
 }
 
-declare module "esri/layers/StreamLayer" {
-  import esri = require("esri");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
-  import Extent = require("esri/geometry/Extent");
-  import Graphic = require("esri/graphic");
-  import Layer = require("esri/layers/layer");
+declare module "esriV3/layers/StreamLayer" {
+  import esri = require("esriV3");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
+  import Extent = require("esriV3/geometry/Extent");
+  import Graphic = require("esriV3/graphic");
+  import Layer = require("esriV3/layers/layer");
 
   /** The stream layer extends the feature layer to add the ability to connect to a stream of data using HTML5 WebSockets. */
   class StreamLayer extends FeatureLayer {
@@ -11432,8 +11432,8 @@ declare module "esri/layers/StreamLayer" {
   export = StreamLayer;
 }
 
-declare module "esri/layers/TableDataSource" {
-  import DataSource = require("esri/layers/DataSource");
+declare module "esriV3/layers/TableDataSource" {
+  import DataSource = require("esriV3/layers/DataSource");
 
   /** The TableDataSource class defines and provides information about a table, feature class, or raster that resides in a registered file geodatabase, SDE or Shapefile workspace. */
   class TableDataSource extends DataSource {
@@ -11454,10 +11454,10 @@ declare module "esri/layers/TableDataSource" {
   export = TableDataSource;
 }
 
-declare module "esri/layers/TileInfo" {
-  import LOD = require("esri/layers/LOD");
-  import Point = require("esri/geometry/Point");
-  import SpatialReference = require("esri/SpatialReference");
+declare module "esriV3/layers/TileInfo" {
+  import LOD = require("esriV3/layers/LOD");
+  import Point = require("esriV3/geometry/Point");
+  import SpatialReference = require("esriV3/SpatialReference");
 
   /** Contains information about the tiling scheme for an ArcGISTiledMapServiceLayer. */
   class TileInfo {
@@ -11486,11 +11486,11 @@ declare module "esri/layers/TileInfo" {
   export = TileInfo;
 }
 
-declare module "esri/layers/TiledMapServiceLayer" {
-  import Layer = require("esri/layers/layer");
-  import Extent = require("esri/geometry/Extent");
-  import SpatialReference = require("esri/SpatialReference");
-  import TileInfo = require("esri/layers/TileInfo");
+declare module "esriV3/layers/TiledMapServiceLayer" {
+  import Layer = require("esriV3/layers/layer");
+  import Extent = require("esriV3/geometry/Extent");
+  import SpatialReference = require("esriV3/SpatialReference");
+  import TileInfo = require("esriV3/layers/TileInfo");
 
   /** The base class for all tiled map service layers. */
   class TiledMapServiceLayer extends Layer {
@@ -11519,10 +11519,10 @@ declare module "esri/layers/TiledMapServiceLayer" {
   export = TiledMapServiceLayer;
 }
 
-declare module "esri/layers/TimeInfo" {
-  import LayerTimeOptions = require("esri/layers/LayerTimeOptions");
-  import TimeExtent = require("esri/TimeExtent");
-  import TimeReference = require("esri/layers/TimeReference");
+declare module "esriV3/layers/TimeInfo" {
+  import LayerTimeOptions = require("esriV3/layers/LayerTimeOptions");
+  import TimeExtent = require("esriV3/TimeExtent");
+  import TimeReference = require("esriV3/layers/TimeReference");
 
   /** Time information details. */
   class TimeInfo {
@@ -11568,7 +11568,7 @@ declare module "esri/layers/TimeInfo" {
   export = TimeInfo;
 }
 
-declare module "esri/layers/TimeReference" {
+declare module "esriV3/layers/TimeReference" {
   /** TimeReference contains read-only information about how the time was captured when the data was created. */
   class TimeReference {
     /** A read-only property that indicates whether the time reference takes into account daylight savings time. */
@@ -11579,12 +11579,12 @@ declare module "esri/layers/TimeReference" {
   export = TimeReference;
 }
 
-declare module "esri/layers/VectorTileLayer" {
-  import esri = require("esri");
-  import Layer = require("esri/layers/layer");
-  import Extent = require("esri/geometry/Extent");
-  import SpatialReference = require("esri/SpatialReference");
-  import TileInfo = require("esri/layers/TileInfo");
+declare module "esriV3/layers/VectorTileLayer" {
+  import esri = require("esriV3");
+  import Layer = require("esriV3/layers/layer");
+  import Extent = require("esriV3/geometry/Extent");
+  import SpatialReference = require("esriV3/SpatialReference");
+  import TileInfo = require("esriV3/layers/TileInfo");
 
   /** A VectorTileLayer renders cached tiles of data. */
   class VectorTileLayer extends Layer {
@@ -11626,10 +11626,10 @@ declare module "esri/layers/VectorTileLayer" {
   export = VectorTileLayer;
 }
 
-declare module "esri/layers/WCSConnection" {
-  import esri = require("esri");
-  import WCSCoverageDescription = require("esri/layers/WCSCoverageDescription");
-  import DimensionalDefinition = require("esri/layers/DimensionalDefinition");
+declare module "esriV3/layers/WCSConnection" {
+  import esri = require("esriV3");
+  import WCSCoverageDescription = require("esriV3/layers/WCSCoverageDescription");
+  import DimensionalDefinition = require("esriV3/layers/DimensionalDefinition");
 
   /** (Currently in beta), a helper class to discover available coverages in an OGC Web Coverage Service. */
   class WCSConnection {
@@ -11674,10 +11674,10 @@ declare module "esri/layers/WCSConnection" {
   export = WCSConnection;
 }
 
-declare module "esri/layers/WCSCoverageDescription" {
-  import Extent = require("esri/geometry/Extent");
-  import Point = require("esri/geometry/Point");
-  import TimeInfo = require("esri/layers/TimeInfo");
+declare module "esriV3/layers/WCSCoverageDescription" {
+  import Extent = require("esriV3/geometry/Extent");
+  import Point = require("esriV3/geometry/Point");
+  import TimeInfo = require("esriV3/layers/TimeInfo");
 
   /** (Currently in beta), the WCSCoverageDescription models the coverage properties offered by the WCS Server. */
   class WCSCoverageDescription {
@@ -11725,15 +11725,15 @@ declare module "esri/layers/WCSCoverageDescription" {
   export = WCSCoverageDescription;
 }
 
-declare module "esri/layers/WCSLayer" {
-  import esri = require("esri");
-  import WCSCoverageDescription = require("esri/layers/WCSCoverageDescription");
-  import Extent = require("esri/geometry/Extent");
-  import DimensionalDefinition = require("esri/layers/DimensionalDefinition");
-  import TimeInfo = require("esri/layers/TimeInfo");
-  import WCSConnection = require("esri/layers/WCSConnection");
-  import Point = require("esri/geometry/Point");
-  import Layer = require("esri/layers/layer");
+declare module "esriV3/layers/WCSLayer" {
+  import esri = require("esriV3");
+  import WCSCoverageDescription = require("esriV3/layers/WCSCoverageDescription");
+  import Extent = require("esriV3/geometry/Extent");
+  import DimensionalDefinition = require("esriV3/layers/DimensionalDefinition");
+  import TimeInfo = require("esriV3/layers/TimeInfo");
+  import WCSConnection = require("esriV3/layers/WCSConnection");
+  import Point = require("esriV3/geometry/Point");
+  import Layer = require("esriV3/layers/layer");
 
   /** The WCSLayer works with OGC Web Coverage Services. */
   class WCSLayer {
@@ -11844,14 +11844,14 @@ declare module "esri/layers/WCSLayer" {
   export = WCSLayer;
 }
 
-declare module "esri/layers/WFSLayer" {
-  import esri = require("esri");
-  import GraphicsLayer = require("esri/layers/GraphicsLayer");
-  import Field = require("esri/layers/Field");
-  import Extent = require("esri/geometry/Extent");
-  import Graphic = require("esri/graphic");
-  import InfoTemplate = require("esri/InfoTemplate");
-  import Renderer = require("esri/renderers/Renderer");
+declare module "esriV3/layers/WFSLayer" {
+  import esri = require("esriV3");
+  import GraphicsLayer = require("esriV3/layers/GraphicsLayer");
+  import Field = require("esriV3/layers/Field");
+  import Extent = require("esriV3/geometry/Extent");
+  import Graphic = require("esriV3/graphic");
+  import InfoTemplate = require("esriV3/InfoTemplate");
+  import Renderer = require("esriV3/renderers/Renderer");
 
   /** (Currently in beta)  A layer for OGC Web Feature Services (WFS). */
   class WFSLayer extends GraphicsLayer {
@@ -11904,12 +11904,12 @@ declare module "esri/layers/WFSLayer" {
   export = WFSLayer;
 }
 
-declare module "esri/layers/WMSLayer" {
-  import esri = require("esri");
-  import DynamicMapServiceLayer = require("esri/layers/DynamicMapServiceLayer");
-  import Extent = require("esri/geometry/Extent");
-  import WMSLayerInfo = require("esri/layers/WMSLayerInfo");
-  import SpatialReference = require("esri/SpatialReference");
+declare module "esriV3/layers/WMSLayer" {
+  import esri = require("esriV3");
+  import DynamicMapServiceLayer = require("esriV3/layers/DynamicMapServiceLayer");
+  import Extent = require("esriV3/geometry/Extent");
+  import WMSLayerInfo = require("esriV3/layers/WMSLayerInfo");
+  import SpatialReference = require("esriV3/SpatialReference");
 
   /** A layer for OGC Web Map Services (WMS). */
   class WMSLayer extends DynamicMapServiceLayer {
@@ -11982,9 +11982,9 @@ declare module "esri/layers/WMSLayer" {
   export = WMSLayer;
 }
 
-declare module "esri/layers/WMSLayerInfo" {
-  import esri = require("esri");
-  import Extent = require("esri/geometry/Extent");
+declare module "esriV3/layers/WMSLayerInfo" {
+  import esri = require("esriV3");
+  import Extent = require("esriV3/geometry/Extent");
 
   /** The WMSLayerInfo class defines and provides information about layers in a WMS service. */
   class WMSLayerInfo {
@@ -12017,13 +12017,13 @@ declare module "esri/layers/WMSLayerInfo" {
   export = WMSLayerInfo;
 }
 
-declare module "esri/layers/WMTSLayer" {
-  import esri = require("esri");
-  import TiledMapServiceLayer = require("esri/layers/TiledMapServiceLayer");
-  import Extent = require("esri/geometry/Extent");
-  import SpatialReference = require("esri/SpatialReference");
-  import TileInfo = require("esri/layers/TileInfo");
-  import WMTSLayerInfo = require("esri/layers/WMTSLayerInfo");
+declare module "esriV3/layers/WMTSLayer" {
+  import esri = require("esriV3");
+  import TiledMapServiceLayer = require("esriV3/layers/TiledMapServiceLayer");
+  import Extent = require("esriV3/geometry/Extent");
+  import SpatialReference = require("esriV3/SpatialReference");
+  import TileInfo = require("esriV3/layers/TileInfo");
+  import WMTSLayerInfo = require("esriV3/layers/WMTSLayerInfo");
 
   /** The WMTSLayer class is used to create a layer based on an OGC Web Map Tile Service layer. */
   class WMTSLayer extends TiledMapServiceLayer {
@@ -12074,8 +12074,8 @@ declare module "esri/layers/WMTSLayer" {
   export = WMTSLayer;
 }
 
-declare module "esri/layers/WMTSLayerInfo" {
-  import esri = require("esri");
+declare module "esriV3/layers/WMTSLayerInfo" {
+  import esri = require("esriV3");
 
   /** The WMTSLayerInfo class defines and provides information about layers in a WMTS service. */
   class WMTSLayerInfo {
@@ -12088,12 +12088,12 @@ declare module "esri/layers/WMTSLayerInfo" {
   export = WMTSLayerInfo;
 }
 
-declare module "esri/layers/WebTiledLayer" {
-  import esri = require("esri");
-  import TiledMapServiceLayer = require("esri/layers/TiledMapServiceLayer");
-  import Extent = require("esri/geometry/Extent");
-  import SpatialReference = require("esri/SpatialReference");
-  import TileInfo = require("esri/layers/TileInfo");
+declare module "esriV3/layers/WebTiledLayer" {
+  import esri = require("esriV3");
+  import TiledMapServiceLayer = require("esriV3/layers/TiledMapServiceLayer");
+  import Extent = require("esriV3/geometry/Extent");
+  import SpatialReference = require("esriV3/SpatialReference");
+  import TileInfo = require("esriV3/layers/TileInfo");
 
   /** The WebTiledLayer class provides a simple way to add non-ArcGIS Server map tiles as a layer to a map. */
   class WebTiledLayer extends TiledMapServiceLayer {
@@ -12119,10 +12119,10 @@ declare module "esri/layers/WebTiledLayer" {
   export = WebTiledLayer;
 }
 
-declare module "esri/layers/layer" {
-  import esri = require("esri");
-  import Credential = require("esri/Credential");
-  import Map = require("esri/map");
+declare module "esriV3/layers/layer" {
+  import esri = require("esriV3");
+  import Credential = require("esriV3/Credential");
+  import Map = require("esriV3/map");
 
   /** The base class for all layers that can be added to a map. */
   class Layer {
@@ -12248,8 +12248,8 @@ declare module "esri/layers/layer" {
   export = Layer;
 }
 
-declare module "esri/layers/pixelfilters/StretchFilter" {
-  import esri = require("esri");
+declare module "esriV3/layers/pixelfilters/StretchFilter" {
+  import esri = require("esriV3");
 
   /** A stretch filter used to work with client -side pixel data to enhance raster/image appearances. */
   class StretchFilter {
@@ -12289,21 +12289,21 @@ declare module "esri/layers/pixelfilters/StretchFilter" {
   export = StretchFilter;
 }
 
-declare module "esri/map" {
-  import esri = require("esri");
-  import Attribution = require("esri/dijit/Attribution");
-  import Color = require("esri/Color");
-  import Extent = require("esri/geometry/Extent");
-  import GraphicsLayer = require("esri/layers/GraphicsLayer");
-  import InfoWindowBase = require("esri/InfoWindowBase");
-  import Point = require("esri/geometry/Point");
-  import SnappingManager = require("esri/SnappingManager");
-  import SpatialReference = require("esri/SpatialReference");
-  import TimeExtent = require("esri/TimeExtent");
-  import Layer = require("esri/layers/layer");
-  import ScreenPoint = require("esri/geometry/ScreenPoint");
-  import TimeSlider = require("esri/dijit/TimeSlider");
-  import LOD = require("esri/layers/LOD");
+declare module "esriV3/map" {
+  import esri = require("esriV3");
+  import Attribution = require("esriV3/dijit/Attribution");
+  import Color = require("esriV3/Color");
+  import Extent = require("esriV3/geometry/Extent");
+  import GraphicsLayer = require("esriV3/layers/GraphicsLayer");
+  import InfoWindowBase = require("esriV3/InfoWindowBase");
+  import Point = require("esriV3/geometry/Point");
+  import SnappingManager = require("esriV3/SnappingManager");
+  import SpatialReference = require("esriV3/SpatialReference");
+  import TimeExtent = require("esriV3/TimeExtent");
+  import Layer = require("esriV3/layers/layer");
+  import ScreenPoint = require("esriV3/geometry/ScreenPoint");
+  import TimeSlider = require("esriV3/dijit/TimeSlider");
+  import LOD = require("esriV3/layers/LOD");
 
   /** The Map class creates a container and required DOM structure for adding layers, graphics, an info window, and other navigation controls. */
   class Map {
@@ -12687,9 +12687,9 @@ declare module "esri/map" {
   export = Map;
 }
 
-declare module "esri/plugins/FeatureLayerStatistics" {
-  import esri = require("esri");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
+declare module "esriV3/plugins/FeatureLayerStatistics" {
+  import esri = require("esriV3");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
 
   /** This module defines a class and a feature layer plugin that is used to calculate feature layer statistics. */
   class FeatureLayerStatistics {
@@ -12753,9 +12753,9 @@ declare module "esri/plugins/FeatureLayerStatistics" {
   export = FeatureLayerStatistics;
 }
 
-declare module "esri/plugins/spatialIndex" {
-  import Map = require("esri/map");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
+declare module "esriV3/plugins/spatialIndex" {
+  import Map = require("esriV3/map");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
 
   /** A static utility module that adds or removes a SpatialIndex instance on a Map or FeatureLayer. */
   var spatialIndex: {
@@ -12771,10 +12771,10 @@ declare module "esri/plugins/spatialIndex" {
   export = spatialIndex;
 }
 
-declare module "esri/process/Processor" {
-  import esri = require("esri");
-  import FeatureLayer = require("esri/layers/FeatureLayer");
-  import Map = require("esri/map");
+declare module "esriV3/process/Processor" {
+  import esri = require("esriV3");
+  import FeatureLayer = require("esriV3/layers/FeatureLayer");
+  import Map = require("esriV3/map");
 
   /** The base processor class provides the generic api for processors and provides an extension point from which developers can create and extend additional processors. */
   class Processor {
@@ -12823,12 +12823,12 @@ declare module "esri/process/Processor" {
   export = Processor;
 }
 
-declare module "esri/process/SpatialIndex" {
-  import esri = require("esri");
-  import Processor = require("esri/process/Processor");
-  import Point = require("esri/geometry/Point");
-  import Graphic = require("esri/graphic");
-  import Extent = require("esri/geometry/Extent");
+declare module "esriV3/process/SpatialIndex" {
+  import esri = require("esriV3");
+  import Processor = require("esriV3/process/Processor");
+  import Point = require("esriV3/geometry/Point");
+  import Graphic = require("esriV3/graphic");
+  import Extent = require("esriV3/geometry/Extent");
 
   /** Builds and maintains a spatial index of feature geometry in one or more FeatureLayer. */
   class SpatialIndex extends Processor {
@@ -12854,9 +12854,9 @@ declare module "esri/process/SpatialIndex" {
   export = SpatialIndex;
 }
 
-declare module "esri/renderers/BlendRenderer" {
-  import esri = require("esri");
-  import Symbol = require("esri/symbols/Symbol");
+declare module "esriV3/renderers/BlendRenderer" {
+  import esri = require("esriV3");
+  import Symbol = require("esriV3/symbols/Symbol");
 
   /** (Currently in beta) BlendRenderer allows you to easily identify the predominant attribute among two or more competing attributes of a feature and visualizes the strength of that predominance using blended colors. */
   class BlendRenderer {
@@ -12904,11 +12904,11 @@ declare module "esri/renderers/BlendRenderer" {
   export = BlendRenderer;
 }
 
-declare module "esri/renderers/ClassBreaksRenderer" {
-  import Renderer = require("esri/renderers/Renderer");
-  import FillSymbol = require("esri/symbols/FillSymbol");
-  import Symbol = require("esri/symbols/Symbol");
-  import Graphic = require("esri/graphic");
+declare module "esriV3/renderers/ClassBreaksRenderer" {
+  import Renderer = require("esriV3/renderers/Renderer");
+  import FillSymbol = require("esriV3/symbols/FillSymbol");
+  import Symbol = require("esriV3/symbols/Symbol");
+  import Graphic = require("esriV3/graphic");
 
   /** A class breaks renderer symbolizes each graphic based on the value of some numeric attribute. */
   class ClassBreaksRenderer extends Renderer {
@@ -12986,11 +12986,11 @@ declare module "esri/renderers/ClassBreaksRenderer" {
   export = ClassBreaksRenderer;
 }
 
-declare module "esri/renderers/DotDensityRenderer" {
-  import esri = require("esri");
-  import Renderer = require("esri/renderers/Renderer");
-  import Color = require("esri/Color");
-  import LineSymbol = require("esri/symbols/LineSymbol");
+declare module "esriV3/renderers/DotDensityRenderer" {
+  import esri = require("esriV3");
+  import Renderer = require("esriV3/renderers/Renderer");
+  import Color = require("esriV3/Color");
+  import LineSymbol = require("esriV3/symbols/LineSymbol");
 
   /** The DotDensityRenderer provides the ability to create dot density visualizations on data. */
   class DotDensityRenderer extends Renderer {
@@ -13035,9 +13035,9 @@ declare module "esri/renderers/DotDensityRenderer" {
   export = DotDensityRenderer;
 }
 
-declare module "esri/renderers/HeatmapRenderer" {
-  import esri = require("esri");
-  import Renderer = require("esri/renderers/Renderer");
+declare module "esriV3/renderers/HeatmapRenderer" {
+  import esri = require("esriV3");
+  import Renderer = require("esriV3/renderers/Renderer");
 
   /** The HeatmapRenderer renders feature layer point data into a raster visualization that emphasizes areas of higher density or weighted values. */
   class HeatmapRenderer extends Renderer {
@@ -13094,10 +13094,10 @@ declare module "esri/renderers/HeatmapRenderer" {
   export = HeatmapRenderer;
 }
 
-declare module "esri/renderers/Renderer" {
-  import Graphic = require("esri/graphic");
-  import Color = require("esri/Color");
-  import Symbol = require("esri/symbols/Symbol");
+declare module "esriV3/renderers/Renderer" {
+  import Graphic = require("esriV3/graphic");
+  import Color = require("esriV3/Color");
+  import Symbol = require("esriV3/symbols/Symbol");
 
   /** The base class for the renderers - SimpleRenderer, ClassBreaksRenderer, UniqueValueRenderer, DotDensityRenderer, ScaleDependentRenderer, TemporalRenderer, HeatmapRenderer, and VectorFieldRenderer used with a GraphicsLayer and FeatureLayer. */
   class Renderer {
@@ -13194,10 +13194,10 @@ declare module "esri/renderers/Renderer" {
   export = Renderer;
 }
 
-declare module "esri/renderers/ScaleDependentRenderer" {
-  import esri = require("esri");
-  import Renderer = require("esri/renderers/Renderer");
-  import Graphic = require("esri/graphic");
+declare module "esriV3/renderers/ScaleDependentRenderer" {
+  import esri = require("esriV3");
+  import Renderer = require("esriV3/renderers/Renderer");
+  import Graphic = require("esriV3/graphic");
 
   /** ScaleDependentRenderer provides the capability to apply multiple scale-dependent renderers to a layer. */
   class ScaleDependentRenderer extends Renderer {
@@ -13236,9 +13236,9 @@ declare module "esri/renderers/ScaleDependentRenderer" {
   export = ScaleDependentRenderer;
 }
 
-declare module "esri/renderers/SimpleRenderer" {
-  import Renderer = require("esri/renderers/Renderer");
-  import Symbol = require("esri/symbols/Symbol");
+declare module "esriV3/renderers/SimpleRenderer" {
+  import Renderer = require("esriV3/renderers/Renderer");
+  import Symbol = require("esriV3/symbols/Symbol");
 
   /** A renderer that uses one symbol only. */
   class SimpleRenderer extends Renderer {
@@ -13262,9 +13262,9 @@ declare module "esri/renderers/SimpleRenderer" {
   export = SimpleRenderer;
 }
 
-declare module "esri/renderers/SymbolAger" {
-  import Symbol = require("esri/symbols/Symbol");
-  import Graphic = require("esri/graphic");
+declare module "esriV3/renderers/SymbolAger" {
+  import Symbol = require("esriV3/symbols/Symbol");
+  import Graphic = require("esriV3/graphic");
 
   /** Base class for agers. */
   class SymbolAger {
@@ -13278,11 +13278,11 @@ declare module "esri/renderers/SymbolAger" {
   export = SymbolAger;
 }
 
-declare module "esri/renderers/TemporalRenderer" {
-  import Renderer = require("esri/renderers/Renderer");
-  import SymbolAger = require("esri/renderers/SymbolAger");
-  import Graphic = require("esri/graphic");
-  import Symbol = require("esri/symbols/Symbol");
+declare module "esriV3/renderers/TemporalRenderer" {
+  import Renderer = require("esriV3/renderers/Renderer");
+  import SymbolAger = require("esriV3/renderers/SymbolAger");
+  import Graphic = require("esriV3/graphic");
+  import Symbol = require("esriV3/symbols/Symbol");
 
   /** Temporal renderers provide time-based rendering of features in a feature layer. */
   class TemporalRenderer extends Renderer {
@@ -13303,11 +13303,11 @@ declare module "esri/renderers/TemporalRenderer" {
   export = TemporalRenderer;
 }
 
-declare module "esri/renderers/TimeClassBreaksAger" {
-  import esri = require("esri");
-  import SymbolAger = require("esri/renderers/SymbolAger");
-  import Symbol = require("esri/symbols/Symbol");
-  import Graphic = require("esri/graphic");
+declare module "esriV3/renderers/TimeClassBreaksAger" {
+  import esri = require("esriV3");
+  import SymbolAger = require("esriV3/renderers/SymbolAger");
+  import Symbol = require("esriV3/symbols/Symbol");
+  import Graphic = require("esriV3/graphic");
 
   /** Time class breaks ager displays aging by classifying features based on an age range. */
   class TimeClassBreaksAger extends SymbolAger {
@@ -13343,11 +13343,11 @@ declare module "esri/renderers/TimeClassBreaksAger" {
   export = TimeClassBreaksAger;
 }
 
-declare module "esri/renderers/TimeRampAger" {
-  import SymbolAger = require("esri/renderers/SymbolAger");
-  import Color = require("esri/Color");
-  import Symbol = require("esri/symbols/Symbol");
-  import Graphic = require("esri/graphic");
+declare module "esriV3/renderers/TimeRampAger" {
+  import SymbolAger = require("esriV3/renderers/SymbolAger");
+  import Color = require("esriV3/Color");
+  import Symbol = require("esriV3/symbols/Symbol");
+  import Graphic = require("esriV3/graphic");
 
   /** Time ramp agers display aging using a gradual change in symbology. */
   class TimeRampAger extends SymbolAger {
@@ -13368,11 +13368,11 @@ declare module "esri/renderers/TimeRampAger" {
   export = TimeRampAger;
 }
 
-declare module "esri/renderers/UniqueValueRenderer" {
-  import Renderer = require("esri/renderers/Renderer");
-  import FillSymbol = require("esri/symbols/FillSymbol");
-  import Symbol = require("esri/symbols/Symbol");
-  import Graphic = require("esri/graphic");
+declare module "esriV3/renderers/UniqueValueRenderer" {
+  import Renderer = require("esriV3/renderers/Renderer");
+  import FillSymbol = require("esriV3/symbols/FillSymbol");
+  import Symbol = require("esriV3/symbols/Symbol");
+  import Graphic = require("esriV3/graphic");
 
   /** A unique value renderer symbolizes groups of graphics that have matching attributes. */
   class UniqueValueRenderer extends Renderer {
@@ -13437,9 +13437,9 @@ declare module "esri/renderers/UniqueValueRenderer" {
   export = UniqueValueRenderer;
 }
 
-declare module "esri/renderers/VectorFieldRenderer" {
-  import esri = require("esri");
-  import Renderer = require("esri/renderers/Renderer");
+declare module "esriV3/renderers/VectorFieldRenderer" {
+  import esri = require("esriV3");
+  import Renderer = require("esriV3/renderers/Renderer");
 
   /** The VectorFieldRenderer function creates a a U-V or Magnitude-Direction visualization for an instance of  ArcGISImageServiceVectorLayer. */
   class VectorFieldRenderer extends Renderer {
@@ -13478,8 +13478,8 @@ declare module "esri/renderers/VectorFieldRenderer" {
   export = VectorFieldRenderer;
 }
 
-declare module "esri/renderers/jsonUtils" {
-  import Renderer = require("esri/renderers/Renderer");
+declare module "esriV3/renderers/jsonUtils" {
+  import Renderer = require("esriV3/renderers/Renderer");
 
   /** Utility method to create a renderer from JSON. */
   var jsonUtils: {
@@ -13492,7 +13492,7 @@ declare module "esri/renderers/jsonUtils" {
   export = jsonUtils;
 }
 
-declare module "esri/renderers/smartMapping" {
+declare module "esriV3/renderers/smartMapping" {
   /** This module contains a collection of helper functions used to create pre-configured renderers for smart feature styling. */
   var smartMapping: {
     /**
@@ -13559,7 +13559,7 @@ declare module "esri/renderers/smartMapping" {
   export = smartMapping;
 }
 
-declare module "esri/request" {
+declare module "esriV3/request" {
   /** Retrieve data from a remote server or upload a file. */
   var request: {
     /**
@@ -13577,7 +13577,7 @@ declare module "esri/request" {
   export = request;
 }
 
-declare module "esri/styles/basic" {
+declare module "esriV3/styles/basic" {
   /** This module contains a collection of themes suitable for basic visualization of features i.e. */
   var basic: {
     /**
@@ -13594,7 +13594,7 @@ declare module "esri/styles/basic" {
   export = basic;
 }
 
-declare module "esri/styles/choropleth" {
+declare module "esriV3/styles/choropleth" {
   /** This module contains a collection of themes suitable for unclassed and classed choropleth mapping. */
   var choropleth: {
     /**
@@ -13611,7 +13611,7 @@ declare module "esri/styles/choropleth" {
   export = choropleth;
 }
 
-declare module "esri/styles/heatmap" {
+declare module "esriV3/styles/heatmap" {
   /** This module contains a collection of themes suitable for visualizing features using a heatmap. */
   var heatmap: {
     /**
@@ -13628,7 +13628,7 @@ declare module "esri/styles/heatmap" {
   export = heatmap;
 }
 
-declare module "esri/styles/relationship" {
+declare module "esriV3/styles/relationship" {
   /** This module contains a collection of color schemes suitable for creating relationship (or bivariate choropleth) visualizations. */
   var relationship: {
     /**
@@ -13645,7 +13645,7 @@ declare module "esri/styles/relationship" {
   export = relationship;
 }
 
-declare module "esri/styles/size" {
+declare module "esriV3/styles/size" {
   /** This module contains a collection of themes useful for visualizing points and lines by varying their size to show data. */
   var size: {
     /**
@@ -13662,7 +13662,7 @@ declare module "esri/styles/size" {
   export = size;
 }
 
-declare module "esri/styles/type" {
+declare module "esriV3/styles/type" {
   /** This module contains a collection of themes suitable for visualizing features by their type. */
   var type: {
     /**
@@ -13679,7 +13679,7 @@ declare module "esri/styles/type" {
   export = type;
 }
 
-declare module "esri/support/expressionUtils" {
+declare module "esriV3/support/expressionUtils" {
   /** A utility module that allows you to enable geometry operations referenced inside Arcade expressions. */
   var expressionUtils: {
     /** Loads all geometry operations for use in any Arcade expression within the given application. */
@@ -13693,9 +13693,9 @@ declare module "esri/support/expressionUtils" {
   export = expressionUtils;
 }
 
-declare module "esri/symbols/CartographicLineSymbol" {
-  import SimpleLineSymbol = require("esri/symbols/SimpleLineSymbol");
-  import Color = require("esri/Color");
+declare module "esriV3/symbols/CartographicLineSymbol" {
+  import SimpleLineSymbol = require("esriV3/symbols/SimpleLineSymbol");
+  import Color = require("esriV3/Color");
 
   /** Line symbols are used to draw linear features on the graphics layer. */
   class CartographicLineSymbol extends SimpleLineSymbol {
@@ -13777,9 +13777,9 @@ declare module "esri/symbols/CartographicLineSymbol" {
   export = CartographicLineSymbol;
 }
 
-declare module "esri/symbols/FillSymbol" {
-  import Symbol = require("esri/symbols/Symbol");
-  import SimpleLineSymbol = require("esri/symbols/SimpleLineSymbol");
+declare module "esriV3/symbols/FillSymbol" {
+  import Symbol = require("esriV3/symbols/Symbol");
+  import SimpleLineSymbol = require("esriV3/symbols/SimpleLineSymbol");
 
   /** Fill symbols are used to draw polygon features on the graphics layer. */
   class FillSymbol extends Symbol {
@@ -13794,7 +13794,7 @@ declare module "esri/symbols/FillSymbol" {
   export = FillSymbol;
 }
 
-declare module "esri/symbols/Font" {
+declare module "esriV3/symbols/Font" {
   /** Font used for text symbols added to the graphics layer. */
   class Font {
     /** Text is in italics. */
@@ -13881,8 +13881,8 @@ declare module "esri/symbols/Font" {
   export = Font;
 }
 
-declare module "esri/symbols/LineSymbol" {
-  import Symbol = require("esri/symbols/Symbol");
+declare module "esriV3/symbols/LineSymbol" {
+  import Symbol = require("esriV3/symbols/Symbol");
 
   /** Line symbols are used to draw linear features on the graphics layer. */
   class LineSymbol extends Symbol {
@@ -13897,8 +13897,8 @@ declare module "esri/symbols/LineSymbol" {
   export = LineSymbol;
 }
 
-declare module "esri/symbols/MarkerSymbol" {
-  import Symbol = require("esri/symbols/Symbol");
+declare module "esriV3/symbols/MarkerSymbol" {
+  import Symbol = require("esriV3/symbols/Symbol");
 
   /** Marker symbols are used to draw points and multipoints on the graphics layer. */
   class MarkerSymbol extends Symbol {
@@ -13932,9 +13932,9 @@ declare module "esri/symbols/MarkerSymbol" {
   export = MarkerSymbol;
 }
 
-declare module "esri/symbols/PictureFillSymbol" {
-  import FillSymbol = require("esri/symbols/FillSymbol");
-  import SimpleLineSymbol = require("esri/symbols/SimpleLineSymbol");
+declare module "esriV3/symbols/PictureFillSymbol" {
+  import FillSymbol = require("esriV3/symbols/FillSymbol");
+  import SimpleLineSymbol = require("esriV3/symbols/SimpleLineSymbol");
 
   /** Fill symbols are used to draw polygon features on the graphics layer. */
   class PictureFillSymbol extends FillSymbol {
@@ -14000,8 +14000,8 @@ declare module "esri/symbols/PictureFillSymbol" {
   export = PictureFillSymbol;
 }
 
-declare module "esri/symbols/PictureMarkerSymbol" {
-  import MarkerSymbol = require("esri/symbols/MarkerSymbol");
+declare module "esriV3/symbols/PictureMarkerSymbol" {
+  import MarkerSymbol = require("esriV3/symbols/MarkerSymbol");
 
   /** Marker symbols are used to draw points and multipoints on the graphics layer. */
   class PictureMarkerSymbol extends MarkerSymbol {
@@ -14042,10 +14042,10 @@ declare module "esri/symbols/PictureMarkerSymbol" {
   export = PictureMarkerSymbol;
 }
 
-declare module "esri/symbols/SimpleFillSymbol" {
-  import FillSymbol = require("esri/symbols/FillSymbol");
-  import Color = require("esri/Color");
-  import SimpleLineSymbol = require("esri/symbols/SimpleLineSymbol");
+declare module "esriV3/symbols/SimpleFillSymbol" {
+  import FillSymbol = require("esriV3/symbols/FillSymbol");
+  import Color = require("esriV3/Color");
+  import SimpleLineSymbol = require("esriV3/symbols/SimpleLineSymbol");
 
   /** Fill symbols are used to draw polygon features on the graphics layer. */
   class SimpleFillSymbol extends FillSymbol {
@@ -14097,9 +14097,9 @@ declare module "esri/symbols/SimpleFillSymbol" {
   export = SimpleFillSymbol;
 }
 
-declare module "esri/symbols/SimpleLineSymbol" {
-  import LineSymbol = require("esri/symbols/LineSymbol");
-  import Color = require("esri/Color");
+declare module "esriV3/symbols/SimpleLineSymbol" {
+  import LineSymbol = require("esriV3/symbols/LineSymbol");
+  import Color = require("esriV3/Color");
 
   /** Line symbols are used to draw linear features on the graphics layer. */
   class SimpleLineSymbol extends LineSymbol {
@@ -14159,10 +14159,10 @@ declare module "esri/symbols/SimpleLineSymbol" {
   export = SimpleLineSymbol;
 }
 
-declare module "esri/symbols/SimpleMarkerSymbol" {
-  import MarkerSymbol = require("esri/symbols/MarkerSymbol");
-  import SimpleLineSymbol = require("esri/symbols/SimpleLineSymbol");
-  import Color = require("esri/Color");
+declare module "esriV3/symbols/SimpleMarkerSymbol" {
+  import MarkerSymbol = require("esriV3/symbols/MarkerSymbol");
+  import SimpleLineSymbol = require("esriV3/symbols/SimpleLineSymbol");
+  import Color = require("esriV3/Color");
 
   /** Marker symbols are used to draw points and multipoints on the graphics layer. */
   class SimpleMarkerSymbol extends MarkerSymbol {
@@ -14218,8 +14218,8 @@ declare module "esri/symbols/SimpleMarkerSymbol" {
   export = SimpleMarkerSymbol;
 }
 
-declare module "esri/symbols/Symbol" {
-  import Color = require("esri/Color");
+declare module "esriV3/symbols/Symbol" {
+  import Color = require("esriV3/Color");
 
   /** Symbols are used to display points, lines, and polygons on the graphics layer. */
   class Symbol {
@@ -14238,10 +14238,10 @@ declare module "esri/symbols/Symbol" {
   export = Symbol;
 }
 
-declare module "esri/symbols/TextSymbol" {
-  import Symbol = require("esri/symbols/Symbol");
-  import Font = require("esri/symbols/Font");
-  import Color = require("esri/Color");
+declare module "esriV3/symbols/TextSymbol" {
+  import Symbol = require("esriV3/symbols/Symbol");
+  import Font = require("esriV3/symbols/Font");
+  import Color = require("esriV3/Color");
 
   /** Text symbols are used to add text on the graphics layer. */
   class TextSymbol extends Symbol {
@@ -14375,8 +14375,8 @@ declare module "esri/symbols/TextSymbol" {
   export = TextSymbol;
 }
 
-declare module "esri/symbols/jsonUtils" {
-  import Symbol = require("esri/symbols/Symbol");
+declare module "esriV3/symbols/jsonUtils" {
+  import Symbol = require("esriV3/symbols/Symbol");
 
   /** Utility methods for working with symbols. */
   var jsonUtils: {
@@ -14394,8 +14394,8 @@ declare module "esri/symbols/jsonUtils" {
   export = jsonUtils;
 }
 
-declare module "esri/tasks/AddressCandidate" {
-  import Point = require("esri/geometry/Point");
+declare module "esriV3/tasks/AddressCandidate" {
+  import Point = require("esriV3/geometry/Point");
 
   /** Represents an address and its location. */
   class AddressCandidate {
@@ -14411,9 +14411,9 @@ declare module "esri/tasks/AddressCandidate" {
   export = AddressCandidate;
 }
 
-declare module "esri/tasks/AlgorithmicColorRamp" {
-  import ColorRamp = require("esri/tasks/ColorRamp");
-  import Color = require("esri/Color");
+declare module "esriV3/tasks/AlgorithmicColorRamp" {
+  import ColorRamp = require("esriV3/tasks/ColorRamp");
+  import Color = require("esriV3/Color");
 
   /** Create an algorithmic color ramp to define the range of colors used in the renderer generated by the GenerateRendererTask. */
   class AlgorithmicColorRamp extends ColorRamp {
@@ -14431,8 +14431,8 @@ declare module "esri/tasks/AlgorithmicColorRamp" {
   export = AlgorithmicColorRamp;
 }
 
-declare module "esri/tasks/AreasAndLengthsParameters" {
-  import Polygon = require("esri/geometry/Polygon");
+declare module "esriV3/tasks/AreasAndLengthsParameters" {
+  import Polygon = require("esriV3/geometry/Polygon");
 
   /** Input parameters for the areasAndLengths() method on the Geometry Service. */
   class AreasAndLengthsParameters {
@@ -14450,9 +14450,9 @@ declare module "esri/tasks/AreasAndLengthsParameters" {
   export = AreasAndLengthsParameters;
 }
 
-declare module "esri/tasks/BufferParameters" {
-  import SpatialReference = require("esri/SpatialReference");
-  import Geometry = require("esri/geometry/Geometry");
+declare module "esriV3/tasks/BufferParameters" {
+  import SpatialReference = require("esriV3/SpatialReference");
+  import Geometry = require("esriV3/geometry/Geometry");
 
   /** Sets the distances, units, and other parameters for a buffer operation. */
   class BufferParameters {
@@ -14476,10 +14476,10 @@ declare module "esri/tasks/BufferParameters" {
   export = BufferParameters;
 }
 
-declare module "esri/tasks/ClassBreaksDefinition" {
-  import ClassificationDefinition = require("esri/tasks/ClassificationDefinition");
-  import Symbol = require("esri/symbols/Symbol");
-  import ColorRamp = require("esri/tasks/ColorRamp");
+declare module "esriV3/tasks/ClassBreaksDefinition" {
+  import ClassificationDefinition = require("esriV3/tasks/ClassificationDefinition");
+  import Symbol = require("esriV3/symbols/Symbol");
+  import ColorRamp = require("esriV3/tasks/ColorRamp");
 
   /** Define a class breaks classification scheme used by the GenerateRendererTask to generate classes. */
   class ClassBreaksDefinition extends ClassificationDefinition {
@@ -14507,9 +14507,9 @@ declare module "esri/tasks/ClassBreaksDefinition" {
   export = ClassBreaksDefinition;
 }
 
-declare module "esri/tasks/ClassificationDefinition" {
-  import Symbol = require("esri/symbols/Symbol");
-  import ColorRamp = require("esri/tasks/ColorRamp");
+declare module "esriV3/tasks/ClassificationDefinition" {
+  import Symbol = require("esriV3/symbols/Symbol");
+  import ColorRamp = require("esriV3/tasks/ColorRamp");
 
   /** The super class for the classification definition objects used by the GenerateRendererTask class to generate data classes. */
   class ClassificationDefinition {
@@ -14523,8 +14523,8 @@ declare module "esri/tasks/ClassificationDefinition" {
   export = ClassificationDefinition;
 }
 
-declare module "esri/tasks/ClosestFacilityParameters" {
-  import SpatialReference = require("esri/SpatialReference");
+declare module "esriV3/tasks/ClosestFacilityParameters" {
+  import SpatialReference = require("esriV3/SpatialReference");
 
   /** Input parameters for the ClosestFacilityTask. */
   class ClosestFacilityParameters {
@@ -14602,13 +14602,13 @@ declare module "esri/tasks/ClosestFacilityParameters" {
   export = ClosestFacilityParameters;
 }
 
-declare module "esri/tasks/ClosestFacilitySolveResult" {
-  import DirectionsFeatureSet = require("esri/tasks/DirectionsFeatureSet");
-  import Point = require("esri/geometry/Point");
-  import NAMessage = require("esri/tasks/NAMessage");
-  import Polygon = require("esri/geometry/Polygon");
-  import Polyline = require("esri/geometry/Polyline");
-  import Graphic = require("esri/graphic");
+declare module "esriV3/tasks/ClosestFacilitySolveResult" {
+  import DirectionsFeatureSet = require("esriV3/tasks/DirectionsFeatureSet");
+  import Point = require("esriV3/geometry/Point");
+  import NAMessage = require("esriV3/tasks/NAMessage");
+  import Polygon = require("esriV3/geometry/Polygon");
+  import Polyline = require("esriV3/geometry/Polyline");
+  import Graphic = require("esriV3/graphic");
 
   /** The result from a ClosestFacilityTask operation. */
   class ClosestFacilitySolveResult {
@@ -14632,10 +14632,10 @@ declare module "esri/tasks/ClosestFacilitySolveResult" {
   export = ClosestFacilitySolveResult;
 }
 
-declare module "esri/tasks/ClosestFacilityTask" {
-  import esri = require("esri");
-  import ClosestFacilityParameters = require("esri/tasks/ClosestFacilityParameters");
-  import ClosestFacilitySolveResult = require("esri/tasks/ClosestFacilitySolveResult");
+declare module "esriV3/tasks/ClosestFacilityTask" {
+  import esri = require("esriV3");
+  import ClosestFacilityParameters = require("esriV3/tasks/ClosestFacilityParameters");
+  import ClosestFacilitySolveResult = require("esriV3/tasks/ClosestFacilitySolveResult");
 
   /** Helps you find closest facilities around any location (incident) on a network. */
   class ClosestFacilityTask {
@@ -14660,7 +14660,7 @@ declare module "esri/tasks/ClosestFacilityTask" {
   export = ClosestFacilityTask;
 }
 
-declare module "esri/tasks/ColorRamp" {
+declare module "esriV3/tasks/ColorRamp" {
   /** Used to denote classes that may be used as a color ramp. */
   class ColorRamp {
     /** A string value representing the color ramp type. */
@@ -14669,7 +14669,7 @@ declare module "esri/tasks/ColorRamp" {
   export = ColorRamp;
 }
 
-declare module "esri/tasks/DataFile" {
+declare module "esriV3/tasks/DataFile" {
   /** A geoprocessing data object containing a data source. */
   class DataFile {
     /** The ID of the uploaded file returned as a result of the upload operation. */
@@ -14682,8 +14682,8 @@ declare module "esri/tasks/DataFile" {
   export = DataFile;
 }
 
-declare module "esri/tasks/DataLayer" {
-  import Geometry = require("esri/geometry/Geometry");
+declare module "esriV3/tasks/DataLayer" {
+  import Geometry = require("esriV3/geometry/Geometry");
 
   /** Input for properties of ClosestFacilityParameters,RouteParameters or ServiceAreaParameters. */
   class DataLayer {
@@ -14717,7 +14717,7 @@ declare module "esri/tasks/DataLayer" {
   export = DataLayer;
 }
 
-declare module "esri/tasks/Date" {
+declare module "esriV3/tasks/Date" {
   /** Date used in geoprocessing. */
   class AGSDate {
     /** Date value returned from server. */
@@ -14730,8 +14730,8 @@ declare module "esri/tasks/Date" {
   export = AGSDate;
 }
 
-declare module "esri/tasks/DensifyParameters" {
-  import Geometry = require("esri/geometry/Geometry");
+declare module "esriV3/tasks/DensifyParameters" {
+  import Geometry = require("esriV3/geometry/Geometry");
 
   /** Input parameters for the densify() method on the GeometryService - contains geometries, maxSegmentLength, and optionally lengthUnit, geodesic. */
   class DensifyParameters {
@@ -14749,10 +14749,10 @@ declare module "esri/tasks/DensifyParameters" {
   export = DensifyParameters;
 }
 
-declare module "esri/tasks/DirectionsFeatureSet" {
-  import FeatureSet = require("esri/tasks/FeatureSet");
-  import Extent = require("esri/geometry/Extent");
-  import Polyline = require("esri/geometry/Polyline");
+declare module "esriV3/tasks/DirectionsFeatureSet" {
+  import FeatureSet = require("esriV3/tasks/FeatureSet");
+  import Extent = require("esriV3/geometry/Extent");
+  import Polyline = require("esriV3/geometry/Polyline");
 
   /** A FeatureSet that has properties specific to routing. */
   class DirectionsFeatureSet extends FeatureSet {
@@ -14776,8 +14776,8 @@ declare module "esri/tasks/DirectionsFeatureSet" {
   export = DirectionsFeatureSet;
 }
 
-declare module "esri/tasks/DistanceParameters" {
-  import Geometry = require("esri/geometry/Geometry");
+declare module "esriV3/tasks/DistanceParameters" {
+  import Geometry = require("esriV3/geometry/Geometry");
 
   /** Input parameters for the distance  method on the GeometryService. */
   class DistanceParameters {
@@ -14795,9 +14795,9 @@ declare module "esri/tasks/DistanceParameters" {
   export = DistanceParameters;
 }
 
-declare module "esri/tasks/FeatureSet" {
-  import Graphic = require("esri/graphic");
-  import SpatialReference = require("esri/SpatialReference");
+declare module "esriV3/tasks/FeatureSet" {
+  import Graphic = require("esriV3/graphic");
+  import SpatialReference = require("esriV3/SpatialReference");
 
   /** A collection of features returned from ArcGIS Server or used as input to tasks. */
   class FeatureSet {
@@ -14826,9 +14826,9 @@ declare module "esri/tasks/FeatureSet" {
   export = FeatureSet;
 }
 
-declare module "esri/tasks/FindParameters" {
-  import DynamicLayerInfo = require("esri/layers/DynamicLayerInfo");
-  import SpatialReference = require("esri/SpatialReference");
+declare module "esriV3/tasks/FindParameters" {
+  import DynamicLayerInfo = require("esriV3/layers/DynamicLayerInfo");
+  import SpatialReference = require("esriV3/SpatialReference");
 
   /** This data object  is used as the findParameters argument to FindTask.execute method. */
   class FindParameters {
@@ -14858,8 +14858,8 @@ declare module "esri/tasks/FindParameters" {
   export = FindParameters;
 }
 
-declare module "esri/tasks/FindResult" {
-  import Graphic = require("esri/graphic");
+declare module "esriV3/tasks/FindResult" {
+  import Graphic = require("esriV3/graphic");
 
   /** Represents a result of a find operation. */
   class FindResult {
@@ -14877,10 +14877,10 @@ declare module "esri/tasks/FindResult" {
   export = FindResult;
 }
 
-declare module "esri/tasks/FindTask" {
-  import esri = require("esri");
-  import FindParameters = require("esri/tasks/FindParameters");
-  import FindResult = require("esri/tasks/FindResult");
+declare module "esriV3/tasks/FindTask" {
+  import esri = require("esriV3");
+  import FindParameters = require("esriV3/tasks/FindParameters");
+  import FindResult = require("esriV3/tasks/FindResult");
 
   /** Search a map service exposed by the ArcGIS Server REST API based on a string value. */
   class FindTask {
@@ -14908,7 +14908,7 @@ declare module "esri/tasks/FindTask" {
   export = FindTask;
 }
 
-declare module "esri/tasks/GPMessage" {
+declare module "esriV3/tasks/GPMessage" {
   /** Represents a message generated during the execution of a geoprocessing task. */
   class GPMessage {
     /** esriJobMessageTypeAbort - Indicates the job has aborted. */
@@ -14935,8 +14935,8 @@ declare module "esri/tasks/GPMessage" {
   export = GPMessage;
 }
 
-declare module "esri/tasks/GeneralizeParameters" {
-  import Geometry = require("esri/geometry/Geometry");
+declare module "esriV3/tasks/GeneralizeParameters" {
+  import Geometry = require("esriV3/geometry/Geometry");
 
   /** Sets the geometries, maximum deviation and units for the generalize operation. */
   class GeneralizeParameters {
@@ -14952,8 +14952,8 @@ declare module "esri/tasks/GeneralizeParameters" {
   export = GeneralizeParameters;
 }
 
-declare module "esri/tasks/GenerateRendererParameters" {
-  import ClassificationDefinition = require("esri/tasks/ClassificationDefinition");
+declare module "esriV3/tasks/GenerateRendererParameters" {
+  import ClassificationDefinition = require("esriV3/tasks/ClassificationDefinition");
 
   /** Define the classification definition and optional where clause for the GenerateRendererTask operation. */
   class GenerateRendererParameters {
@@ -14975,10 +14975,10 @@ declare module "esri/tasks/GenerateRendererParameters" {
   export = GenerateRendererParameters;
 }
 
-declare module "esri/tasks/GenerateRendererTask" {
-  import esri = require("esri");
-  import GenerateRendererParameters = require("esri/tasks/GenerateRendererParameters");
-  import Renderer = require("esri/renderers/Renderer");
+declare module "esriV3/tasks/GenerateRendererTask" {
+  import esri = require("esriV3");
+  import GenerateRendererParameters = require("esriV3/tasks/GenerateRendererParameters");
+  import Renderer = require("esriV3/renderers/Renderer");
 
   /** The GenerateRendererTask class creates a renderer based on a classification definition and optional where clause. */
   class GenerateRendererTask {
@@ -15004,22 +15004,22 @@ declare module "esri/tasks/GenerateRendererTask" {
   export = GenerateRendererTask;
 }
 
-declare module "esri/tasks/GeometryService" {
-  import esri = require("esri");
-  import AreasAndLengthsParameters = require("esri/tasks/AreasAndLengthsParameters");
-  import Polygon = require("esri/geometry/Polygon");
-  import Polyline = require("esri/geometry/Polyline");
-  import BufferParameters = require("esri/tasks/BufferParameters");
-  import Geometry = require("esri/geometry/Geometry");
-  import DensifyParameters = require("esri/tasks/DensifyParameters");
-  import DistanceParameters = require("esri/tasks/DistanceParameters");
-  import GeneralizeParameters = require("esri/tasks/GeneralizeParameters");
-  import LengthsParameters = require("esri/tasks/LengthsParameters");
-  import OffsetParameters = require("esri/tasks/OffsetParameters");
-  import ProjectParameters = require("esri/tasks/ProjectParameters");
-  import RelationParameters = require("esri/tasks/RelationParameters");
-  import TrimExtendParameters = require("esri/tasks/TrimExtendParameters");
-  import Point = require("esri/geometry/Point");
+declare module "esriV3/tasks/GeometryService" {
+  import esri = require("esriV3");
+  import AreasAndLengthsParameters = require("esriV3/tasks/AreasAndLengthsParameters");
+  import Polygon = require("esriV3/geometry/Polygon");
+  import Polyline = require("esriV3/geometry/Polyline");
+  import BufferParameters = require("esriV3/tasks/BufferParameters");
+  import Geometry = require("esriV3/geometry/Geometry");
+  import DensifyParameters = require("esriV3/tasks/DensifyParameters");
+  import DistanceParameters = require("esriV3/tasks/DistanceParameters");
+  import GeneralizeParameters = require("esriV3/tasks/GeneralizeParameters");
+  import LengthsParameters = require("esriV3/tasks/LengthsParameters");
+  import OffsetParameters = require("esriV3/tasks/OffsetParameters");
+  import ProjectParameters = require("esriV3/tasks/ProjectParameters");
+  import RelationParameters = require("esriV3/tasks/RelationParameters");
+  import TrimExtendParameters = require("esriV3/tasks/TrimExtendParameters");
+  import Point = require("esriV3/geometry/Point");
 
   /** Represents a geometry service resource exposed by the ArcGIS Server REST API. */
   class GeometryService {
@@ -15263,14 +15263,14 @@ declare module "esri/tasks/GeometryService" {
   export = GeometryService;
 }
 
-declare module "esri/tasks/Geoprocessor" {
-  import esri = require("esri");
-  import SpatialReference = require("esri/SpatialReference");
-  import ImageParameters = require("esri/layers/ImageParameters");
-  import ArcGISDynamicMapServiceLayer = require("esri/layers/ArcGISDynamicMapServiceLayer");
-  import GPMessage = require("esri/tasks/GPMessage");
-  import ParameterValue = require("esri/tasks/ParameterValue");
-  import MapImage = require("esri/layers/MapImage");
+declare module "esriV3/tasks/Geoprocessor" {
+  import esri = require("esriV3");
+  import SpatialReference = require("esriV3/SpatialReference");
+  import ImageParameters = require("esriV3/layers/ImageParameters");
+  import ArcGISDynamicMapServiceLayer = require("esriV3/layers/ArcGISDynamicMapServiceLayer");
+  import GPMessage = require("esriV3/tasks/GPMessage");
+  import ParameterValue = require("esriV3/tasks/ParameterValue");
+  import MapImage = require("esriV3/layers/MapImage");
 
   /** Represents a GP Task resource exposed by the ArcGIS Server REST API. */
   class Geoprocessor {
@@ -15393,13 +15393,13 @@ declare module "esri/tasks/Geoprocessor" {
   export = Geoprocessor;
 }
 
-declare module "esri/tasks/IdentifyParameters" {
-  import DynamicLayerInfo = require("esri/layers/DynamicLayerInfo");
-  import Geometry = require("esri/geometry/Geometry");
-  import LayerTimeOptions = require("esri/layers/LayerTimeOptions");
-  import Extent = require("esri/geometry/Extent");
-  import SpatialReference = require("esri/SpatialReference");
-  import TimeExtent = require("esri/TimeExtent");
+declare module "esriV3/tasks/IdentifyParameters" {
+  import DynamicLayerInfo = require("esriV3/layers/DynamicLayerInfo");
+  import Geometry = require("esriV3/geometry/Geometry");
+  import LayerTimeOptions = require("esriV3/layers/LayerTimeOptions");
+  import Extent = require("esriV3/geometry/Extent");
+  import SpatialReference = require("esriV3/SpatialReference");
+  import TimeExtent = require("esriV3/TimeExtent");
 
   /** This data object is used as the identifyParameters argument to IdentifyTask.execute method. */
   class IdentifyParameters {
@@ -15451,8 +15451,8 @@ declare module "esri/tasks/IdentifyParameters" {
   export = IdentifyParameters;
 }
 
-declare module "esri/tasks/IdentifyResult" {
-  import Graphic = require("esri/graphic");
+declare module "esriV3/tasks/IdentifyResult" {
+  import Graphic = require("esriV3/graphic");
 
   /** Represents a result of an identify operation. */
   class IdentifyResult {
@@ -15468,10 +15468,10 @@ declare module "esri/tasks/IdentifyResult" {
   export = IdentifyResult;
 }
 
-declare module "esri/tasks/IdentifyTask" {
-  import esri = require("esri");
-  import IdentifyParameters = require("esri/tasks/IdentifyParameters");
-  import IdentifyResult = require("esri/tasks/IdentifyResult");
+declare module "esriV3/tasks/IdentifyTask" {
+  import esri = require("esriV3");
+  import IdentifyParameters = require("esriV3/tasks/IdentifyParameters");
+  import IdentifyResult = require("esriV3/tasks/IdentifyResult");
 
   /** Performs an identify operation on the layers of a map service resource exposed by the ArcGIS Server REST API. */
   class IdentifyTask {
@@ -15499,12 +15499,12 @@ declare module "esri/tasks/IdentifyTask" {
   export = IdentifyTask;
 }
 
-declare module "esri/tasks/ImageServiceIdentifyParameters" {
-  import Geometry = require("esri/geometry/Geometry");
-  import MosaicRule = require("esri/layers/MosaicRule");
-  import Symbol = require("esri/symbols/Symbol");
-  import RasterFunction = require("esri/layers/RasterFunction");
-  import TimeExtent = require("esri/TimeExtent");
+declare module "esriV3/tasks/ImageServiceIdentifyParameters" {
+  import Geometry = require("esriV3/geometry/Geometry");
+  import MosaicRule = require("esriV3/layers/MosaicRule");
+  import Symbol = require("esriV3/symbols/Symbol");
+  import RasterFunction = require("esriV3/layers/RasterFunction");
+  import TimeExtent = require("esriV3/TimeExtent");
 
   /** Input parameters for the ImageServiceIdentifyTask. */
   class ImageServiceIdentifyParameters {
@@ -15540,9 +15540,9 @@ declare module "esri/tasks/ImageServiceIdentifyParameters" {
   export = ImageServiceIdentifyParameters;
 }
 
-declare module "esri/tasks/ImageServiceIdentifyResult" {
-  import FeatureSet = require("esri/tasks/FeatureSet");
-  import Point = require("esri/geometry/Point");
+declare module "esriV3/tasks/ImageServiceIdentifyResult" {
+  import FeatureSet = require("esriV3/tasks/FeatureSet");
+  import Point = require("esriV3/geometry/Point");
 
   /** The results from an ImageServiceIdentifyTask. */
   class ImageServiceIdentifyResult {
@@ -15564,10 +15564,10 @@ declare module "esri/tasks/ImageServiceIdentifyResult" {
   export = ImageServiceIdentifyResult;
 }
 
-declare module "esri/tasks/ImageServiceIdentifyTask" {
-  import esri = require("esri");
-  import ImageServiceIdentifyParameters = require("esri/tasks/ImageServiceIdentifyParameters");
-  import ImageServiceIdentifyResult = require("esri/tasks/ImageServiceIdentifyResult");
+declare module "esriV3/tasks/ImageServiceIdentifyTask" {
+  import esri = require("esriV3");
+  import ImageServiceIdentifyParameters = require("esriV3/tasks/ImageServiceIdentifyParameters");
+  import ImageServiceIdentifyResult = require("esriV3/tasks/ImageServiceIdentifyResult");
 
   /** Performs an identify operation on an image service resource. */
   class ImageServiceIdentifyTask {
@@ -15590,10 +15590,10 @@ declare module "esri/tasks/ImageServiceIdentifyTask" {
   export = ImageServiceIdentifyTask;
 }
 
-declare module "esri/tasks/ImageServiceMeasureParameters" {
-  import Geometry = require("esri/geometry/Geometry");
-  import MosaicRule = require("esri/layers/MosaicRule");
-  import Point = require("esri/geometry/Point");
+declare module "esriV3/tasks/ImageServiceMeasureParameters" {
+  import Geometry = require("esriV3/geometry/Geometry");
+  import MosaicRule = require("esriV3/layers/MosaicRule");
+  import Point = require("esriV3/geometry/Point");
 
   /** Defines parameters for the ImageServiceMeasureTask. */
   class ImageServiceMeasureParameters {
@@ -15641,9 +15641,9 @@ declare module "esri/tasks/ImageServiceMeasureParameters" {
   export = ImageServiceMeasureParameters;
 }
 
-declare module "esri/tasks/ImageServiceMeasureTask" {
-  import esri = require("esri");
-  import ImageServiceMeasureParameters = require("esri/tasks/ImageServiceMeasureParameters");
+declare module "esriV3/tasks/ImageServiceMeasureTask" {
+  import esri = require("esriV3");
+  import ImageServiceMeasureParameters = require("esriV3/tasks/ImageServiceMeasureParameters");
 
   /** Performs a measure operation on an Image Service. */
   class ImageServiceMeasureTask {
@@ -15666,8 +15666,8 @@ declare module "esri/tasks/ImageServiceMeasureTask" {
   export = ImageServiceMeasureTask;
 }
 
-declare module "esri/tasks/JobInfo" {
-  import GPMessage = require("esri/tasks/GPMessage");
+declare module "esriV3/tasks/JobInfo" {
+  import GPMessage = require("esriV3/tasks/GPMessage");
 
   /** Represents information pertaining to the execution of an asynchronous GP task on the server. */
   class JobInfo {
@@ -15703,7 +15703,7 @@ declare module "esri/tasks/JobInfo" {
   export = JobInfo;
 }
 
-declare module "esri/tasks/LegendLayer" {
+declare module "esriV3/tasks/LegendLayer" {
   /** Define layer properties for the legend layers associated with a PrintTemplate. */
   class LegendLayer {
     /** The id of the operational layer to include in the printout's legend. */
@@ -15716,8 +15716,8 @@ declare module "esri/tasks/LegendLayer" {
   export = LegendLayer;
 }
 
-declare module "esri/tasks/LengthsParameters" {
-  import Geometry = require("esri/geometry/Geometry");
+declare module "esriV3/tasks/LengthsParameters" {
+  import Geometry = require("esriV3/geometry/Geometry");
 
   /** Sets the length units and other parameters for Lengths operation. */
   class LengthsParameters {
@@ -15735,7 +15735,7 @@ declare module "esri/tasks/LengthsParameters" {
   export = LengthsParameters;
 }
 
-declare module "esri/tasks/LinearUnit" {
+declare module "esriV3/tasks/LinearUnit" {
   /** A data object containing a linear distance. */
   class LinearUnit {
     /** Specifies the value of the linear distance. */
@@ -15748,9 +15748,9 @@ declare module "esri/tasks/LinearUnit" {
   export = LinearUnit;
 }
 
-declare module "esri/tasks/MultipartColorRamp" {
-  import ColorRamp = require("esri/tasks/ColorRamp");
-  import AlgorithmicColorRamp = require("esri/tasks/AlgorithmicColorRamp");
+declare module "esriV3/tasks/MultipartColorRamp" {
+  import ColorRamp = require("esriV3/tasks/ColorRamp");
+  import AlgorithmicColorRamp = require("esriV3/tasks/AlgorithmicColorRamp");
 
   /** Create a multipart color ramp to concatenate multiple color ramps for use in the renderer generated by the GenerateRendererTask. */
   class MultipartColorRamp extends ColorRamp {
@@ -15764,7 +15764,7 @@ declare module "esri/tasks/MultipartColorRamp" {
   export = MultipartColorRamp;
 }
 
-declare module "esri/tasks/NAMessage" {
+declare module "esriV3/tasks/NAMessage" {
   /** Represents a message generated during the execution of a network analyst task. */
   class NAMessage {
     /** TBA */
@@ -15791,8 +15791,8 @@ declare module "esri/tasks/NAMessage" {
   export = NAMessage;
 }
 
-declare module "esri/tasks/NATypes" {
-  import esri = require("esri");
+declare module "esriV3/tasks/NATypes" {
+  import esri = require("esriV3");
 
   var NATypes: {
     OutputLine: esri.NAOutputLine;
@@ -15803,8 +15803,8 @@ declare module "esri/tasks/NATypes" {
   export = NATypes;
 }
 
-declare module "esri/tasks/OffsetParameters" {
-  import Geometry = require("esri/geometry/Geometry");
+declare module "esriV3/tasks/OffsetParameters" {
+  import Geometry = require("esriV3/geometry/Geometry");
 
   /** Sets the offset distance, type and other parameters for the GeometryService.offset operation. */
   class OffsetParameters {
@@ -15824,7 +15824,7 @@ declare module "esri/tasks/OffsetParameters" {
   export = OffsetParameters;
 }
 
-declare module "esri/tasks/ParameterValue" {
+declare module "esriV3/tasks/ParameterValue" {
   /** Represent the output parameters of a GP task and their properties and values. */
   class ParameterValue {
     /** Specifies the type of data for the parameter. */
@@ -15837,10 +15837,10 @@ declare module "esri/tasks/ParameterValue" {
   export = ParameterValue;
 }
 
-declare module "esri/tasks/PrintParameters" {
-  import Map = require("esri/map");
-  import SpatialReference = require("esri/SpatialReference");
-  import PrintTemplate = require("esri/tasks/PrintTemplate");
+declare module "esriV3/tasks/PrintParameters" {
+  import Map = require("esriV3/map");
+  import SpatialReference = require("esriV3/SpatialReference");
+  import PrintTemplate = require("esriV3/tasks/PrintTemplate");
 
   /** Input parameters for the PrintTask. */
   class PrintParameters {
@@ -15858,10 +15858,10 @@ declare module "esri/tasks/PrintParameters" {
   export = PrintParameters;
 }
 
-declare module "esri/tasks/PrintTask" {
-  import esri = require("esri");
-  import PrintParameters = require("esri/tasks/PrintParameters");
-  import DataFile = require("esri/tasks/DataFile");
+declare module "esriV3/tasks/PrintTask" {
+  import esri = require("esriV3");
+  import PrintParameters = require("esriV3/tasks/PrintParameters");
+  import DataFile = require("esriV3/tasks/DataFile");
 
   /** The PrintTask class generates a printer-ready version of the map using an Export Web Map Task available with ArGIS Server 10.1 and later. */
   class PrintTask {
@@ -15889,7 +15889,7 @@ declare module "esri/tasks/PrintTask" {
   export = PrintTask;
 }
 
-declare module "esri/tasks/PrintTemplate" {
+declare module "esriV3/tasks/PrintTemplate" {
   /** Define the layout template options used by the PrintTask and Print widget to generate the print page. */
   class PrintTemplate {
     /** Define the map width, height and dpi. */
@@ -15918,9 +15918,9 @@ declare module "esri/tasks/PrintTemplate" {
   export = PrintTemplate;
 }
 
-declare module "esri/tasks/ProjectParameters" {
-  import Geometry = require("esri/geometry/Geometry");
-  import SpatialReference = require("esri/SpatialReference");
+declare module "esriV3/tasks/ProjectParameters" {
+  import Geometry = require("esriV3/geometry/Geometry");
+  import SpatialReference = require("esriV3/SpatialReference");
 
   /** Define the projection parameters used when calling the GeometryService project method. */
   class ProjectParameters {
@@ -15938,12 +15938,12 @@ declare module "esri/tasks/ProjectParameters" {
   export = ProjectParameters;
 }
 
-declare module "esri/tasks/QueryTask" {
-  import esri = require("esri");
-  import LayerSource = require("esri/layers/LayerSource");
-  import Query = require("esri/tasks/query");
-  import RelationshipQuery = require("esri/tasks/RelationshipQuery");
-  import FeatureSet = require("esri/tasks/FeatureSet");
+declare module "esriV3/tasks/QueryTask" {
+  import esri = require("esriV3");
+  import LayerSource = require("esriV3/layers/LayerSource");
+  import Query = require("esriV3/tasks/query");
+  import RelationshipQuery = require("esriV3/tasks/RelationshipQuery");
+  import FeatureSet = require("esriV3/tasks/FeatureSet");
 
   /** Executes a query operation on a layer resource of a map service exposed by the ArcGIS Server REST API. */
   class QueryTask {
@@ -16011,7 +16011,7 @@ declare module "esri/tasks/QueryTask" {
   export = QueryTask;
 }
 
-declare module "esri/tasks/RasterData" {
+declare module "esriV3/tasks/RasterData" {
   /** A geoprocessing data object containing a raster data source. */
   class RasterData {
     /** Specifies the format of the raster data such as "jpg", "tif" etc. */
@@ -16026,8 +16026,8 @@ declare module "esri/tasks/RasterData" {
   export = RasterData;
 }
 
-declare module "esri/tasks/RelationParameters" {
-  import Geometry = require("esri/geometry/Geometry");
+declare module "esriV3/tasks/RelationParameters" {
+  import Geometry = require("esriV3/geometry/Geometry");
 
   /** Sets the relation and other parameters for Relation operation. */
   class RelationParameters {
@@ -16069,8 +16069,8 @@ declare module "esri/tasks/RelationParameters" {
   export = RelationParameters;
 }
 
-declare module "esri/tasks/RelationshipQuery" {
-  import SpatialReference = require("esri/SpatialReference");
+declare module "esriV3/tasks/RelationshipQuery" {
+  import SpatialReference = require("esriV3/SpatialReference");
 
   /** Define query parameters for the feature layer's queryRelatedFeatures method. */
   class RelationshipQuery {
@@ -16096,8 +16096,8 @@ declare module "esri/tasks/RelationshipQuery" {
   export = RelationshipQuery;
 }
 
-declare module "esri/tasks/RouteParameters" {
-  import SpatialReference = require("esri/SpatialReference");
+declare module "esriV3/tasks/RouteParameters" {
+  import SpatialReference = require("esriV3/SpatialReference");
 
   /** Input parameters for the RouteTask. */
   class RouteParameters {
@@ -16177,9 +16177,9 @@ declare module "esri/tasks/RouteParameters" {
   export = RouteParameters;
 }
 
-declare module "esri/tasks/RouteResult" {
-  import DirectionsFeatureSet = require("esri/tasks/DirectionsFeatureSet");
-  import Graphic = require("esri/graphic");
+declare module "esriV3/tasks/RouteResult" {
+  import DirectionsFeatureSet = require("esriV3/tasks/DirectionsFeatureSet");
+  import Graphic = require("esriV3/graphic");
 
   /** The result from the Route Task. */
   class RouteResult {
@@ -16195,9 +16195,9 @@ declare module "esri/tasks/RouteResult" {
   export = RouteResult;
 }
 
-declare module "esri/tasks/RouteTask" {
-  import esri = require("esri");
-  import RouteParameters = require("esri/tasks/RouteParameters");
+declare module "esriV3/tasks/RouteTask" {
+  import esri = require("esriV3");
+  import RouteParameters = require("esriV3/tasks/RouteParameters");
 
   /** The ArcGIS JavaScript API's RouteTask allows you to find routes between two or more locations and optionally get driving directions. */
   class RouteTask {
@@ -16226,8 +16226,8 @@ declare module "esri/tasks/RouteTask" {
   export = RouteTask;
 }
 
-declare module "esri/tasks/ServiceAreaParameters" {
-  import SpatialReference = require("esri/SpatialReference");
+declare module "esriV3/tasks/ServiceAreaParameters" {
+  import SpatialReference = require("esriV3/SpatialReference");
 
   /** Input parameters for a ServiceAreaTask. */
   class ServiceAreaParameters {
@@ -16303,12 +16303,12 @@ declare module "esri/tasks/ServiceAreaParameters" {
   export = ServiceAreaParameters;
 }
 
-declare module "esri/tasks/ServiceAreaSolveResult" {
-  import Point = require("esri/geometry/Point");
-  import NAMessage = require("esri/tasks/NAMessage");
-  import Polygon = require("esri/geometry/Polygon");
-  import Polyline = require("esri/geometry/Polyline");
-  import Graphic = require("esri/graphic");
+declare module "esriV3/tasks/ServiceAreaSolveResult" {
+  import Point = require("esriV3/geometry/Point");
+  import NAMessage = require("esriV3/tasks/NAMessage");
+  import Polygon = require("esriV3/geometry/Polygon");
+  import Polyline = require("esriV3/geometry/Polyline");
+  import Graphic = require("esriV3/graphic");
 
   /** The result from a ServiceAreaTask operation. */
   class ServiceAreaSolveResult {
@@ -16330,10 +16330,10 @@ declare module "esri/tasks/ServiceAreaSolveResult" {
   export = ServiceAreaSolveResult;
 }
 
-declare module "esri/tasks/ServiceAreaTask" {
-  import esri = require("esri");
-  import ServiceAreaParameters = require("esri/tasks/ServiceAreaParameters");
-  import ServiceAreaSolveResult = require("esri/tasks/ServiceAreaSolveResult");
+declare module "esriV3/tasks/ServiceAreaTask" {
+  import esri = require("esriV3");
+  import ServiceAreaParameters = require("esriV3/tasks/ServiceAreaParameters");
+  import ServiceAreaSolveResult = require("esriV3/tasks/ServiceAreaSolveResult");
 
   /** Helps you find service areas around any location on a network. */
   class ServiceAreaTask {
@@ -16358,7 +16358,7 @@ declare module "esri/tasks/ServiceAreaTask" {
   export = ServiceAreaTask;
 }
 
-declare module "esri/tasks/StatisticDefinition" {
+declare module "esriV3/tasks/StatisticDefinition" {
   /** The StatisticDefinition class defines the type of statistics, the field used to calculate the statistics and the resulting output field name. */
   class StatisticDefinition {
     /** The field name or standard SQL expression on which statistics will be calculated. */
@@ -16373,8 +16373,8 @@ declare module "esri/tasks/StatisticDefinition" {
   export = StatisticDefinition;
 }
 
-declare module "esri/tasks/TrimExtendParameters" {
-  import Polyline = require("esri/geometry/Polyline");
+declare module "esriV3/tasks/TrimExtendParameters" {
+  import Polyline = require("esriV3/geometry/Polyline");
 
   /** Sets the polylines and other parameters for the trimExtend operation. */
   class TrimExtendParameters {
@@ -16402,10 +16402,10 @@ declare module "esri/tasks/TrimExtendParameters" {
   export = TrimExtendParameters;
 }
 
-declare module "esri/tasks/UniqueValueDefinition" {
-  import ClassificationDefinition = require("esri/tasks/ClassificationDefinition");
-  import Symbol = require("esri/symbols/Symbol");
-  import ColorRamp = require("esri/tasks/ColorRamp");
+declare module "esriV3/tasks/UniqueValueDefinition" {
+  import ClassificationDefinition = require("esriV3/tasks/ClassificationDefinition");
+  import Symbol = require("esriV3/symbols/Symbol");
+  import ColorRamp = require("esriV3/tasks/ColorRamp");
 
   /** Define a unique value classification scheme used by the GenerateRendererTask to create a renderer that groups values based on a unique combination of one or more fields. */
   class UniqueValueDefinition extends ClassificationDefinition {
@@ -16427,9 +16427,9 @@ declare module "esri/tasks/UniqueValueDefinition" {
   export = UniqueValueDefinition;
 }
 
-declare module "esri/tasks/datareviewer/BatchValidationJob" {
-  import BatchValidationJobInfo = require("esri/tasks/datareviewer/BatchValidationJobInfo");
-  import BatchValidationParameters = require("esri/tasks/datareviewer/BatchValidationParameters");
+declare module "esriV3/tasks/datareviewer/BatchValidationJob" {
+  import BatchValidationJobInfo = require("esriV3/tasks/datareviewer/BatchValidationJobInfo");
+  import BatchValidationParameters = require("esriV3/tasks/datareviewer/BatchValidationParameters");
 
   /** Encapsulates a Batch Validation Job. */
   class BatchValidationJob {
@@ -16451,7 +16451,7 @@ declare module "esri/tasks/datareviewer/BatchValidationJob" {
   export = BatchValidationJob;
 }
 
-declare module "esri/tasks/datareviewer/BatchValidationJobInfo" {
+declare module "esriV3/tasks/datareviewer/BatchValidationJobInfo" {
   /** Encapsulates batch validation job execution details. */
   class BatchValidationJobInfo {
     /** Gets the batch run Id of the job execution. */
@@ -16472,8 +16472,8 @@ declare module "esri/tasks/datareviewer/BatchValidationJobInfo" {
   export = BatchValidationJobInfo;
 }
 
-declare module "esri/tasks/datareviewer/BatchValidationParameters" {
-  import Polygon = require("esri/geometry/Polygon");
+declare module "esriV3/tasks/datareviewer/BatchValidationParameters" {
+  import Polygon = require("esriV3/geometry/Polygon");
 
   /** Encapsulates batch job parameters including session Id, production workspace and analysis area. */
   class BatchValidationParameters {
@@ -16505,13 +16505,13 @@ declare module "esri/tasks/datareviewer/BatchValidationParameters" {
   export = BatchValidationParameters;
 }
 
-declare module "esri/tasks/datareviewer/BatchValidationTask" {
-  import esri = require("esri");
-  import SessionOptions = require("esri/tasks/datareviewer/SessionOptions");
-  import BatchValidationParameters = require("esri/tasks/datareviewer/BatchValidationParameters");
-  import ReviewerSession = require("esri/tasks/datareviewer/ReviewerSession");
-  import BatchValidationJob = require("esri/tasks/datareviewer/BatchValidationJob");
-  import BatchValidationJobInfo = require("esri/tasks/datareviewer/BatchValidationJobInfo");
+declare module "esriV3/tasks/datareviewer/BatchValidationTask" {
+  import esri = require("esriV3");
+  import SessionOptions = require("esriV3/tasks/datareviewer/SessionOptions");
+  import BatchValidationParameters = require("esriV3/tasks/datareviewer/BatchValidationParameters");
+  import ReviewerSession = require("esriV3/tasks/datareviewer/ReviewerSession");
+  import BatchValidationJob = require("esriV3/tasks/datareviewer/BatchValidationJob");
+  import BatchValidationJobInfo = require("esriV3/tasks/datareviewer/BatchValidationJobInfo");
 
   /** Exposes functions for executing and scheduling Batch Validation in ArcGIS Data Reviewer for Server. */
   class BatchValidationTask {
@@ -16625,8 +16625,8 @@ declare module "esri/tasks/datareviewer/BatchValidationTask" {
   export = BatchValidationTask;
 }
 
-declare module "esri/tasks/datareviewer/DashboardResult" {
-  import ReviewerFilters = require("esri/tasks/datareviewer/ReviewerFilters");
+declare module "esriV3/tasks/datareviewer/DashboardResult" {
+  import ReviewerFilters = require("esriV3/tasks/datareviewer/ReviewerFilters");
 
   /** Encapsulates data describing a Dashboard Result. */
   class DashboardResult {
@@ -16647,12 +16647,12 @@ declare module "esri/tasks/datareviewer/DashboardResult" {
   export = DashboardResult;
 }
 
-declare module "esri/tasks/datareviewer/DashboardTask" {
-  import esri = require("esri");
-  import SessionOptions = require("esri/tasks/datareviewer/SessionOptions");
-  import ReviewerFilters = require("esri/tasks/datareviewer/ReviewerFilters");
-  import ReviewerSession = require("esri/tasks/datareviewer/ReviewerSession");
-  import DashboardResult = require("esri/tasks/datareviewer/DashboardResult");
+declare module "esriV3/tasks/datareviewer/DashboardTask" {
+  import esri = require("esriV3");
+  import SessionOptions = require("esriV3/tasks/datareviewer/SessionOptions");
+  import ReviewerFilters = require("esriV3/tasks/datareviewer/ReviewerFilters");
+  import ReviewerSession = require("esriV3/tasks/datareviewer/ReviewerSession");
+  import DashboardResult = require("esriV3/tasks/datareviewer/DashboardResult");
 
   /** Provides functionality to retrieve dashboard results from an ArcGIS Data Reviewer for Server Dashboard REST resource. */
   class DashboardTask {
@@ -16702,7 +16702,7 @@ declare module "esri/tasks/datareviewer/DashboardTask" {
   export = DashboardTask;
 }
 
-declare module "esri/tasks/datareviewer/GetResultsQueryParameters" {
+declare module "esriV3/tasks/datareviewer/GetResultsQueryParameters" {
   /** Encapsulates data used for retrieving results from the reviewer workspace. */
   class GetResultsQueryParameters {
     /** The page number, zero based index, of the results to return. */
@@ -16721,7 +16721,7 @@ declare module "esri/tasks/datareviewer/GetResultsQueryParameters" {
   export = GetResultsQueryParameters;
 }
 
-declare module "esri/tasks/datareviewer/ReviewerAttributes" {
+declare module "esriV3/tasks/datareviewer/ReviewerAttributes" {
   /** Encapsulates data used by the writeFeatureAsResult and writeResult methods of the ReviewerResults class. */
   class ReviewerAttributes {
     /** Represents the state of a reviewer result. */
@@ -16746,8 +16746,8 @@ declare module "esri/tasks/datareviewer/ReviewerAttributes" {
   export = ReviewerAttributes;
 }
 
-declare module "esri/tasks/datareviewer/ReviewerFilters" {
-  import Polygon = require("esri/geometry/Polygon");
+declare module "esriV3/tasks/datareviewer/ReviewerFilters" {
+  import Polygon = require("esriV3/geometry/Polygon");
 
   /** ReviewerFilters limit or precisely define which results to generate by applying conditions to a query for dashboard results. */
   class ReviewerFilters {
@@ -16777,7 +16777,7 @@ declare module "esri/tasks/datareviewer/ReviewerFilters" {
   export = ReviewerFilters;
 }
 
-declare module "esri/tasks/datareviewer/ReviewerLifecycle" {
+declare module "esriV3/tasks/datareviewer/ReviewerLifecycle" {
   /** The ReviewerLifecycle object specifies constant values for all lifecycle status and lifecycle phase strings within the Reviewer quality control workflow. */
   var ReviewerLifecycle: {
     /** Acceptable lifecycleStatus code = 4 belongs to Verification Phase. */
@@ -16840,17 +16840,17 @@ declare module "esri/tasks/datareviewer/ReviewerLifecycle" {
   export = ReviewerLifecycle;
 }
 
-declare module "esri/tasks/datareviewer/ReviewerResultsTask" {
-  import esri = require("esri");
-  import SessionOptions = require("esri/tasks/datareviewer/SessionOptions");
-  import ReviewerFilters = require("esri/tasks/datareviewer/ReviewerFilters");
-  import GetResultsQueryParameters = require("esri/tasks/datareviewer/GetResultsQueryParameters");
-  import ReviewerAttributes = require("esri/tasks/datareviewer/ReviewerAttributes");
-  import Graphic = require("esri/graphic");
-  import Geometry = require("esri/geometry/Geometry");
-  import ReviewerSession = require("esri/tasks/datareviewer/ReviewerSession");
-  import FeatureSet = require("esri/tasks/FeatureSet");
-  import FeatureEditResult = require("esri/layers/FeatureEditResult");
+declare module "esriV3/tasks/datareviewer/ReviewerResultsTask" {
+  import esri = require("esriV3");
+  import SessionOptions = require("esriV3/tasks/datareviewer/SessionOptions");
+  import ReviewerFilters = require("esriV3/tasks/datareviewer/ReviewerFilters");
+  import GetResultsQueryParameters = require("esriV3/tasks/datareviewer/GetResultsQueryParameters");
+  import ReviewerAttributes = require("esriV3/tasks/datareviewer/ReviewerAttributes");
+  import Graphic = require("esriV3/graphic");
+  import Geometry = require("esriV3/geometry/Geometry");
+  import ReviewerSession = require("esriV3/tasks/datareviewer/ReviewerSession");
+  import FeatureSet = require("esriV3/tasks/FeatureSet");
+  import FeatureEditResult = require("esriV3/layers/FeatureEditResult");
 
   /** ReviewerResults allows access to the reviewer workspace. */
   class ReviewerResultsTask {
@@ -16938,7 +16938,7 @@ declare module "esri/tasks/datareviewer/ReviewerResultsTask" {
   export = ReviewerResultsTask;
 }
 
-declare module "esri/tasks/datareviewer/ReviewerSession" {
+declare module "esriV3/tasks/datareviewer/ReviewerSession" {
   /** Represents an ArcGIS Data Reviewer session in which validation and manual quality control results are written to the reviewer workspace. */
   class ReviewerSession {
     /** Numeric identifier of the session. */
@@ -16963,7 +16963,7 @@ declare module "esri/tasks/datareviewer/ReviewerSession" {
   export = ReviewerSession;
 }
 
-declare module "esri/tasks/datareviewer/SessionOptions" {
+declare module "esriV3/tasks/datareviewer/SessionOptions" {
   /** Represents an ArcGIS Data Reviewer session properties in which validation and manual quality control results are written to the reviewer workspace. */
   class SessionOptions {
     /** Indicates how to handle duplicate results when writing the results to the Reviewer workspace. */
@@ -16986,8 +16986,8 @@ declare module "esri/tasks/datareviewer/SessionOptions" {
   export = SessionOptions;
 }
 
-declare module "esri/tasks/geoenrichment/AddressStudyArea" {
-  import StudyArea = require("esri/tasks/geoenrichment/StudyArea");
+declare module "esriV3/tasks/geoenrichment/AddressStudyArea" {
+  import StudyArea = require("esriV3/tasks/geoenrichment/StudyArea");
 
   /** The study area that is based on an address. */
   class AddressStudyArea extends StudyArea {
@@ -16997,8 +16997,8 @@ declare module "esri/tasks/geoenrichment/AddressStudyArea" {
   export = AddressStudyArea;
 }
 
-declare module "esri/tasks/geoenrichment/DriveBuffer" {
-  import esri = require("esri");
+declare module "esriV3/tasks/geoenrichment/DriveBuffer" {
+  import esri = require("esriV3");
 
   /** The study area is created with a drive time or drive distance buffer. */
   class DriveBuffer {
@@ -17015,7 +17015,7 @@ declare module "esri/tasks/geoenrichment/DriveBuffer" {
   export = DriveBuffer;
 }
 
-declare module "esri/tasks/geoenrichment/DriveUnits" {
+declare module "esriV3/tasks/geoenrichment/DriveUnits" {
   /** DriveUnits provides various length units that can be passed as the units in the DriveBuffer. */
   class DriveUnits {
     /** Acres (esriAcres). */
@@ -17076,7 +17076,7 @@ declare module "esri/tasks/geoenrichment/DriveUnits" {
   export = DriveUnits;
 }
 
-declare module "esri/tasks/geoenrichment/GeographyLevel" {
+declare module "esriV3/tasks/geoenrichment/GeographyLevel" {
   /** GeographicLevel works with IntersectingGeographies to define a study area of InfoGraphic with a feature from a standard geography layer. */
   class GeographyLevel {
     /** The ID of the country for which data is retrieved. */
@@ -17094,8 +17094,8 @@ declare module "esri/tasks/geoenrichment/GeographyLevel" {
   export = GeographyLevel;
 }
 
-declare module "esri/tasks/geoenrichment/GeographyQuery" {
-  import GeographyQueryBase = require("esri/tasks/geoenrichment/GeographyQueryBase");
+declare module "esriV3/tasks/geoenrichment/GeographyQuery" {
+  import GeographyQueryBase = require("esriV3/tasks/geoenrichment/GeographyQueryBase");
 
   /** (Currently in beta) Represents StandardGeographyQuery parameters to search for geographies by ID or Name. */
   class GeographyQuery extends GeographyQueryBase {
@@ -17111,8 +17111,8 @@ declare module "esri/tasks/geoenrichment/GeographyQuery" {
   export = GeographyQuery;
 }
 
-declare module "esri/tasks/geoenrichment/GeographyQueryBase" {
-  import SpatialReference = require("esri/SpatialReference");
+declare module "esriV3/tasks/geoenrichment/GeographyQueryBase" {
+  import SpatialReference = require("esriV3/SpatialReference");
 
   /** (Currently in beta) Base class for all GeographyQuery objects. */
   class GeographyQueryBase {
@@ -17143,9 +17143,9 @@ declare module "esri/tasks/geoenrichment/GeographyQueryBase" {
   export = GeographyQueryBase;
 }
 
-declare module "esri/tasks/geoenrichment/GeometryStudyArea" {
-  import StudyArea = require("esri/tasks/geoenrichment/StudyArea");
-  import Geometry = require("esri/geometry/Geometry");
+declare module "esriV3/tasks/geoenrichment/GeometryStudyArea" {
+  import StudyArea = require("esriV3/tasks/geoenrichment/StudyArea");
+  import Geometry = require("esriV3/geometry/Geometry");
 
   /** The study area that is based on a geometry. */
   class GeometryStudyArea extends StudyArea {
@@ -17157,8 +17157,8 @@ declare module "esri/tasks/geoenrichment/GeometryStudyArea" {
   export = GeometryStudyArea;
 }
 
-declare module "esri/tasks/geoenrichment/IntersectingGeographies" {
-  import GeographyLevel = require("esri/tasks/geoenrichment/GeographyLevel");
+declare module "esriV3/tasks/geoenrichment/IntersectingGeographies" {
+  import GeographyLevel = require("esriV3/tasks/geoenrichment/GeographyLevel");
 
   /** The study area is created with the geometries intersecting the passed in geometry from specified layers. */
   class IntersectingGeographies {
@@ -17168,8 +17168,8 @@ declare module "esri/tasks/geoenrichment/IntersectingGeographies" {
   export = IntersectingGeographies;
 }
 
-declare module "esri/tasks/geoenrichment/RingBuffer" {
-  import esri = require("esri");
+declare module "esriV3/tasks/geoenrichment/RingBuffer" {
+  import esri = require("esriV3");
 
   /** The study area is created with a simple ring buffer with a radius. */
   class RingBuffer {
@@ -17186,10 +17186,10 @@ declare module "esri/tasks/geoenrichment/RingBuffer" {
   export = RingBuffer;
 }
 
-declare module "esri/tasks/geoenrichment/StandardGeographyQueryTask" {
-  import esri = require("esri");
-  import GeographyQueryBase = require("esri/tasks/geoenrichment/GeographyQueryBase");
-  import FeatureSet = require("esri/tasks/FeatureSet");
+declare module "esriV3/tasks/geoenrichment/StandardGeographyQueryTask" {
+  import esri = require("esriV3");
+  import GeographyQueryBase = require("esriV3/tasks/geoenrichment/GeographyQueryBase");
+  import FeatureSet = require("esriV3/tasks/FeatureSet");
 
   /** (Currently in beta) Geoenrichment helper task that returns standard geography IDs and features for the supported geographic levels in Canada, the United States and a number of European countries. */
   class StandardGeographyQueryTask {
@@ -17212,8 +17212,8 @@ declare module "esri/tasks/geoenrichment/StandardGeographyQueryTask" {
   export = StandardGeographyQueryTask;
 }
 
-declare module "esri/tasks/geoenrichment/StandardGeographyStudyArea" {
-  import StudyArea = require("esri/tasks/geoenrichment/StudyArea");
+declare module "esriV3/tasks/geoenrichment/StandardGeographyStudyArea" {
+  import StudyArea = require("esriV3/tasks/geoenrichment/StudyArea");
 
   /** The study area that is based on a standard geography. */
   class StandardGeographyStudyArea extends StudyArea {
@@ -17227,11 +17227,11 @@ declare module "esri/tasks/geoenrichment/StandardGeographyStudyArea" {
   export = StandardGeographyStudyArea;
 }
 
-declare module "esri/tasks/geoenrichment/StudyArea" {
-  import GeographyLevel = require("esri/tasks/geoenrichment/GeographyLevel");
-  import RingBuffer = require("esri/tasks/geoenrichment/RingBuffer");
-  import DriveBuffer = require("esri/tasks/geoenrichment/DriveBuffer");
-  import IntersectingGeographies = require("esri/tasks/geoenrichment/IntersectingGeographies");
+declare module "esriV3/tasks/geoenrichment/StudyArea" {
+  import GeographyLevel = require("esriV3/tasks/geoenrichment/GeographyLevel");
+  import RingBuffer = require("esriV3/tasks/geoenrichment/RingBuffer");
+  import DriveBuffer = require("esriV3/tasks/geoenrichment/DriveBuffer");
+  import IntersectingGeographies = require("esriV3/tasks/geoenrichment/IntersectingGeographies");
 
   /** The study area that is used for enrichment or for display in an Infographic widget. */
   class StudyArea {
@@ -17249,8 +17249,8 @@ declare module "esri/tasks/geoenrichment/StudyArea" {
   export = StudyArea;
 }
 
-declare module "esri/tasks/geoenrichment/SubGeographyQuery" {
-  import GeographyQueryBase = require("esri/tasks/geoenrichment/GeographyQueryBase");
+declare module "esriV3/tasks/geoenrichment/SubGeographyQuery" {
+  import GeographyQueryBase = require("esriV3/tasks/geoenrichment/GeographyQueryBase");
 
   /** (Currently in beta) Represents StandardGeographyQuery parameters to search subgeographic areas that are within a parent geography. */
   class SubGeographyQuery extends GeographyQueryBase {
@@ -17273,9 +17273,9 @@ declare module "esri/tasks/geoenrichment/SubGeographyQuery" {
   export = SubGeographyQuery;
 }
 
-declare module "esri/tasks/locationproviders/CoordinatesLocationProvider" {
-  import esri = require("esri");
-  import LocationProviderClientBase = require("esri/tasks/locationproviders/LocationProviderClientBase");
+declare module "esriV3/tasks/locationproviders/CoordinatesLocationProvider" {
+  import esri = require("esriV3");
+  import LocationProviderClientBase = require("esriV3/tasks/locationproviders/LocationProviderClientBase");
 
   /** (Currently in beta) The CoordinatesLocationProvider class uses the fields that contain Latitude and Longitude values to generate or locate geometries. */
   class CoordinatesLocationProvider extends LocationProviderClientBase {
@@ -17292,9 +17292,9 @@ declare module "esri/tasks/locationproviders/CoordinatesLocationProvider" {
   export = CoordinatesLocationProvider;
 }
 
-declare module "esri/tasks/locationproviders/GeometryLocationProvider" {
-  import esri = require("esri");
-  import LocationProviderClientBase = require("esri/tasks/locationproviders/LocationProviderClientBase");
+declare module "esriV3/tasks/locationproviders/GeometryLocationProvider" {
+  import esri = require("esriV3");
+  import LocationProviderClientBase = require("esriV3/tasks/locationproviders/LocationProviderClientBase");
 
   /** (Currently in beta) The GeometryLocationProvider class uses the field in the data that has geometry as a JSON to generate the corresponding geometry. */
   class GeometryLocationProvider extends LocationProviderClientBase {
@@ -17309,9 +17309,9 @@ declare module "esri/tasks/locationproviders/GeometryLocationProvider" {
   export = GeometryLocationProvider;
 }
 
-declare module "esri/tasks/locationproviders/LocationProviderBase" {
-  import esri = require("esri");
-  import Graphic = require("esri/graphic");
+declare module "esriV3/tasks/locationproviders/LocationProviderBase" {
+  import esri = require("esriV3");
+  import Graphic = require("esriV3/graphic");
 
   /** (Currently in beta) The base class for all LocationProviders. */
   class LocationProviderBase {
@@ -17338,9 +17338,9 @@ declare module "esri/tasks/locationproviders/LocationProviderBase" {
   export = LocationProviderBase;
 }
 
-declare module "esri/tasks/locationproviders/LocationProviderClientBase" {
-  import LocationProviderBase = require("esri/tasks/locationproviders/LocationProviderBase");
-  import SpatialReference = require("esri/SpatialReference");
+declare module "esriV3/tasks/locationproviders/LocationProviderClientBase" {
+  import LocationProviderBase = require("esriV3/tasks/locationproviders/LocationProviderBase");
+  import SpatialReference = require("esriV3/SpatialReference");
 
   /** (Currently in beta) The base class for CoordinatesLocationProvider and GeometryLocationProvider. */
   class LocationProviderClientBase extends LocationProviderBase {
@@ -17350,8 +17350,8 @@ declare module "esri/tasks/locationproviders/LocationProviderClientBase" {
   export = LocationProviderClientBase;
 }
 
-declare module "esri/tasks/locationproviders/LocationProviderRemoteBase" {
-  import LocationProviderBase = require("esri/tasks/locationproviders/LocationProviderBase");
+declare module "esriV3/tasks/locationproviders/LocationProviderRemoteBase" {
+  import LocationProviderBase = require("esriV3/tasks/locationproviders/LocationProviderBase");
 
   /** (Currently in beta) The base class for Location Providers that use a remote service to locate geometries. */
   class LocationProviderRemoteBase extends LocationProviderBase {
@@ -17359,10 +17359,10 @@ declare module "esri/tasks/locationproviders/LocationProviderRemoteBase" {
   export = LocationProviderRemoteBase;
 }
 
-declare module "esri/tasks/locationproviders/LocatorLocationProvider" {
-  import esri = require("esri");
-  import LocationProviderRemoteBase = require("esri/tasks/locationproviders/LocationProviderRemoteBase");
-  import Locator = require("esri/tasks/locator");
+declare module "esriV3/tasks/locationproviders/LocatorLocationProvider" {
+  import esri = require("esriV3");
+  import LocationProviderRemoteBase = require("esriV3/tasks/locationproviders/LocationProviderRemoteBase");
+  import Locator = require("esriV3/tasks/locator");
 
   /** (Currently in beta) The LocatorLocationProvider class uses a geocode service through the Locator object to generate or locate geometries using fields in the graphics that contain Street address information */
   class LocatorLocationProvider extends LocationProviderRemoteBase {
@@ -17379,10 +17379,10 @@ declare module "esri/tasks/locationproviders/LocatorLocationProvider" {
   export = LocatorLocationProvider;
 }
 
-declare module "esri/tasks/locationproviders/QueryTaskLocationProvider" {
-  import esri = require("esri");
-  import LocationProviderRemoteBase = require("esri/tasks/locationproviders/LocationProviderRemoteBase");
-  import QueryTask = require("esri/tasks/QueryTask");
+declare module "esriV3/tasks/locationproviders/QueryTaskLocationProvider" {
+  import esri = require("esriV3");
+  import LocationProviderRemoteBase = require("esriV3/tasks/locationproviders/LocationProviderRemoteBase");
+  import QueryTask = require("esriV3/tasks/QueryTask");
 
   /** (Currently in beta) The QueryTaskLocationProvider performs a query against a ArcGIS Feature service or Map service layer based on common fields that are present in both the data and the ArcGIS layer. */
   class QueryTaskLocationProvider extends LocationProviderRemoteBase {
@@ -17403,10 +17403,10 @@ declare module "esri/tasks/locationproviders/QueryTaskLocationProvider" {
   export = QueryTaskLocationProvider;
 }
 
-declare module "esri/tasks/locationproviders/StandardGeographyQueryLocationProvider" {
-  import esri = require("esri");
-  import LocationProviderRemoteBase = require("esri/tasks/locationproviders/LocationProviderRemoteBase");
-  import StandardGeographyQueryTask = require("esri/tasks/geoenrichment/StandardGeographyQueryTask");
+declare module "esriV3/tasks/locationproviders/StandardGeographyQueryLocationProvider" {
+  import esri = require("esriV3");
+  import LocationProviderRemoteBase = require("esriV3/tasks/locationproviders/LocationProviderRemoteBase");
+  import StandardGeographyQueryTask = require("esriV3/tasks/geoenrichment/StandardGeographyQueryTask");
 
   /** (Currently in beta) The StandardGeographyQueryLocationProvider class uses the Geoenrichment service to generate geometries by querying the standard geography layers. */
   class StandardGeographyQueryLocationProvider extends LocationProviderRemoteBase {
@@ -17425,11 +17425,11 @@ declare module "esri/tasks/locationproviders/StandardGeographyQueryLocationProvi
   export = StandardGeographyQueryLocationProvider;
 }
 
-declare module "esri/tasks/locator" {
-  import esri = require("esri");
-  import SpatialReference = require("esri/SpatialReference");
-  import Point = require("esri/geometry/Point");
-  import AddressCandidate = require("esri/tasks/AddressCandidate");
+declare module "esriV3/tasks/locator" {
+  import esri = require("esriV3");
+  import SpatialReference = require("esriV3/SpatialReference");
+  import Point = require("esriV3/geometry/Point");
+  import AddressCandidate = require("esriV3/tasks/AddressCandidate");
 
   /** Represents a geocode service resource exposed by the ArcGIS Server REST API. */
   class Locator {
@@ -17491,12 +17491,12 @@ declare module "esri/tasks/locator" {
   export = Locator;
 }
 
-declare module "esri/tasks/query" {
-  import Geometry = require("esri/geometry/Geometry");
-  import SpatialReference = require("esri/SpatialReference");
-  import StatisticDefinition = require("esri/tasks/StatisticDefinition");
-  import Symbol = require("esri/symbols/Symbol");
-  import TimeExtent = require("esri/TimeExtent");
+declare module "esriV3/tasks/query" {
+  import Geometry = require("esriV3/geometry/Geometry");
+  import SpatialReference = require("esriV3/SpatialReference");
+  import StatisticDefinition = require("esriV3/tasks/StatisticDefinition");
+  import Symbol = require("esriV3/symbols/Symbol");
+  import TimeExtent = require("esriV3/TimeExtent");
 
   /** Query for input to the QueryTask. */
   class Query {
@@ -17570,12 +17570,12 @@ declare module "esri/tasks/query" {
   export = Query;
 }
 
-declare module "esri/toolbars/ImageServiceMeasureTool" {
-  import esri = require("esri");
-  import SimpleFillSymbol = require("esri/symbols/SimpleFillSymbol");
-  import SimpleLineSymbol = require("esri/symbols/SimpleLineSymbol");
-  import SimpleMarkerSymbol = require("esri/symbols/SimpleMarkerSymbol");
-  import Geometry = require("esri/geometry/Geometry");
+declare module "esriV3/toolbars/ImageServiceMeasureTool" {
+  import esri = require("esriV3");
+  import SimpleFillSymbol = require("esriV3/symbols/SimpleFillSymbol");
+  import SimpleLineSymbol = require("esriV3/symbols/SimpleLineSymbol");
+  import SimpleMarkerSymbol = require("esriV3/symbols/SimpleMarkerSymbol");
+  import Geometry = require("esriV3/geometry/Geometry");
 
   /** A toolbar that provides support for measuring image services. */
   class ImageServiceMeasureTool {
@@ -17654,16 +17654,16 @@ declare module "esri/toolbars/ImageServiceMeasureTool" {
   export = ImageServiceMeasureTool;
 }
 
-declare module "esri/toolbars/draw" {
-  import esri = require("esri");
-  import SimpleFillSymbol = require("esri/symbols/SimpleFillSymbol");
-  import SimpleLineSymbol = require("esri/symbols/SimpleLineSymbol");
-  import SimpleMarkerSymbol = require("esri/symbols/SimpleMarkerSymbol");
-  import Map = require("esri/map");
-  import FillSymbol = require("esri/symbols/FillSymbol");
-  import LineSymbol = require("esri/symbols/LineSymbol");
-  import MarkerSymbol = require("esri/symbols/MarkerSymbol");
-  import Geometry = require("esri/geometry/Geometry");
+declare module "esriV3/toolbars/draw" {
+  import esri = require("esriV3");
+  import SimpleFillSymbol = require("esriV3/symbols/SimpleFillSymbol");
+  import SimpleLineSymbol = require("esriV3/symbols/SimpleLineSymbol");
+  import SimpleMarkerSymbol = require("esriV3/symbols/SimpleMarkerSymbol");
+  import Map = require("esriV3/map");
+  import FillSymbol = require("esriV3/symbols/FillSymbol");
+  import LineSymbol = require("esriV3/symbols/LineSymbol");
+  import MarkerSymbol = require("esriV3/symbols/MarkerSymbol");
+  import Geometry = require("esriV3/geometry/Geometry");
 
   /** Toolbar that supports functionality to create new geometries by drawing them: points (POINT or MULTI_POINT), lines (LINE, POLYLINE, or FREEHAND_POLYLINE), polygons (FREEHAND_POLYGON or POLYGON), or rectangles (EXTENT). */
   class Draw {
@@ -17754,10 +17754,10 @@ declare module "esri/toolbars/draw" {
   export = Draw;
 }
 
-declare module "esri/toolbars/edit" {
-  import esri = require("esri");
-  import Map = require("esri/map");
-  import Graphic = require("esri/graphic");
+declare module "esriV3/toolbars/edit" {
+  import esri = require("esriV3");
+  import Map = require("esriV3/map");
+  import Graphic = require("esriV3/graphic");
 
   /** The Edit toolbar is a helper class that provides functionality to move graphics or modify individual vertices, i.e., edit the geometry of existing graphics. */
   class Edit {
@@ -17843,10 +17843,10 @@ declare module "esri/toolbars/edit" {
   export = Edit;
 }
 
-declare module "esri/toolbars/navigation" {
-  import esri = require("esri");
-  import Map = require("esri/map");
-  import Symbol = require("esri/symbols/Symbol");
+declare module "esriV3/toolbars/navigation" {
+  import esri = require("esriV3");
+  import Map = require("esriV3/map");
+  import Symbol = require("esriV3/symbols/Symbol");
 
   /** Toolbar that supports basic navigation such as pan and zoom. */
   class Navigation {
@@ -17890,9 +17890,9 @@ declare module "esri/toolbars/navigation" {
   export = Navigation;
 }
 
-declare module "esri/undoManager" {
-  import esri = require("esri");
-  import OperationBase = require("esri/OperationBase");
+declare module "esriV3/undoManager" {
+  import esri = require("esriV3");
+  import OperationBase = require("esriV3/OperationBase");
 
   /** The UndoManager is a utility object that allows you to easily build applications with undo/redo functionality. */
   class UndoManager {
@@ -17951,7 +17951,7 @@ declare module "esri/undoManager" {
   export = UndoManager;
 }
 
-declare module "esri/units" {
+declare module "esriV3/units" {
   /** Esri unit constants. */
   class Units {
     /** Units are acres. */
@@ -18010,7 +18010,7 @@ declare module "esri/units" {
   export = Units;
 }
 
-declare module "esri/urlUtils" {
+declare module "esriV3/urlUtils" {
   /** Utility methods for working with URLs. */
   var urlUtils: {
     /**
@@ -18029,7 +18029,7 @@ declare module "esri/urlUtils" {
   export = urlUtils;
 }
 
-declare module "esri/virtualearth/VEAddress" {
+declare module "esriV3/virtualearth/VEAddress" {
   /** The Bing Maps address details. */
   class VEAddress {
     /** Specifies the street line of an address. */
@@ -18052,10 +18052,10 @@ declare module "esri/virtualearth/VEAddress" {
   export = VEAddress;
 }
 
-declare module "esri/virtualearth/VEGeocodeResult" {
-  import VEAddress = require("esri/virtualearth/VEAddress");
-  import Extent = require("esri/geometry/Extent");
-  import Point = require("esri/geometry/Point");
+declare module "esriV3/virtualearth/VEGeocodeResult" {
+  import VEAddress = require("esriV3/virtualearth/VEAddress");
+  import Extent = require("esriV3/geometry/Extent");
+  import Point = require("esriV3/geometry/Point");
 
   /** Represents a Bing Maps address and its location. */
   class VEGeocodeResult {
@@ -18079,9 +18079,9 @@ declare module "esri/virtualearth/VEGeocodeResult" {
   export = VEGeocodeResult;
 }
 
-declare module "esri/virtualearth/VEGeocoder" {
-  import esri = require("esri");
-  import VEGeocodeResult = require("esri/virtualearth/VEGeocodeResult");
+declare module "esriV3/virtualearth/VEGeocoder" {
+  import esri = require("esriV3");
+  import VEGeocodeResult = require("esriV3/virtualearth/VEGeocodeResult");
 
   /** Bing Maps geocoder. */
   class VEGeocoder {
@@ -18113,9 +18113,9 @@ declare module "esri/virtualearth/VEGeocoder" {
   export = VEGeocoder;
 }
 
-declare module "esri/virtualearth/VETiledLayer" {
-  import esri = require("esri");
-  import TiledMapServiceLayer = require("esri/layers/TiledMapServiceLayer");
+declare module "esriV3/virtualearth/VETiledLayer" {
+  import esri = require("esriV3");
+  import TiledMapServiceLayer = require("esriV3/layers/TiledMapServiceLayer");
 
   /** Bing Maps tiled layer. */
   class VETiledLayer extends TiledMapServiceLayer {
@@ -18153,7 +18153,7 @@ declare module "esri/virtualearth/VETiledLayer" {
   export = VETiledLayer;
 }
 
-declare module "esri/workers/WorkerClient" {
+declare module "esriV3/workers/WorkerClient" {
   /** The WorkerClient is the primary entry point for interfacing with background Workers. */
   class WorkerClient {
     /** Return Deferreds rather than Promises from postMessage. */
@@ -18206,4 +18206,3 @@ declare module "sri/dijit/geoenrichment/ReportPlayer/PlayerZoomBehaviors" {
   }
   export = PlayerZoomBehaviors;
 }
-
